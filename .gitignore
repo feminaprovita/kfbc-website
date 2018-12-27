@@ -36,6 +36,16 @@ build/Release
 node_modules/
 jspm_packages/
 
+# Compiled JS
+public/bundle.js
+public/bundle.js.map
+
+# NPM errors
+npm-debug.log
+
+# OSX
+.DS_Store
+
 # TypeScript v1 declaration files
 typings/
 
