@@ -2,22 +2,22 @@
 
 The requirements below are broken into separate **tiers**, which model the way we **recommend you approach the project**. That is, we recommend you complete (or complete the majority of) the requirements in Tier 1 before moving on to Tier 2, and so on. Of course, if you get stuck on a particular feature, we recommend moving on and trying another feature - don't sacrifice the good for the perfect!
 
-### Tier 1: Archive and Future Lists (30/77)
+### Tier 1: Archive and Future Lists (30/83)
 
 <details>
 
 #### Backend
 
-- [ ] Write an `archive` model with the following information:
-  - [ ] post - not empty or null, maybe long
-  - [ ] url - not empty or null, url
-  - [ ] date - not empty or null
-- [ ] Write a `future` model with the following information:
-  - [ ] idea - not empty or null
-  - [ ] link - url, maybe empty/null
-- [ ] Write a `tags` model with the following information:
-  - [ ] tag - not empty or null
-- [ ] Tags can be associated with many archive posts and many future ideas. Archive posts and future ideas can both be associated with many tags.
+- [x] Write an `archive` model with the following information:
+  - [x] post - not empty or null, maybe long
+  - [x] url - not empty or null, url
+  - [x] date - not empty or null
+- [x] Write a `future` model with the following information:
+  - [x] idea - not empty or null
+  - [x] link - url, maybe empty/null
+- [x] Write a `tags` model with the following information:
+  - [x] tag - not empty or null
+- [x] Tags can be associated with many archive posts and many future ideas. Archive posts and future ideas can both be associated with many tags.
 
 - [ ] Write a route to serve up all archive posts
   - [ ] Write a route to serve up all tags
@@ -29,7 +29,7 @@ The requirements below are broken into separate **tiers**, which model the way w
 - [ ] Write a archive sub-reducer to manage posts in your Redux store
 - [ ] Write a future sub-reducer to manage ideas in your Redux store
 
-- [ ] Write a component to display an archive list (_chronological?_) with the following components:
+- [ ] Write a component to display an archive list with the following components:
   - [ ] Post name (first xx characters)
   - [ ] Post name contains link to post
 - [ ] Write a component to display a future list
@@ -50,7 +50,7 @@ Congrats! You have completed your first vertical slice! Make sure to `commit -m 
 
 </details>
 
-### Tier 2: Archive-Tag Search and Future-Tag Search (13/77)
+### Tier 2: Archive-Tag Search and Future-Tag Search (13/83)
 
 <details>
 
@@ -81,7 +81,7 @@ Congrats! You have completed your second vertical slice! Make sure to `commit -m
 
 </details>
 
-### Tier 3: Single-Idea Pages (8/77)
+### Tier 3: Single-Idea Pages (8/83)
 
 <details>
 
@@ -103,7 +103,7 @@ Congrats! You have completed your third vertical slice! Make sure to `commit -m 
 
 </details>
 
-### Tier 4: Search Page and Results (26/77)
+### Tier 4: Search Page and Results (26/83)
 
 <details>
 
@@ -148,7 +148,7 @@ Congrats! You have completed your fourth vertical slice! Make sure to `commit -m
 
 </details>
 
-### Tier 5: Suggesting a New Idea and Updating the Archive (14/77)
+### Tier 5: Suggesting a New Idea and Updating the Archive (14/83)
 
 <details>
 
@@ -178,7 +178,7 @@ Congrats! You have completed your fifth vertical slice! Make sure to `commit -m 
 
 </details>
 
-### Tier 6: Removing an Idea (6/77)
+### Tier 6: Removing an Idea (6/83)
 
 <details>
 
@@ -198,7 +198,25 @@ Congrats! You have completed your sixth vertical slice! Make sure to `commit -m 
 
 </details>
 
-### Bonus Tier 1: Finishing Touches (9/10 EC)
+### Tier 7: Random Button (6/83)
+
+<details>
+
+#### Backend
+
+- [ ] Write a route to serve up one archive post at random
+
+#### Frontend
+
+- [ ] Add a `Random` button to the navbar
+- [ ] Clicking the `Random` button should:
+  - [ ] Make an AJAX request that pulls one idea at random from database
+  - [ ] Change the url bar to the `/archive/:id`
+  - [ ] Display the single archive-post component
+
+Congrats! You have completed your sixth vertical slice! Make sure to `commit -m "Feature: Removing an Idea"` before moving on.
+
+</details>### Bonus Tier 1: Finishing Touches (9/10 EC)
 
 <details>
 
