@@ -2,159 +2,227 @@
 
 The requirements below are broken into separate **tiers**, which model the way we **recommend you approach the project**. That is, we recommend you complete (or complete the majority of) the requirements in Tier 1 before moving on to Tier 2, and so on. Of course, if you get stuck on a particular feature, we recommend moving on and trying another feature - don't sacrifice the good for the perfect!
 
-### Tier 1: All Campuses and Students (21/57)
+### Tier 1: Archive and Future Lists (30/77)
 
 <details>
 
 #### Backend
 
-- [ ] Write a `campuses` model with the following information:
-  - [ ] name - not empty or null
-  - [ ] imageUrl - with a default value
-  - [ ] address - not empty or null
-  - [ ] description - extremely large text
-- [ ] Write a `students` model with the following information:
-  - [ ] firstName - not empty or null
-  - [ ] lastName - not empty or null
-  - [ ] email - not empty or null; must be a valid email
-  - [ ] imageUrl - with a default value
-  - [ ] gpa - decimal between 0.0 and 4.0
-- [ ] Students may be associated with at most one campus. Likewise, campuses may be associated with many students
+- [ ] Write an `archive` model with the following information:
+  - [ ] post - not empty or null, maybe long
+  - [ ] url - not empty or null, url
+  - [ ] date - not empty or null
+- [ ] Write a `future` model with the following information:
+  - [ ] idea - not empty or null
+  - [ ] link - url, maybe empty/null
+- [ ] Write a `tags` model with the following information:
+  - [ ] tag - not empty or null
+- [ ] Tags can be associated with many archive posts and many future ideas. Archive posts and future ideas can both be associated with many tags.
 
-- [ ] Write a route to serve up all students
-- [ ] Write a route to serve up all campuses
+- [ ] Write a route to serve up all archive posts
+  - [ ] Write a route to serve up all tags
+- [ ] Write a route to serve up all future ideas
+  - [ ] Write a route to serve up all tags
 
 #### Frontend
-- [ ] Write a campuses sub-reducer to manage campuses in your Redux store
-- [ ] Write a students sub-reducer to manage students in your Redux store
-- [ ] Write a component to display a list of all campuses (just their names and images)
-- [ ] Write a component to display a list of all students (just their names)
-- [ ] Display the all-campuses component when the url matches `/campuses`
-- [ ] Display the all-students component when the url matches `/students`
-- [ ] Add links to the navbar that can be used to navigate to the all-campuses view and the all-students view
 
-Congrats! You have completed your first vertical slice! Make sure to `commit -m "Feature: Get All Campuses and Students"` before moving on (see `RUBRIC.md` - points are awarded/deducted for a proper git workflow)!
+- [ ] Write a archive sub-reducer to manage posts in your Redux store
+- [ ] Write a future sub-reducer to manage ideas in your Redux store
+
+- [ ] Write a component to display an archive list (_chronological?_) with the following components:
+  - [ ] Post name (first xx characters)
+  - [ ] Post name contains link to post
+- [ ] Write a component to display a future list
+  - [ ] Idea name (first xx characters)
+- [ ] Write a component to display a tag list
+- [ ] Write a component to be the home page
+- [ ] Write a component to be the about page
+
+- [ ] Display the archive-list component when the url matches `/archive`
+- [ ] Display the future-list component when the url matches `/future`
+- [ ] Display the tag-list component when the url matches `/archive/tags` (nb future links different)
+- [ ] Display the tag-list component when the url matches `/future/tags` (nb future links different)
+
+- [ ] Add links to the navbar that can be used to navigate to the archive-list view, the (archive-)tag-list, the home page, the about page, and the search page
+- [ ] Add sidebar for `/future` pages only
+
+Congrats! You have completed your first vertical slice! Make sure to `commit -m "Feature: Get Archive and Future Lists"` before moving on.
 
 </details>
 
-### Tier 2: Single Student and Single Campus (14/57)
+### Tier 2: Archive-Tag Search and Future-Tag Search (13/77)
 
 <details>
 
 #### Backend
 
-- [ ] Write a route to serve up a single campus (based on its id), _including that campuses' students_
-- [ ] Write a route to serve up a single student (based on their id), _including that student's campus_
+- [ ] Write a route to serve up the archive results for a given tag, _with the url matching the tag name_, so `/archive/tags/playlist`
+- [ ] Write a route to serve up the future results for a given tag, _with the url matching the tag name_, so `/future/tags/playlist`
 
 #### Frontend
-- [ ] Write a component to display a single campus with the following information:
-  - [ ] The campus's name, image, address and description
-  - [ ] A list of the names of all students in that campus (or a helpful message if it doesn't have any students)
-- [ ] Display the appropriate campus's info when the url matches `/campuses/:campusId`
-- [ ] Clicking on a campus from the all-campuses view should navigate to show that campus in the single-campus view
 
-- [ ] Write a component to display a single student with the following information:
-  - [ ] The student's full name, email, image, and gpa
-  - [ ] The name of their campus (or a helpful message if they don't have one)
-- [ ] Display the appropriate student when the url matches `/students/:studentId`
-- [ ] Clicking on a student from the all-students view should navigate to show that student in the single-student view
+- [ ] Write a component to display the archive results for a given tag with the following information:
 
-- [ ] Clicking on the name of a student in the single-campus view should navigate to show that student in the single-student view
-- [ ] Clicking on the name of a campus in the single-student view should navigate to show that campus in the single-campus view
+  - [ ] Post name (first xx characters)
+  - [ ] Clicking on the post text should navigate to the original facebook post
 
-Congrats! You have completed your second vertical slice! Make sure to `commit -m "Feature: Get Single Campus and Student"` before moving on (see `RUBRIC.md` - points are awarded/deducted for a proper git workflow)!
+- [ ] Write a component to display the future results for a given tag with the following information:
 
+  - [ ] Idea name (first xx characters)
+  - [ ] Clicking on the idea text should navigate to show that idea (more below)
+
+- [ ] Add links to the `/future` sidebar that can be used to navigate to:
+  - [ ] Future-list page
+  - [ ] Future-search page (general)
+  - [ ] Each tag-search page (by name)
+  - [ ] Archive-update page (`/future/archive-update`)
+
+Congrats! You have completed your second vertical slice! Make sure to `commit -m "Feature: Archive-Tag Search and Future-Tag Search"` before moving on.
 
 </details>
 
-### Tier 3: Adding a Campus and Adding a Student (12/57)
+### Tier 3: Single-Idea Pages (8/77)
 
 <details>
 
 #### Backend
 
-- [ ] Write a route to add a new campus
-- [ ] Write a route to add a new student
+- [ ] Write a route to serve up a single idea (based on its id), _with tags_
 
 #### Frontend
 
-- [ ] Write a component to display a form for adding a new campus that contains inputs for _at least_ the name and address.
-- [ ] Display this component EITHER as part of the all-campuses view, or as its own view
-- [ ] Submitting the form with a valid name/address should:
-  - [ ] Make an AJAX request that causes the new campus to be persisted in the database
-  - [ ] Add the new campus to the list of campuses without needing to refresh the page
+- [ ] Write a component to display a single idea with the following information:
+  - [ ] Idea name (full text)
+  - [ ] Related links (if present)
+  - [ ] Tags
+- [ ] Display the appropriate idea's component when the url matches `/future/:futureId`
+- [ ] Clicking on an idea from the future-list view should navigate to show that idea in the single-idea view
+- [ ] Clicking on an idea from the future-tag view should navigate to show that idea in the single-idea view
 
-- [ ] Write a component to display a form for adding a new student that contains inputs for _at least_ first name, last name and email
-- [ ] Display this component EITHER as part of the all-students view, or as its own view
-- [ ] Submitting the form with a valid first name/last name/email should:
-  - [ ] Make an AJAX request that causes the new student to be persisted in the database
-  - [ ] Add the new student to the list of students without needing to refresh the page
-
-Congrats! You have completed your third vertical slice! Make sure to `commit -m "Feature: Add Campus and Student"` before moving on (see `RUBRIC.md` - points are awarded/deducted for a proper git workflow)!
-
+Congrats! You have completed your third vertical slice! Make sure to `commit -m "Feature: Single-Idea Pages"` before moving on.
 
 </details>
 
-### Tier 4: Removing a Campus and Removing a Student (10/57)
+### Tier 4: Search Page and Results (26/77)
 
 <details>
 
 #### Backend
 
-- [ ] Write a route to remove a campus (based on its id)
-- [ ] Write a route to remove a student (based on their id)
+- [ ] Write a route to serve up all relevant archive posts (based on post name `[Op.contains]`)
+- [ ] Write a route to serve up all relevant future ideas (based on idea name `[Op.contains]`)
 
 #### Frontend
 
-- [ ] In the all-campuses view, include an `X` button next to each campus
+- [ ] Write an Archive-Search component
+- [ ] Component should display when url bar says `/archive/search`
+  - [ ] Form should accept alphanumeric characters
+  - [ ] Character limit (100?)
+- [ ] Submitting the form with valid characters should:
+
+  - [ ] Make an AJAX request that pulls all posts with any of the relevant search terms (split on space)
+  - [ ] Create a _slug_ based on the characters typed into the search box
+  - [ ] Change the url bar to match `/archive/search/:newSlug`
+  - [ ] Display the single-post component for all results without needing to refresh the page
+
+- [ ] Write a component to display a single archive post with the following information:
+    <!-- see single-idea component above -->
+  - [ ] The full post contents
+  - [ ] The date the post aired
+    <!-- - [ ] Its tags (?) -->
+  - [ ] An external link to the post (maybe on the date?)
+- [ ] Clicking on a post(`*`) from the archive-search view should navigate to the external/fb post page
+
+- [ ] Write a Future-Search component
+- [ ] Component should display when url bar says `/future/search`
+  - [ ] Form should accept alphanumeric characters
+- [ ] Submitting the form with valid characters should:
+  - [ ] Make an AJAX request that pulls all ideas with any of the relevant search terms (split on space)
+  - [ ] Create a _slug_ based on the characters typed into the search box
+  - [ ] Clear out the contents of the search box
+  - [ ] Change the url bar to match `/future/search/:newSlug`
+  - [ ] Display the single-idea component for all results without needing to refresh the page
+- [ ] Clicking on an idea from the future-search view should navigate to show that idea in the single-idea view
+
+Congrats! You have completed your fourth vertical slice! Make sure to `commit -m "Feature: Search Page and Results"` before moving on.
+
+</details>
+
+### Tier 5: Suggesting a New Idea and Updating the Archive (14/77)
+
+<details>
+
+#### Backend
+
+- [ ] Write a route to add a new idea
+- [ ] Write a route to add a new post
+
+#### Frontend
+
+- [ ] Design a footer with a form for suggesting a new idea
+  - [ ] Input idea with alphanumeric (normal limit)
+  - [ ] Datalist with options for each valid tag + `None/Other`
+  - [ ] Submit button
+- [ ] Submitting the form with valid text should:
+
+  - [ ] Make an AJAX request that causes the new idea to be persisted in the database
+  - [ ] Flag all these `user-submitted` in `link`
+
+- [ ] Design a page with a form for updating the archive that contains inputs for post, url, and date
+- [ ] Submitting the form with all valid inputs should:
+  - [ ] Make an AJAX request that causes the new archive post to be persisted in the database
+  - [ ] Add the new post to the archive list without needing to refresh the page
+- [ ] Component should display when url bar says `/future/archive-update`
+
+Congrats! You have completed your fifth vertical slice! Make sure to `commit -m "Feature: Suggesting a New Idea"` before moving on.
+
+</details>
+
+### Tier 6: Removing an Idea (6/77)
+
+<details>
+
+#### Backend
+
+- [ ] Write a route to remove an idea (based on its id)
+
+#### Frontend
+
+- [ ] In the single-idea view, include an `X` button under the idea
 - [ ] Clicking the `X` button should:
-  - [ ] Make an AJAX request that causes that campus to be removed from database
-  - [ ] Remove the campus from the list of campuses without needing to refresh the page
+  - [ ] Make an AJAX request that causes that idea to be removed from database
+  - [ ] Change the url bar to `/future`
+  - [ ] Change the view to the future-list page
 
-- [ ] In the all-students view, include an `X` button next to each student
-- [ ] Clicking the `X` button should:
-  - [ ] Make an AJAX request that causes that student to be removed from database
-  - [ ] Remove the student from the list of students without needing to refresh the page
-
-Congrats! You have completed your fourth vertical slice! Make sure to `commit -m "Feature: Remove Campus and Student"` before moving on (see `RUBRIC.md` - points are awarded/deducted for a proper git workflow)!
-
+Congrats! You have completed your sixth vertical slice! Make sure to `commit -m "Feature: Removing an Idea"` before moving on.
 
 </details>
 
-### Bonus Tier 1: Finishing Touches (6/16 EC)
+### Bonus Tier 1: Finishing Touches (9/10 EC)
 
 <details>
 
-- [ ] If a user attempts to add a new student or campus without a required field, a helpful message should be displayed
+- [ ] If a user attempts to access the one page whose link is missing, or one of the dates when there is no question, a helpful message should be displayed
+- [ ] If a user attempts to add a new idea without selecting a tag, a helpful message should be displayed
 - [ ] If a user attempts to access a page that doesn't exist (ex. `/cafeteria`), a helpful "not found" message should be displayed
-- [ ] If a user attempts to view a student/campus that doesn't exist, a helpful message should be displayed
 - [ ] Whenever a component needs to wait for data to load from the server, a "loading" message should be displayed until the data is available
-- [ ] Has a working `seed` file, that seeds the db with complete student and campus instances.
+
+- [ ] Has a working `seed` file, that seeds the db with (_complete?_) archive, future, and tag instances.
+- [ ] On the archive-list page, results are displayed chronologically, with the most recent entries first
+- [ ] Navbar is updated with links for each search-by-tag page
+  - [ ] Best if in a dropdown menu
 - [ ] Overall, the app is spectacularly styled and visually stunning
 
 </details>
 
-### Bonus Tier 2: Updating a Campus and Updating a Student (10/16 EC)
+### Bonus Tier 2: Security (1/10 EC)
 
 <details>
 
 #### Backend
 
-- [ ] Write a route to update an existing campus
-- [ ] Write a route to update an existing student
+- [ ] Require a password to enter any page on the `/future` router
 
 #### Frontend
-
-- [ ] Write a component to display a form updating _at least_ a campus's name and address
-- [ ] Display this component as part of the single-campus view
-- Submitting the form with a valid name/address should:
-  - [ ] Make an AJAX request that causes that campus to be updated in the database
-  - [ ] Update the campus in the current view without needing to refresh the page
-
-- [ ] Write a component to display a form updating _at least_ a student's first and last names, and email
-- [ ] Display this component as part of the single-student view
-- Submitting the form with a valid name/address should:
-  - [ ] Make an AJAX request that causes that student to be updated in the database
-  - [ ] Update the student in the current view without needing to refresh the page
 
 </details>
