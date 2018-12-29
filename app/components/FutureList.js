@@ -1,0 +1,45 @@
+import React, {Component} from 'react'
+import {withRouter} from 'react-router-dom'
+import {connect} from 'react-redux'
+import IdeaShort from './IdeaShort'
+import {fetchAllIdeas} from '../reducers'
+
+class Future extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      ideas: []
+    }
+  };
+  render() {
+    console.log('state',this.state)
+    const ideas = this.props.ideas
+    console.log('FutureList props', this.props)
+
+    return (
+      <div>
+        <h1>All Future Ideas:</h1>
+        {ideas.map(idea => (
+          <IdeaShort key={idea.id} idea={idea} />
+        ))}
+      </div>
+    );
+  }
+  componentDidMount() {
+    this.props.fetchAllIdeas()
+  }
+}
+
+const mapStateToProps = state => {
+  return {
+    ideas: state.futureReducer.ideas
+  }
+}
+
+const mapDispatchToProps = dispatch => {
+  return {
+    fetchAllIdeas: ideas => dispatch(fetchAllIdeas(ideas))
+  }
+}
+
+export default withRouter(connect(mapStateToProps,mapDispatchToProps)(Future))

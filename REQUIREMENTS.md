@@ -2,7 +2,7 @@
 
 The requirements below are broken into separate **tiers**, which model the way we **recommend you approach the project**. That is, we recommend you complete (or complete the majority of) the requirements in Tier 1 before moving on to Tier 2, and so on. Of course, if you get stuck on a particular feature, we recommend moving on and trying another feature - don't sacrifice the good for the perfect!
 
-### Tier 1: Archive and Future Lists (30/83)
+### Tier 1: Archive and Future Lists (30/30/96)
 
 <details>
 
@@ -19,38 +19,38 @@ The requirements below are broken into separate **tiers**, which model the way w
   - [x] tag - not empty or null
 - [x] Tags can be associated with many archive posts and many future ideas. Archive posts and future ideas can both be associated with many tags.
 
-- [ ] Write a route to serve up all archive posts
-  - [ ] Write a route to serve up all tags
-- [ ] Write a route to serve up all future ideas
-  - [ ] Write a route to serve up all tags
+- [x] Write a route to serve up all archive posts
+  - [x] Write a route to serve up all tags joined to the archive table
+- [x] Write a route to serve up all future ideas
+  - [x] Write a route to serve up all tags joined to the future table
 
 #### Frontend
 
-- [ ] Write a archive sub-reducer to manage posts in your Redux store
-- [ ] Write a future sub-reducer to manage ideas in your Redux store
+- [x] Write an archive sub-reducer to manage posts in your Redux store
+- [x] Write a future sub-reducer to manage ideas in your Redux store
 
-- [ ] Write a component to display an archive list with the following components:
-  - [ ] Post name (first xx characters)
-  - [ ] Post name contains link to post
-- [ ] Write a component to display a future list
-  - [ ] Idea name (first xx characters)
-- [ ] Write a component to display a tag list
-- [ ] Write a component to be the home page
-- [ ] Write a component to be the about page
+- [x] Write a component to display an archive list with the following components:
+  - [x] Post name
+  - [x] Post name contains link to post
+- [x] Write a component to display a future list
+  - [x] Idea name
+- [x] Write a component to display a tag list
+- [x] Write a component to be the home page
+- [x] Write a component to be the about page
 
-- [ ] Display the archive-list component when the url matches `/archive`
-- [ ] Display the future-list component when the url matches `/future`
-- [ ] Display the tag-list component when the url matches `/archive/tags` (nb future links different)
-- [ ] Display the tag-list component when the url matches `/future/tags` (nb future links different)
+- [x] Display the archive-list component when the url matches `/archive`
+- [x] Display the future-list component when the url matches `/future`
+- [x] Display the tag-list component when the url matches `/archive/tags` (nb future links different)
+- [x] Display the tag-list component when the url matches `/future/tags` (nb future links different)
 
-- [ ] Add links to the navbar that can be used to navigate to the archive-list view, the (archive-)tag-list, the home page, the about page, and the search page
-- [ ] Add sidebar for `/future` pages only
+- [x] Add links to the navbar that can be used to navigate to the archive-list view, the (archive-)tag-list, the home page, the about page, and the search page
+- [x] Change the header for `/future` pages only
 
 Congrats! You have completed your first vertical slice! Make sure to `commit -m "Feature: Get Archive and Future Lists"` before moving on.
 
 </details>
 
-### Tier 2: Archive-Tag Search and Future-Tag Search (13/83)
+### Tier 2: Archive-Tag Search and Future-Tag Search (7/15/96)
 
 <details>
 
@@ -58,6 +58,9 @@ Congrats! You have completed your first vertical slice! Make sure to `commit -m 
 
 - [ ] Write a route to serve up the archive results for a given tag, _with the url matching the tag name_, so `/archive/tags/playlist`
 - [ ] Write a route to serve up the future results for a given tag, _with the url matching the tag name_, so `/future/tags/playlist`
+
+- [x] Update the archive sub-reducer to serve up search results by tag in your Redux store
+- [x] Update the future sub-reducer to serve up search results by tag in your Redux store
 
 #### Frontend
 
@@ -71,23 +74,25 @@ Congrats! You have completed your first vertical slice! Make sure to `commit -m 
   - [ ] Idea name (first xx characters)
   - [ ] Clicking on the idea text should navigate to show that idea (more below)
 
-- [ ] Add links to the `/future` sidebar that can be used to navigate to:
-  - [ ] Future-list page
-  - [ ] Future-search page (general)
-  - [ ] Each tag-search page (by name)
-  - [ ] Archive-update page (`/future/archive-update`)
+- [x] Add links to the `/future` sidebar that can be used to navigate to:
+  - [x] Future-list page
+  - [x] Future-search page (general)
+  - [x] Each tag-search page (by name)
+  - [x] Archive-update page (`/future/archive-update`)
 
 Congrats! You have completed your second vertical slice! Make sure to `commit -m "Feature: Archive-Tag Search and Future-Tag Search"` before moving on.
 
 </details>
 
-### Tier 3: Single-Idea Pages (8/83)
+### Tier 3: Single-Idea Pages (9/96)
 
 <details>
 
 #### Backend
 
 - [ ] Write a route to serve up a single idea (based on its id), _with tags_
+
+- [ ] Update the future sub-reducer to display a single idea in your Redux store
 
 #### Frontend
 
@@ -103,7 +108,7 @@ Congrats! You have completed your third vertical slice! Make sure to `commit -m 
 
 </details>
 
-### Tier 4: Search Page and Results (26/83)
+### Tier 4: Search Page and Results (29/96)
 
 <details>
 
@@ -111,6 +116,10 @@ Congrats! You have completed your third vertical slice! Make sure to `commit -m 
 
 - [ ] Write a route to serve up all relevant archive posts (based on post name `[Op.contains]`)
 - [ ] Write a route to serve up all relevant future ideas (based on idea name `[Op.contains]`)
+
+- [ ] Update the archive sub-reducer to serve up search results in your Redux store
+- [ ] Update the future sub-reducer to serve up search results in your Redux store
+- [ ] Update the archive sub-reducer to display a single idea in your Redux store
 
 #### Frontend
 
@@ -148,7 +157,7 @@ Congrats! You have completed your fourth vertical slice! Make sure to `commit -m
 
 </details>
 
-### Tier 5: Suggesting a New Idea and Updating the Archive (14/83)
+### Tier 5: Suggesting a New Idea and Updating the Archive (16/96)
 
 <details>
 
@@ -156,6 +165,9 @@ Congrats! You have completed your fourth vertical slice! Make sure to `commit -m
 
 - [ ] Write a route to add a new idea
 - [ ] Write a route to add a new post
+
+- [ ] Update the future sub-reducer to add an idea in your Redux store
+- [ ] Update the archive sub-reducer to add a post in your Redux store
 
 #### Frontend
 
@@ -178,13 +190,15 @@ Congrats! You have completed your fifth vertical slice! Make sure to `commit -m 
 
 </details>
 
-### Tier 6: Removing an Idea (6/83)
+### Tier 6: Removing an Idea (7/96)
 
 <details>
 
 #### Backend
 
 - [ ] Write a route to remove an idea (based on its id)
+
+- [ ] Update the future sub-reducer to remove an idea from your Redux store
 
 #### Frontend
 
@@ -198,7 +212,7 @@ Congrats! You have completed your sixth vertical slice! Make sure to `commit -m 
 
 </details>
 
-### Tier 7: Random Button (6/83)
+### Tier 7: Random Button (6/96)
 
 <details>
 
@@ -214,9 +228,29 @@ Congrats! You have completed your sixth vertical slice! Make sure to `commit -m 
   - [ ] Change the url bar to the `/archive/:id`
   - [ ] Display the single archive-post component
 
-Congrats! You have completed your sixth vertical slice! Make sure to `commit -m "Feature: Removing an Idea"` before moving on.
+Congrats! You have completed your seventh vertical slice! Make sure to `commit -m "Feature: Random Button"` before moving on.
 
-</details>### Bonus Tier 1: Finishing Touches (9/10 EC)
+</details>
+
+### Tier 8: Adding a New Tag (4/96)
+
+<details>
+
+#### Backend
+
+- [ ] Write a route to add a new tag
+- [ ] Update the future sub-reducer to add a tag in your Redux store
+
+#### Frontend
+
+- [ ] Design a component with a form for suggesting a new tag
+- [ ] Make an AJAX request that causes the new tag to be persisted in the database
+
+Congrats! You have completed your eighth vertical slice! Make sure to `commit -m "Feature: Adding a New Tag"` before moving on.
+
+</details>
+
+### Bonus Tier 1: Finishing Touches (9/10 EC)
 
 <details>
 

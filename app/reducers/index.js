@@ -1,15 +1,17 @@
-// `combineReducers` is not currently being used...but it should!
-// When you're ready to use it, un-comment the line below!
+import { combineReducers } from 'redux';
+import archiveReducer from './archiveReducer';
+import futureReducer from './futureReducer';
+import tagReducer from './tagReducer';
 
-// import {combineReducers} from 'redux'
+const initialState = {};
 
-const initialState = {}
+const rootReducer = combineReducers({
+  archiveReducer,
+  futureReducer,
+  tagReducer,
+});
 
-const rootReducer = (state = initialState, action) => {
-  switch (action.type) {
-    default:
-      return state
-  }
-}
-
-export default rootReducer
+export default rootReducer;
+export * from './archiveReducer';
+export * from './futureReducer';
+export * from './tagReducer';

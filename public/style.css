@@ -1,16 +1,16 @@
 * {
   box-sizing: border-box;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
-  background: linear-gradient(to right, #8a2be2, #00bfff);
+  background: linear-gradient(to right, #D383FB, #00bfff);
   height: 100vh;
   padding: 0;
   margin: 0;
   width: 100vw;
   justify-content: center;
   text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 nav {
@@ -24,11 +24,19 @@ nav {
   background-color: #c71585;
   color: #00ffff;
   font-weight: bold;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   height: 6vw;
   width: 100vw;
-  /* padding: 8vw; */
+}
+
+nav a {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+.nav-item
+.sidebar-item {
+  padding: 2vw;
 }
 
 main {
@@ -37,6 +45,15 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.post-link a {
+  color: #000080;
+}
+
+.post-link a:visited {
+  color: #006400;
+  /* this one's not working! */
 }
 
 .thumbnail {

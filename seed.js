@@ -9,19 +9,22 @@ const archive = [
     post: 'Defend your favorite pizza toppings.',
     url: 'https://www.facebook.com/feminaprovita/posts/952377357430',
     date: '2016-11-21',
-    archiveTag: 'food',
+    archiveTagId: 2,
+    // archiveTag: 'food',
   },
   {
     post: 'Money is no object! (Nor is PTO.) Describe your dream vacation.',
     url: 'https://www.facebook.com/feminaprovita/posts/952671702560',
     date: '2016-11-22',
-    archiveTag: 'places',
+    archiveTagId: 7,
+    // archiveTag: 'places',
   },
   {
     post: `What's your zombie preparedness plan? (up to you what kind of zombie apocalypse)`,
     url: 'https://www.facebook.com/feminaprovita/posts/952954600630',
     date: '2016-11-23',
-    archiveTag: 'zany',
+    archiveTagId: 4,
+    // archiveTag: 'zany',
   },
   {
     post: `Tell me about a small, unimportant moment of joy in your life this past year. (Happy Thanksgiving!)`,
@@ -32,7 +35,8 @@ const archive = [
     post: `What's a toy that you desperately wanted as a child but never received? Would you still want one?`,
     url: 'https://www.facebook.com/feminaprovita/posts/953664163660',
     date: '2016-11-25',
-    archiveTag: 'memories',
+    archiveTagId: 6,
+    // archiveTag: 'memories',
   },
   {
     post: `Tell me a joke!`,
@@ -43,7 +47,8 @@ const archive = [
     post: `Who is your confirmation saint? Why did you choose them? Have they played an expanded role in your life since?`,
     url: 'https://www.facebook.com/feminaprovita/posts/954404969080',
     date: '2016-11-27',
-    archiveTag: 'religious',
+    archiveTagId: 1,
+    // archiveTag: 'religious',
   },
 ];
 
