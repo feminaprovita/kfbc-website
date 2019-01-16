@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { withRouter } from 'react-router-dom'
 import { connect } from 'react-redux'
-import PostShort from './PostShort'
+import PostOne from './PostOne'
 import {fetchAllPosts} from '../reducers'
 
 class Archive extends Component {
@@ -19,7 +19,7 @@ class Archive extends Component {
       <div>
         <h1>All Archived Posts:</h1>
         {posts.map(post => (
-          <PostShort key={post.id} post={post} />
+          <PostOne key={post.id} post={post} />
         ))}
       </div>
     );

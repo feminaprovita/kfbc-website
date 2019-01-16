@@ -2,13 +2,13 @@ import axios from 'axios';
 
 export const RECEIVE_IDEAS_LIST = 'RECEIVE_IDEAS_LIST';
 export const DISPLAY_TAG_FUTURE = 'DISPLAY_TAG_FUTURE';
-// export const DISPLAY_ONE_IDEA = 'DISPLAY_ONE_IDEA';
+export const DISPLAY_ONE_IDEA = 'DISPLAY_ONE_IDEA';
 // export const ADD_IDEA = 'ADD_IDEA';
 // export const DELETE_IDEA = 'DELETE_IDEA';
 
 export const receiveIdeasList = ideas => ({ type: RECEIVE_IDEAS_LIST, ideas });
 export const displayTagFuture = tag => ({type: DISPLAY_TAG_FUTURE, tag});
-// export const displayOneIdea = ideaId => ({ type: DISPLAY_ONE_IDEA, ideaId })
+export const displayOneIdea = ideaId => ({ type: DISPLAY_ONE_IDEA, ideaId })
 // export const addIdea = idea => ({ type: ADD_IDEA, idea });
 // export const deleteIdea = ideaId => ({ type: DELETE_IDEA, ideaId });
 
@@ -30,6 +30,15 @@ export const fetchTagFuture = tag => {
   }
 }
 
+export const fetchOneIdea = ideaId => {
+  return async dispatch => {
+    const response = await axios.get(`/api/future/${ideaId}`,ideaId);
+    const thisIdea = response.data;
+    const action = displayOneIdea(thisIdea);
+    dispatch(action);
+  }
+}
+
 const initialState = {
   ideas: [],
   tags: [],
@@ -42,6 +51,8 @@ const futureReducer = (state = initialState, action) => {
       return { ...state, ideas: action.ideas };
     case DISPLAY_TAG_FUTURE:
       return {...state, tags: action.tags};
+    case DISPLAY_ONE_IDEA:
+      return {...state, currentIdea: action.ideaId}
     default:
       return state;
   }

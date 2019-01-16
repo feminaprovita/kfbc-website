@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {withRouter} from 'react-router-dom'
 import {connect} from 'react-redux'
-import IdeaShort from './IdeaShort'
+import IdeaOne from './IdeaOne'
 import {fetchAllIdeas} from '../reducers'
 
 class Future extends Component {
@@ -20,7 +20,7 @@ class Future extends Component {
       <div>
         <h1>All Future Ideas:</h1>
         {ideas.map(idea => (
-          <IdeaShort key={idea.id} idea={idea} />
+          <IdeaOne key={idea.id} idea={idea} />
         ))}
       </div>
     );

@@ -2,7 +2,7 @@
 
 The requirements below are broken into separate **tiers**, which model the way we **recommend you approach the project**. That is, we recommend you complete (or complete the majority of) the requirements in Tier 1 before moving on to Tier 2, and so on. Of course, if you get stuck on a particular feature, we recommend moving on and trying another feature - don't sacrifice the good for the perfect!
 
-### Tier 1: Archive and Future Lists (30/30/96)
+### Tier 1: Archive and Future Lists (30/30/107)
 
 <details>
 
@@ -50,7 +50,7 @@ Congrats! You have completed your first vertical slice! Make sure to `commit -m 
 
 </details>
 
-### Tier 2: Archive-Tag Search and Future-Tag Search (7/15/96)
+### Tier 2: Archive-Tag Search and Future-Tag Search (7/15/107)
 
 <details>
 
@@ -84,31 +84,31 @@ Congrats! You have completed your second vertical slice! Make sure to `commit -m
 
 </details>
 
-### Tier 3: Single-Idea Pages (9/96)
+### Tier 3: Single-Idea Pages (7/9/107)
 
 <details>
 
 #### Backend
 
-- [ ] Write a route to serve up a single idea (based on its id), _with tags_
+- [x] Write a route to serve up a single idea (based on its id), _with tags_
 
-- [ ] Update the future sub-reducer to display a single idea in your Redux store
+- [x] Update the future sub-reducer to display a single idea in your Redux store
 
 #### Frontend
 
-- [ ] Write a component to display a single idea with the following information:
-  - [ ] Idea name (full text)
-  - [ ] Related links (if present)
+- [x] Write a component to display a single idea with the following information:
+  - [x] Idea name (full text)
+  - [x] Related links (if present)
   - [ ] Tags
-- [ ] Display the appropriate idea's component when the url matches `/future/:futureId`
-- [ ] Clicking on an idea from the future-list view should navigate to show that idea in the single-idea view
+- [x] Display the appropriate idea's component when the url matches `/future/:futureId`
+- [x] Clicking on an idea from the future-list view should navigate to show that idea in the single-idea view
 - [ ] Clicking on an idea from the future-tag view should navigate to show that idea in the single-idea view
 
 Congrats! You have completed your third vertical slice! Make sure to `commit -m "Feature: Single-Idea Pages"` before moving on.
 
 </details>
 
-### Tier 4: Search Page and Results (29/96)
+### Tier 4: Search Page and Results (30/107)
 
 <details>
 
@@ -131,6 +131,7 @@ Congrats! You have completed your third vertical slice! Make sure to `commit -m 
 
   - [ ] Make an AJAX request that pulls all posts with any of the relevant search terms (split on space)
   - [ ] Create a _slug_ based on the characters typed into the search box
+  - [ ] Clear out the contents of the search box
   - [ ] Change the url bar to match `/archive/search/:newSlug`
   - [ ] Display the single-post component for all results without needing to refresh the page
 
@@ -157,7 +158,7 @@ Congrats! You have completed your fourth vertical slice! Make sure to `commit -m
 
 </details>
 
-### Tier 5: Suggesting a New Idea and Updating the Archive (16/96)
+### Tier 5: Suggesting a New Idea and Updating the Archive (16/107)
 
 <details>
 
@@ -190,7 +191,7 @@ Congrats! You have completed your fifth vertical slice! Make sure to `commit -m 
 
 </details>
 
-### Tier 6: Removing an Idea (7/96)
+### Tier 6: Removing an Idea (7/107)
 
 <details>
 
@@ -212,7 +213,7 @@ Congrats! You have completed your sixth vertical slice! Make sure to `commit -m 
 
 </details>
 
-### Tier 7: Random Button (6/96)
+### Tier 7: Random Button (6/107)
 
 <details>
 
@@ -232,7 +233,7 @@ Congrats! You have completed your seventh vertical slice! Make sure to `commit -
 
 </details>
 
-### Tier 8: Adding a New Tag (4/96)
+### Tier 8: Adding a New Tag (4/107)
 
 <details>
 
@@ -247,6 +248,32 @@ Congrats! You have completed your seventh vertical slice! Make sure to `commit -
 - [ ] Make an AJAX request that causes the new tag to be persisted in the database
 
 Congrats! You have completed your eighth vertical slice! Make sure to `commit -m "Feature: Adding a New Tag"` before moving on.
+
+</details>
+
+### Tier 9: Search by Date (10/107)
+
+<details>
+
+#### Backend
+
+- [ ] Write a route to find one archive post by its date
+
+- [ ] Update the archive sub-reducer to serve up this search result in your Redux store
+
+#### Frontend
+
+- [ ] Write a Search-by-Date component
+- [ ] Component should also display when url bar says `/archive/search`
+  - [ ] Form should only accept dates in the proper format `YYYY-MM-DD`
+- [ ] Submitting the form with a validly formatted date should:
+
+  - [ ] Make an AJAX request that finds the post made on that date, if appropriate
+  - [ ] Clear out the contents of the search box
+  - [ ] Change the url bar to match `/archive/search/:postId`
+  - [ ] Display the single-post component for that result without needing to refresh the page
+
+Congrats! You have completed your ninth vertical slice! Make sure to `commit -m "Feature: Search by Date"` before moving on.
 
 </details>
 

@@ -8,6 +8,8 @@ import ArchiveList from './ArchiveList';
 import FutureList from './FutureList';
 import TagList from './TagList';
 import About from './About';
+import IdeaPage from './IdeaPage';
+import Search from './Search';
 // import other components from this folder
 // import thunks by name from '../reducers'
 
@@ -29,11 +31,14 @@ const Root = () => {
                     <h1>Keep-Facebook-Cheerful Conversation Starters Archive</h1>
                     <p>A silly idea that snowballed until now I think I'm not allowed to stop! Enjoy browsing the archive. :)</p>
                   </div> )} />
-              <Route exact path='/archive' render={ArchiveList} />
-              <Route exact path='/future' component={FutureList} />
-              <Route exact path='/archive/tags' component={TagList} />
-              <Route exact path='/future/tags' component={TagList} />
               <Route exact path='/about' component={About} />
+              <Route exact path='/archive' render={ArchiveList} />
+              <Route exact path='/archive/tags' component={TagList} />
+              <Route exact path='/archive/search' component={Search} />
+
+              <Route exact path='/future' component={FutureList} />
+              <Route exact path='/future/tags' component={TagList} />
+              <Route exact path={'/future/:ideaId'} component={IdeaPage} />
             </Switch>
           </main>
         </div>

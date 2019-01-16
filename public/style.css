@@ -56,6 +56,18 @@ main {
   /* this one's not working! */
 }
 
+.idea-short a {
+  text-decoration: none;
+}
+
+.idea-short a:link {
+  color: #000080;
+}
+
+.idea-short a:visited {
+  color: #4b0082;
+}
+
 .thumbnail {
   max-width: 25vw;
   max-height: 25vw;

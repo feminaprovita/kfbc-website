@@ -21,4 +21,14 @@ router.get('/tags/', async (req, res, next) => {
   }
 });
 
+router.get('/:ideaId', async (req,res,next) => {
+  try {
+    const thisIdea = await Future.findById(req.params.ideaId)
+    if(thisIdea) res.json(thisIdea);
+    else res.sendStatus(404);
+  } catch(err) {
+    next(err)
+  }
+})
+
 module.exports = router;

@@ -1,46 +1,74 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { Link } from 'react-router-dom'
-import { goodbyeCampus } from '../reducers'
+import { enrollNewStudent } from '../reducers'
 
-class OneCampus extends Component {
+class NewStudentForm extends Component {
   constructor(props) {
-    super(props)
+    super(props);
+    this.state = {
+      firstName: '',
+      lastName: '',
+      email: ''
+    }
   }
-  handleClick = campusId => {
-    this.props.goodbyeCampus(this.props.campus.id)
-    this.setState({ currentCampus: this.props.campus })
+  handleChange = evt => {
+    this.setState({
+      [evt.target.name]: evt.target.value
+    })
+  }
+  handleSubmit = evt => {
+    evt.preventDefault();
+    this.props.enrollNewStudent({
+      firstName: this.state.firstName,
+      lastName: this.state.lastName,
+      email: this.state.email
+    });
+    this.setState({
+      firstName: '',
+      lastName: '',
+      email: ''
+    })
   }
   render() {
-    const campus = this.props.campus
-    const campusId = this.props.campus.id
     return (
       <div>
-        <div className="campus" >
-          <Link to={`/campuses/${campusId}`}>
-            <img className='thumbnail' src={campus.imageUrl} alt={campus.name} />
-            <h3>{campus.name}</h3>
-          </Link>
-          <button className='deleteCampus' id={campusId} onClick={this.handleClick}>X</button>
+        <h3>Enroll a new student at MHAJS!</h3>
+        <form onSubmit={this.handleSubmit}>
+          <label>First Name:</label>
+          <input
+            value={this.state.firstName}
+            onChange={this.handleChange}
+            name='firstName'
+            type='text'
+          />
           <br />
+          <label>Last Name:</label>
+          <input
+            value={this.state.lastName}
+            onChange={this.handleChange}
+            name='lastName'
+            type='text'
+          />
           <br />
-        </div>
+          <label>Email:</label>
+          <input
+            value={this.state.email}
+            onChange={this.handleChange}
+            name='email'
+            type='text'
+          />
+          <br />
+          <button type='submit'>Enroll</button>
+        </form>
       </div>
-    );
-  }
-}
-
-const mapStateToProps = state => {
-  return {
-    campuses: state.campusReducer.campuses,
+    )
   }
 }
 
 const mapDispatchToProps = dispatch => {
   return {
-    goodbyeCampus: campusId => dispatch(goodbyeCampus(campusId))
+    enrollNewStudent: student => dispatch(enrollNewStudent(student))
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(OneCampus);
-
+export default connect(null, mapDispatchToProps)(NewStudentForm)
