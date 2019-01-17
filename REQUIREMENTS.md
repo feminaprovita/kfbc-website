@@ -65,12 +65,10 @@ Congrats! You have completed your first vertical slice! Make sure to `commit -m 
 #### Frontend
 
 - [ ] Write a component to display the archive results for a given tag with the following information:
-
   - [ ] Post name (first xx characters)
   - [ ] Clicking on the post text should navigate to the original facebook post
 
 - [ ] Write a component to display the future results for a given tag with the following information:
-
   - [ ] Idea name (first xx characters)
   - [ ] Clicking on the idea text should navigate to show that idea (more below)
 
@@ -281,7 +279,7 @@ Congrats! You have completed your ninth vertical slice! Make sure to `commit -m 
 
 <details>
 
-- [ ] If a user attempts to access the one page whose link is missing, or one of the dates when there is no question, a helpful message should be displayed
+- [ ] If a user attempts to access one of the dates when there is no question, a helpful message should be displayed
 - [ ] If a user attempts to add a new idea without selecting a tag, a helpful message should be displayed
 - [ ] If a user attempts to access a page that doesn't exist (ex. `/cafeteria`), a helpful "not found" message should be displayed
 - [ ] Whenever a component needs to wait for data to load from the server, a "loading" message should be displayed until the data is available
@@ -301,6 +299,7 @@ Congrats! You have completed your ninth vertical slice! Make sure to `commit -m 
 #### Backend
 
 - [ ] Require a password to enter any page on the `/future` router
+- [ ] OR require relevant login to access any page on `/future` in root.js
 
 #### Frontend
 

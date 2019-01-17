@@ -8,12 +8,10 @@ class PostOne extends Component {
     const post = this.props.post.post
     const postUrl = this.props.post.url
     return (
-      <div>
-        <div className='post-link'>
+      <div className='post-container'>
         <a href={postUrl} target='blank'>{post}</a>
         <br />
         <br />
-        </div>
       </div>
     )
   }

@@ -10,7 +10,7 @@ body {
   width: 100vw;
   justify-content: center;
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 nav {
@@ -24,9 +24,16 @@ nav {
   background-color: #c71585;
   color: #00ffff;
   font-weight: bold;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   height: 6vw;
   width: 100vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer
 }
 
 nav a {
@@ -47,13 +54,31 @@ main {
   justify-content: center;
 }
 
+
+#archive-list {
+  margin-left: 12vw;
+  margin-right: 12vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.post-container {
+  border-width: 1px;
+  border-style: inset;
+  border-color: black;
+  margin: 1em;
+  padding: 1vw;
+}
+
 .post-link a {
   color: #000080;
 }
 
 .post-link a:visited {
   color: #006400;
-  /* this one's not working! */
 }
 
 .idea-short a {

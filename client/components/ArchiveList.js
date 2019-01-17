@@ -16,11 +16,14 @@ class Archive extends Component {
     console.log('ArchiveList props',this.props)
 
     return (
-      <div>
+      <div id='archive-list-component'>
         <h1>All Archived Posts:</h1>
+        <div id='archive-list'>
+        {/* flexbox not working here :( */}
         {posts.map(post => (
           <PostOne key={post.id} post={post} />
-        ))}
+          ))}
+          </div>
       </div>
     );
   }
