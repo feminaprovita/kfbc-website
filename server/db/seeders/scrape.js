@@ -25,9 +25,4 @@ let scrape = async (url) => {
   }
 };
 
-// scrape().then((value) => {
-//     console.log(value); // Success!
-// });
-
-
 module.exports = scrape;
