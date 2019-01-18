@@ -1,10 +1,9 @@
-const { db } = require('../server/db');
+const { db } = require('../');
 const { green, red } = require('chalk');
-const Archive = require('../server/db/archiveModel');
-const Tags = require('../server/db/tagModel');
+const Archive = require('../archiveModel');
+const Tags = require('../tagModel');
 const scrape = require('./scrape')
 const puppeteer = require('puppeteer');
-
 const archive = [
 ]
 

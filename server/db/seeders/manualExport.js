@@ -3156,7 +3156,12 @@ url: `https://www.facebook.com/feminaprovita/posts/10100286259801310`
 {
   date: `2019-1-17`,
 url: `https://www.facebook.com/feminaprovita/posts/10100286514401090`
+},
+{
+  date: `2019-1-18`,
+url: `https://www.facebook.com/feminaprovita/posts/10100286796560640`
 }]
+
 
 const deleteHead = post => {
   const idx = post.indexOf(':');

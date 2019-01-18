@@ -1,8 +1,7 @@
-const { db } = require('../server/db');
+const { db } = require('../');
 const { green, red } = require('chalk');
-const Archive = require('../server/db/archiveModel');
-const Future = require('../server/db/futureModel');
-const Tags = require('../server/db/tagModel');
+const Archive = require('../archiveModel');
+const Tags = require('../tagModel');
 const scrape = require('./scrape')
 const puppeteer = require('puppeteer');
 
@@ -205,18 +204,21 @@ const deleteHead = post => {
 }
 
 archive.map(async day => {
-  const dailyPost = await scrape(day.url)
-  const shortPost = deleteHead(dailyPost);
-  day.post = shortPost;
-  return day;
+  try {
+    const dailyPost = await scrape(day.url)
+    try{
+      const shortPost = deleteHead(dailyPost);
+      day.post = shortPost;
+      return day;
+    } catch(err) {
+      next(err)
+    }
+  }
+  catch(err) {
+    next(err)
+  }
 })
 
-const future = [
-  {idea: 'instrumental'},
-  {idea: `You may play a bit part (background character in one scene, a line or two, at most) in the next installment in any film franchise, even if no further sequels are currently expected. THE CATCH: Each franchise is only claimable by one person!`},
-  {idea: 'If diseases were brands, what would their slogans/mottos be?'},
-  {idea: 'liturgical/religious composer'},
-];
 
 const tags = [
   {tag: 'playlist'},
@@ -233,12 +235,11 @@ const seed = async () => {
 
   const promiseForInsertedData = Promise.all([
     Archive.bulkCreate(archive, {returning: true}),
-    Future.bulkCreate(future, {returning: true}),
     Tags.bulkCreate(tags, {returning: true})
   ])
 
-  const [archiveSeed, futureSeed, tagSeed] = await promiseForInsertedData
-  console.log(`seeded ${archiveSeed.length} posts, ${futureSeed.length} ideas, and ${tagSeed.length} tags`)
+  const [archiveSeed, tagSeed] = await promiseForInsertedData
+  console.log(`seeded ${archiveSeed.length} posts and ${tagSeed.length} tags`)
 
   db.close();
   console.log(green('Seeding success!'));
@@ -249,3 +250,5 @@ seed().catch(err => {
   console.error(err);
   db.close();
 });
+
+module.exports = archive;
