@@ -1,9 +1,9 @@
 'use strict';
 
 const db = require('./database');
-const Future = require('./futureModel');
-const Archive = require('./archiveModel');
-const Tag = require('./tagModel');
+const Future = require('./models/future');
+const Archive = require('./models/archive');
+const Tag = require('./models/tags');
 
 Tag.belongsToMany(Archive, { through: 'ArchiveTags' });
 Archive.belongsToMany(Tag, {through: 'ArchiveTags'});

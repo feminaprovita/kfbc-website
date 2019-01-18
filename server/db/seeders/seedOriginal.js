@@ -83,26 +83,35 @@ const tags = [
 
 const seed = async () => {
   await db.sync({ force: true });
-  const archiveSeed = await Promise.all(
-    archive.map(async post => {
-      const fullArchive = await Archive.create(post);
-      return fullArchive;
-    })
-  );
-  const futureSeed = await Promise.all(
-    future.map(async idea => {
-      const fullList = await Future.create(idea);
-      return fullList;
-    })
-  );
-  const tagSeed = await Promise.all(
-    tags.map(async tag => {
-      const allTags = await Tags.create(tag);
-      return allTags;
-    })
-  );
-  console.log(`seeded ${archiveSeed.length} posts, ${futureSeed.length} ideas, and ${tagSeed.length} tags`)
+
+  const promiseForInsertedData = Promise.all([
+    Archive.bulkCreate(archive, {returning: true}),
+    Future.bulkCreate(future, {returning: true}),
+    Tags.bulkCreate(tags, {returning: true})
+  ])
+
+  // const archiveSeed = await Promise.all(
+  //   archive.map(async post => {
+  //     const fullArchive = await Archive.create(post);
+  //     return fullArchive;
+  //   })
+  // );
+  // const futureSeed = await Promise.all(
+  //   future.map(async idea => {
+  //     const fullList = await Future.create(idea);
+  //     return fullList;
+  //   })
+  // );
+  // const tagSeed = await Promise.all(
+  //   tags.map(async tag => {
+  //     const allTags = await Tags.create(tag);
+  //     return allTags;
+  //   })
+  // );
   // seed associations
+  const [archiveSeed, futureSeed, tagSeed] = await promiseForInsertedData
+  console.log(`seeded ${archiveSeed.length} posts, ${futureSeed.length} ideas, and ${tagSeed.length} tags`)
+
   const [pizza, vacation, zombie, thanksgiving, toy, joke, confirmation] = archiveSeed
   const [instrumental, bitPart, diseases, composer] = futureSeed
   const [playlist, religious, food, popCulture, zany, memories, places] = tagSeed
