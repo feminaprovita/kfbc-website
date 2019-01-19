@@ -194,26 +194,26 @@ url: `https://www.facebook.com/feminaprovita/posts/968094255640`
 url: `https://www.facebook.com/feminaprovita/posts/968554413480`
 }]
 
-const deleteHead = post => {
-  const idx = post.indexOf(':');
-  return post.slice(idx + 3);
-}
+// const deleteHead = post => {
+//   const idx = post.indexOf(':');
+//   return post.slice(idx + 3);
+// }
 
-archive.map(async day => {
-  try {
-    const dailyPost = await scrape(day.url)
-    try{
-      const shortPost = deleteHead(dailyPost);
-      day.post = shortPost;
-      console.log(day)
-      return day;
-    } catch(err) {
-      console.error(err)
-    }
-  }
-  catch(err) {
-    console.error(err)
-  }
-})
+// archive.map(async day => {
+//   try {
+//     const dailyPost = await scrape(day.url)
+//     try{
+//       const shortPost = deleteHead(dailyPost);
+//       day.post = shortPost;
+//       console.log(day)
+//       return day;
+//     } catch(err) {
+//       console.error(err)
+//     }
+//   }
+//   catch(err) {
+//     console.error(err)
+//   }
+// })
 
 module.exports = archive;
