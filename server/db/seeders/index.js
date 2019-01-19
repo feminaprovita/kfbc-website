@@ -3,57 +3,64 @@ const { green, red, magenta } = require('chalk');
 const Archive = require('../archiveModel');
 const Future = require('../futureModel');
 const Tags = require('../tagModel');
+const archive = require('./manualSeed.js');
 
-const scrape = require('./scrape')
-const puppeteer = require('puppeteer');
-const seed001 = require('./seed001.js');
-const seed201 = require('./seed201.js');
-const seed401 = require('./seed401.js');
-const seed601 = require('./seed601.js');
-const seed801 = require('./seed801.js');
-const seed1001 = require('./seed1001.js');
-const seed1201 = require('./seed1201.js');
-const seed1401 = require('./seed1401.js');
-const seed1601 = require('./seed1601.js');
-const seed1801 = require('./seed1801.js');
-const seed2001 = require('./seed2001.js');
-const seed2201 = require('./seed2201.js');
-const seed2401 = require('./seed2401.js');
-const seed2601 = require('./seed2601.js');
-const seed2801 = require('./seed2801.js');
-const seed3001 = require('./seed3001.js');
+// const scrape = require('./scrape')
+// const puppeteer = require('puppeteer');
+// const seed001 = require('./seed001');
+// const seed201 = require('./seed201');
+// const seed401 = require('./seed401');
+// const seed601 = require('./seed601');
+// const seed801 = require('./seed801');
+// const seed1001 = require('./seed1001');
+// const seed1201 = require('./seed1201');
+// const seed1401 = require('./seed1401');
+// const seed1601 = require('./seed1601');
+// const seed1801 = require('./seed1801');
+// const seed2001 = require('./seed2001');
+// const seed2201 = require('./seed2201');
+// const seed2401 = require('./seed2401');
+// const seed2601 = require('./seed2601');
+// const seed2801 = require('./seed2801');
+// const seed3001 = require('./seed3001');
+// const tinySeed1 = require('./tinySeed1');
+// const tinySeed2 = require('./tinySeed2');
 
-emitter.setMaxListeners();
+// emitter.setMaxListeners();
 
 
-const populateArchive = (nestedArrOfSeedArrs) => {
-  const deleteHead = post => {
-    const idx = post.indexOf(':');
-    return post.slice(idx + 3);
-  }
-  const flattenForever = (array, result = []) => {
-    for (let i = 0; i < array.length; i++) {
-      if (Array.isArray(array[i])) flattenForever(array[i], result)
-      else result.push(array[i])
-    }
-    return result
-  }
-  nestedArrOfSeedArrs.map(async seedArr => {
-    await seedArr.map(async day => {
-      const dailyPost = await scrape(day.url)
-      const shortPost = deleteHead(dailyPost);
-      day.post = shortPost;
-      return day;
-    })
-    return seedArr;
-  })
-  return flattenForever(nestedArrOfSeedArrs);
-}
+// const populateArchive = (nestedArrOfSeedArrs) => {
+//   const deleteHead = post => {
+//     const idx = post.indexOf(':');
+//     return post.slice(idx + 3);
+//   }
+//   const flattenForever = (array, result = []) => {
+//     for (let i = 0; i < array.length; i++) {
+//       if (Array.isArray(array[i])) flattenForever(array[i], result)
+//       else result.push(array[i])
+//     }
+//     return result
+//   }
+//   nestedArrOfSeedArrs.map(seedArr => {
+//     seedArr.map(async day => {
+//       try {
+//         const dailyPost = await scrape(day.url)
+//       } catch(err) {
+//         console.error(err)
+//       }
+//       const shortPost = deleteHead(dailyPost);
+//       day.post = shortPost;
+//       return day;
+//     })
+//     return seedArr;
+//   })
+//   return flattenForever(nestedArrOfSeedArrs);
+// }
 
-const allSeeds = [seed001, seed201, seed401, seed601, seed801, seed1001, seed1201, seed1401, seed1601, seed1801, seed2001, seed2201, seed2401, seed2601, seed2801, seed3001];
+// const allSeeds = [seed001, seed201, seed401, seed601, seed801, seed1001, seed1201, seed1401, seed1601, seed1801, seed2001, seed2201, seed2401, seed2601, seed2801, seed3001];
 
-const archive = populateArchive([seed001, seed201]);
-console.log(populateArchive([seed001, seed201]))
+// const archive = populateArchive([tinySeed1, tinySeed2]);
+// console.log(populateArchive([tinySeed1, tinySeed2]))
 
 
 const future = [

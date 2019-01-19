@@ -8,7 +8,7 @@
     "start-server": "nodemon --watch server main.js -e html,js,css",
     "build-watch": "webpack -w",
     "start": "echo 'Running server for production - developers, use npm run start:dev for development' && node main",
-    "seed": "node server/db/seeders/seed001"
+    "seed": "node server/db/seeders/index"
   },
   "repository": {
     "type": "git",

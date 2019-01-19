@@ -1,7 +1,3 @@
-const { db } = require('../');
-const { green, red } = require('chalk');
-const Archive = require('../archiveModel');
-const Tags = require('../tagModel');
 const scrape = require('./scrape')
 const puppeteer = require('puppeteer');
 
@@ -209,46 +205,15 @@ archive.map(async day => {
     try{
       const shortPost = deleteHead(dailyPost);
       day.post = shortPost;
+      console.log(day)
       return day;
     } catch(err) {
-      next(err)
+      console.error(err)
     }
   }
   catch(err) {
-    next(err)
+    console.error(err)
   }
 })
-
-
-const tags = [
-  {tag: 'playlist'},
-  {tag: 'religious'},
-  {tag: 'food'},
-  {tag: 'pop-culture'},
-  {tag: 'zany'},
-  {tag: 'memories'},
-  {tag: 'places'},
-];
-
-const seed = async () => {
-  await db.sync({ force: true });
-
-  const promiseForInsertedData = Promise.all([
-    Archive.bulkCreate(archive, {returning: true}),
-    Tags.bulkCreate(tags, {returning: true})
-  ])
-
-  const [archiveSeed, tagSeed] = await promiseForInsertedData
-  console.log(`seeded ${archiveSeed.length} posts and ${tagSeed.length} tags`)
-
-  db.close();
-  console.log(green('Seeding success!'));
-};
-
-seed().catch(err => {
-  console.error(red('Uh-oh! Something went wrong!'));
-  console.error(err);
-  db.close();
-});
 
 module.exports = archive;
