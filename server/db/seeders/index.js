@@ -3,7 +3,7 @@ const { green, red, magenta } = require('chalk');
 const Archive = require('../archiveModel');
 const Future = require('../futureModel');
 const Tags = require('../tagModel');
-const archive = require('./goodOut3.js');
+const archive = require('./archiveSeed.js');
 
 const future = [
   {idea: 'instrumental'},
