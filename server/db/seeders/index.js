@@ -1,101 +1,45 @@
-const fs = require('fs');
-const readline = require('readline');
-const {google} = require('googleapis');
+const { db } = require('../');
+const { green, red, magenta } = require('chalk');
+const Archive = require('../archiveModel');
+const Future = require('../futureModel');
+const Tags = require('../tagModel');
+const archive = require('./archiveSeed.js');
 
-// If modifying these scopes, delete token.json.
-const SCOPES = ['https://www.googleapis.com/auth/script.projects'];
-// The file token.json stores the user's access and refresh tokens, and is
-// created automatically when the authorization flow completes for the first
-// time.
-const TOKEN_PATH = '../../token.json';
+const future = [
+  {idea: 'instrumental'},
+  {idea: `You may play a bit part (background character in one scene, a line or two, at most) in the next installment in any film franchise, even if no further sequels are currently expected. THE CATCH: Each franchise is only claimable by one person!`},
+  {idea: 'If diseases were brands, what would their slogans/mottos be?'},
+  {idea: 'liturgical/religious composer'},
+];
 
-// Load client secrets from a local file.
-fs.readFile('../../credentials.json', (err, content) => {
-  if (err) return console.log('Error loading client secret file:', err);
-  // Authorize a client with credentials, then call the Google Apps Script API.
-  authorize(JSON.parse(content), callAppsScript);
+const tags = [
+  {tag: 'playlist'},
+  {tag: 'religious'},
+  {tag: 'food'},
+  {tag: 'pop-culture'},
+  {tag: 'zany'},
+  {tag: 'memories'},
+  {tag: 'places'},
+];
+
+const seed = async () => {
+  await db.sync({ force: true });
+
+  const promiseForInsertedData = Promise.all([
+    Archive.bulkCreate(archive, {returning: true}),
+    Future.bulkCreate(future, {returning: true}),
+    Tags.bulkCreate(tags, {returning: true})
+  ])
+
+  const [archiveSeed, futureSeed, tagSeed] = await promiseForInsertedData
+  console.log(`seeded ${archiveSeed.length} posts, ${futureSeed.length} ideas, and ${tagSeed.length} tags`)
+
+  db.close();
+  console.log(green('Seeding success!'));
+};
+
+seed().catch(err => {
+  console.error(red('Uh-oh! Something went wrong!'));
+  console.error(err);
+  db.close();
 });
-
-/**
- * Create an OAuth2 client with the given credentials, and then execute the
- * given callback function.
- * @param {Object} credentials The authorization client credentials.
- * @param {function} callback The callback to call with the authorized client.
- */
-function authorize(credentials, callback) {
-  const {client_secret, client_id, redirect_uris} = credentials.installed;
-  const oAuth2Client = new google.auth.OAuth2(
-      client_id, client_secret, redirect_uris[0]);
-
-  // Check if we have previously stored a token.
-  fs.readFile(TOKEN_PATH, (err, token) => {
-    if (err) return getAccessToken(oAuth2Client, callback);
-    oAuth2Client.setCredentials(JSON.parse(token));
-    callback(oAuth2Client);
-  });
-}
-
-/**
- * Get and store new token after prompting for user authorization, and then
- * execute the given callback with the authorized OAuth2 client.
- * @param {google.auth.OAuth2} oAuth2Client The OAuth2 client to get token for.
- * @param {getEventsCallback} callback The callback for the authorized client.
- */
-function getAccessToken(oAuth2Client, callback) {
-  const authUrl = oAuth2Client.generateAuthUrl({
-    access_type: 'offline',
-    scope: SCOPES,
-  });
-  console.log('Authorize this app by visiting this url:', authUrl);
-  const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout,
-  });
-  rl.question('Enter the code from that page here: ', (code) => {
-    rl.close();
-    oAuth2Client.getToken(code, (err, token) => {
-      if (err) return console.error('Error retrieving access token', err);
-      oAuth2Client.setCredentials(token);
-      // Store the token to disk for later program executions
-      fs.writeFile(TOKEN_PATH, JSON.stringify(token), (err) => {
-        if (err) console.error(err);
-        console.log('Token stored to', TOKEN_PATH);
-      });
-      callback(oAuth2Client);
-    });
-  });
-}
-
-/**
- * Creates a new script project, upload a file, and log the script's URL.
- * @param {google.auth.OAuth2} auth An authorized OAuth2 client.
- */
-function callAppsScript(auth) {
-  const script = google.script({version: 'v1', auth});
-  script.projects.create({
-    resource: {
-      title: 'My Script',
-    },
-  }, (err, res) => {
-    if (err) return console.log(`The API create method returned an error: ${err}`);
-    script.projects.updateContent({
-      scriptId: res.data.scriptId,
-      auth,
-      resource: {
-        files: [{
-          name: 'hello',
-          type: 'SERVER_JS',
-          source: 'function helloWorld() {\n  console.log("Hello, world!");\n}',
-        }, {
-          name: 'appsscript',
-          type: 'JSON',
-          source: '{\"timeZone\":\"America/New_York\",\"exceptionLogging\":' +
-           '\"CLOUD\"}',
-        }],
-      },
-    }, {}, (err, res) => {
-      if (err) return console.log(`The API updateContent method returned an error: ${err}`);
-      console.log(`https://script.google.com/d/${res.data.scriptId}/edit`);
-    });
-  });
-}
