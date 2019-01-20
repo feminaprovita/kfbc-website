@@ -2,13 +2,19 @@
   "name": "kfbc-website",
   "version": "1.0.0",
   "description": "A place to keep track of all these crazy questions",
+  "engines": {
+    "node": ">= 7.0.0"
+  },
   "main": "main.js",
   "scripts": {
-    "start-dev": "npm run build-watch & npm run start-server",
-    "start-server": "nodemon --watch server main.js -e html,js,css",
-    "build-watch": "webpack -w",
-    "start": "echo 'Running server for production - developers, use npm run start:dev for development' && node main",
-    "seed": "node server/db/seeders/index"
+    "build-client": "webpack",
+    "build-client-watch": "webpack -w",
+    "deploy": "script/deploy",
+    "heroku-token": "script/encrypt-heroku-auth-token",
+    "seed": "node server/db/seeders/index",
+    "start": "node server",
+    "start-dev": "NODE_ENV='development' npm run build-client-watch & NODE_ENV='development' npm run start-server",
+    "start-server": "nodemon --watch server main.js -e html,js,css"
   },
   "repository": {
     "type": "git",
@@ -29,8 +35,13 @@
     "axios": "^0.18.0",
     "body-parser": "^1.18.2",
     "chalk": "^2.4.1",
+    "compression": "^1.7.3",
+    "connect-session-sequelize": "^6.0.0",
     "express": "^4.14.0",
+    "express-session": "^1.15.6",
     "googleapis": "^27.0.0",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
     "pg": "^7.4.3",
     "puppeteer": "^1.11.0",
     "puppeteer-core": "^1.11.0",
@@ -42,7 +53,8 @@
     "redux-devtools-extension": "^2.13.7",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0",
-    "sequelize": "^4.37.8"
+    "sequelize": "^4.37.8",
+    "socket.io": "^2.2.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
