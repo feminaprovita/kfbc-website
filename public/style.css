@@ -66,9 +66,9 @@ main {
 }
 
 .post-container {
-  border-width: 1px;
-  border-style: inset;
-  border-color: black;
+  box-sizing: border-box;
+  border: 1px solid  black;
+  border-radius: 25px;
   margin: 1em;
   padding: 1vw;
 }

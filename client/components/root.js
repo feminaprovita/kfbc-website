@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import Navbar from './Navbar';
 // import Footer from './Footer';
@@ -29,7 +29,7 @@ const Root = () => {
               <Route exact path="/" render={() => (
                   <div>
                     <h1>Keep-Facebook-Cheerful Conversation Starters Archive</h1>
-                    <p>A silly idea that snowballed until now I think I'm not allowed to stop! Enjoy browsing the archive. :)</p>
+                    <p>A silly idea that snowballed until now I think I'm not allowed to stop! Enjoy browsing the <Link to={'/archive'}>archive</Link>. :)</p>
                   </div> )} />
               <Route exact path='/about' component={About} />
               <Route exact path='/archive' render={ArchiveList} />

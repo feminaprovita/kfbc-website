@@ -10,8 +10,6 @@ class PostOne extends Component {
     return (
       <div className='post-container'>
         <a href={postUrl} target='blank'>{post}</a>
-        <br />
-        <br />
       </div>
     )
   }
