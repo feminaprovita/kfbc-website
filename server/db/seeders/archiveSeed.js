@@ -3154,4 +3154,17 @@ module.exports = [{
 	"date": "2019-01-09",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100284502657640",
 	"post": "You may play a bit part (background character in one scene, a line or two, at most) in the next installment in any film franchise, even if no further sequels are currently expected.\nTHE CATCH: Each franchise is only claimable by one person!"
-}]
+}, {
+	"date": "2019-01-19",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100287154747830",
+	"post": "Is there anything you're currently saving up for?"
+}, {
+	"date": "2019-01-20",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100287474072900",
+	"post": "Tell me about a religious figure OF THE PAST who stood up for the downtrodden and/or oppressed. The more obscure, the better!"
+}, {
+	"date": "2019-1-21",
+"url": "https://www.facebook.com/feminaprovita/posts/10100287791177420",
+"post": "If every profession gave out little bags full of supplies like dentists do after a visit, what would your profession give out?"
+}
+]

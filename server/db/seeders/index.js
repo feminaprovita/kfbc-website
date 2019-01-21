@@ -1,16 +1,11 @@
 const { db } = require('../');
-const { green, red, magenta } = require('chalk');
+const { green, red } = require('chalk');
 const Archive = require('../archiveModel');
 const Future = require('../futureModel');
 const Tags = require('../tagModel');
 const archive = require('./archiveSeed.js');
+const future = require('./futureSeed.js');
 
-const future = [
-  {idea: 'instrumental'},
-  {idea: `You may play a bit part (background character in one scene, a line or two, at most) in the next installment in any film franchise, even if no further sequels are currently expected. THE CATCH: Each franchise is only claimable by one person!`},
-  {idea: 'If diseases were brands, what would their slogans/mottos be?'},
-  {idea: 'liturgical/religious composer'},
-];
 
 const tags = [
   {tag: 'playlist'},

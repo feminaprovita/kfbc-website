@@ -23,6 +23,16 @@ router.get('/tags/', async (req, res, next) => {
   }
 });
 
+router.get('/:postId', async (req,res,next) => {
+  try {
+    const thisPost = await Archive.findById(req.params.postId)
+    if (thisPost) res.json(thisPost);
+    else res.sendStatus(404);
+  } catch(err) {
+    next(err)
+  }
+})
+
 router.get('/:slug', async (req,res,next) => {
   try {
     const keyword = req.params.slug.decodeURIComponent();

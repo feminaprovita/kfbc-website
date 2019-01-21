@@ -11,6 +11,7 @@ const Future = db.define('idea', {
       notEmpty: true,
     },
   },
+  tag: Sequelize.STRING,
 });
 
 module.exports = Future;

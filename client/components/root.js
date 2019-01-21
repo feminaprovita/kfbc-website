@@ -10,6 +10,7 @@ import TagList from './TagList';
 import About from './About';
 import IdeaPage from './IdeaPage';
 import Search from './Search';
+import Random from './Random';
 // import other components from this folder
 // import thunks by name from '../reducers'
 
@@ -35,6 +36,7 @@ const Root = () => {
               <Route exact path='/archive' render={ArchiveList} />
               <Route exact path='/archive/tags' component={TagList} />
               <Route exact path='/archive/search' component={Search} />
+              <Route exact path='/archive/random' component={Random} />
 
               <Route exact path='/future' component={FutureList} />
               <Route exact path='/future/tags' component={TagList} />

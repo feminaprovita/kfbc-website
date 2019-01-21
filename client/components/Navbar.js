@@ -13,14 +13,14 @@ function Navbar() {
             <Link to="/about">About</Link>
           </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <span className="nav-item" id="nav-archive">
-            <Link to="/archive">Posts Archive</Link>
+            <Link to="/archive">Archive</Link>
           </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <span className="nav-item" id="nav-tags">
+          {/* <span className="nav-item" id="nav-tags">
             <Link to="/archive/tags">Tags</Link>
-          </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <span className="nav-item" id="nav-search">
+          </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}
+          {/* <span className="nav-item" id="nav-search">
             <Link to="/archive/search">Search</Link>
-          </span>
+          </span> */}
         </div>
       </nav>
     </div>
