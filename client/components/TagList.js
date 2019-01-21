@@ -31,7 +31,7 @@ class Tags extends Component {
 
 const mapStateToProps = state => {
   return {
-    tags: state.archiveReducer.tags
+    tags: state.archive.tags
   }
 }
 

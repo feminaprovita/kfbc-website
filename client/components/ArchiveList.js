@@ -19,7 +19,6 @@ class Archive extends Component {
       <div id='archive-list-component'>
         <h1>All Archived Posts:</h1>
         <div id='archive-list'>
-        {/* flexbox not working here :( */}
         {posts.map(post => (
           <PostOne key={post.id} post={post} />
           ))}
@@ -34,7 +33,7 @@ class Archive extends Component {
 
 const mapStateToProps = state => {
   return {
-    posts: state.archiveReducer.posts
+    posts: state.archive.posts
   }
 }
 

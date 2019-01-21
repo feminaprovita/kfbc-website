@@ -27,7 +27,7 @@ class IdeaPage extends Component {
 
 const mapStateToProps = state => {
   return {
-    currentIdea: state.futureReducer.currentIdea,
+    currentIdea: state.future.currentIdea,
   }
 }
 

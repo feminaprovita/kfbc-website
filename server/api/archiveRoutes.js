@@ -25,7 +25,7 @@ router.get('/tags/', async (req, res, next) => {
 
 router.get('/:slug', async (req,res,next) => {
   try {
-    const keyword = slug.decodeURIComponent();
+    const keyword = req.params.slug.decodeURIComponent();
     const keywordSearchResults = await Archive.sequelize.query(`
     SELECT *
     FROM ${Archive.posts.post}
@@ -34,7 +34,7 @@ router.get('/:slug', async (req,res,next) => {
       model: Archive.posts,
       replacements: {query: keyword}
     });
-    if(keywordSearchResults) res.json(keywordSearchResults);
+    if(keywordSearchResults) res.json(keywordSearchResults).status(201);
     else res.sendStatus(404);
   } catch(err) {
     next(err);

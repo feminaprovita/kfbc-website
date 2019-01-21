@@ -1,14 +1,14 @@
 import { combineReducers } from 'redux';
-import archiveReducer from './archiveReducer';
-import futureReducer from './futureReducer';
-import tagReducer from './tagReducer';
+import archive from './archiveReducer';
+import future from './futureReducer';
+import tags from './tagReducer';
 
 const initialState = {};
 
 const rootReducer = combineReducers({
-  archiveReducer,
-  futureReducer,
-  tagReducer,
+  archive,
+  future,
+  tags,
 });
 
 export default rootReducer;

@@ -32,7 +32,7 @@ class Future extends Component {
 
 const mapStateToProps = state => {
   return {
-    ideas: state.futureReducer.ideas
+    ideas: state.future.ideas
   }
 }
 

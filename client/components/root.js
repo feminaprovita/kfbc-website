@@ -28,7 +28,7 @@ const Root = () => {
             <Switch>
               <Route exact path="/" render={() => (
                   <div>
-                    <h1>Keep-Facebook-Cheerful Conversation Starters Archive</h1>
+                    <h1>Keeping Facebook Cheerful</h1>
                     <p>A silly idea that snowballed until now I think I'm not allowed to stop! Enjoy browsing the <Link to={'/archive'}>archive</Link>. :)</p>
                   </div> )} />
               <Route exact path='/about' component={About} />

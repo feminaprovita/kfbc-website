@@ -7,31 +7,34 @@ class Search extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      keyword: '',
-      searchResults: []
+      searchObj: {}
+      // keyword: '',
+      // searchResults: []
     }
-    // this.handleSubmit = this.handleSubmit.bind(this)
+    this.handleSubmit = this.handleSubmit.bind(this)
     // this.handleChange = this.handleChange.bind(this)
   }
   handleChange = evt => {
-    console.log(this.state.keyword)
+    const newSearchObj = {keyword: evt.target.value, searchResults: []};
+    // console.log('newSearchObj', newSearchObj)
     this.setState({
-      keyword: evt.target.value
+      searchObj: newSearchObj,
     })
+    console.log('handleChange state', this.state)
   }
-  handleSubmit = evt => {
+  async handleSubmit(evt) {
     console.log('handleSubmit state', this.state)
     evt.preventDefault();
-    this.props.fetchSearchResults({
-      keyword: this.state.keyword
-    });
+    await this.props.fetchSearchResults(this.state);
     this.setState({
-      keyword: ''
+      searchObj: {}
     })
+    /* The previous state received by the reducer has unexpected type of "String". Expected argument to be an object with the following keys: "archive", "future", "tags"
+    Somehow, handleSubmit is destroying the whole way the reducers combine, feeding it a string (keyword?) rather than state.archive.searchObj.keyword, WHICH yields an action of undefined */
   }
 
   render() {
-    console.log('initialRender state', this.state)
+    console.log('render state', this.state)
     return (
       <div id='search-page'>
       <div className='search-component'>
@@ -50,25 +53,31 @@ class Search extends Component {
       </div>
     )
   }
-  //   componentDidMount() {
-  //     this.props.fetchSearchResults()
-  // }
+    componentDidUpdate(prevProps, prevState) {
+      const latest = this.state.searchObj.keyword
+      // console.log('componentDidUpdate latest', latest)
+      const prev = prevState.searchObj.keyword
+      console.log('componentDidUpdate prev', prevState)
+      if (latest !== prev) this.props.fetchSearchResults(latest)
+    }
 }
 
 const mapStateToProps = state => {
   console.log('mapState state', state)
   return {
-    keyword: state.archiveReducer.keyword,
+    keyword: state.archive.searchObj.keyword,
+    searchResults: state.archive.searchObj.searchResults
   }
 }
 
 const mapDispatchToProps = dispatch => {
   return {
     fetchSearchResults: keyword => {
-      console.log('mapDispatch keyword', keyword)
+      // console.log('mapDispatch keyword', keyword)
+      // console.log('mapDispatch keyword', keyword)
       return dispatch(fetchSearchResults(keyword))
     }
   }
 }
 
-export default connect(null,mapDispatchToProps)(Search);
+export default connect(mapStateToProps,mapDispatchToProps)(Search);
