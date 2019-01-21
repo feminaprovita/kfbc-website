@@ -17,11 +17,13 @@ class Future extends Component {
     console.log('FutureList props', this.props)
 
     return (
-      <div>
+      <div id='idea-component'>
         <h1>All Future Ideas:</h1>
+        <div id='idea-list'>
         {ideas.map(idea => (
           <IdeaOne key={idea.id} idea={idea} />
-        ))}
+          ))}
+          </div>
       </div>
     );
   }

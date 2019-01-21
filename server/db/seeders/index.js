@@ -9,12 +9,19 @@ const future = require('./futureSeed.js');
 
 const tags = [
   {tag: 'playlist'},
-  {tag: 'religious'},
   {tag: 'food'},
   {tag: 'pop-culture'},
-  {tag: 'zany'},
+  {tag: 'simple-fave'},
+  {tag: 'complex-fave'},
+  {tag: 'creative'},
   {tag: 'memories'},
-  {tag: 'places'},
+  {tag: 'family'},
+  {tag: 'about-you'},
+  {tag: 'knowledge'},
+  {tag: 'poupourri'},
+  {tag: 'serious'},
+  {tag: 'xmas'},
+  {tag: 'religious'},
 ];
 
 const seed = async () => {

@@ -5,7 +5,7 @@ const db = require('./database');
 
 const Future = db.define('idea', {
   idea: {
-    type: Sequelize.STRING,
+    type: Sequelize.TEXT,
     allowNull: false,
     validate: {
       notEmpty: true,

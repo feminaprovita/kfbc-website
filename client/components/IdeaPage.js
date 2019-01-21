@@ -15,8 +15,7 @@ class IdeaPage extends Component {
     return (
       <div className='idea-one'>
         <h5>{currentIdea.idea}</h5>
-        <p>{currentIdea.link}</p>
-        {/* <p>{currentIdea.tags}</p> */}
+        <p>{currentIdea.tag}</p>
       </div>
     );
   }

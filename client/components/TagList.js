@@ -7,9 +7,9 @@ import {fetchTagList, displayTagArchive, displayTagFuture} from '../reducers'
 class Tags extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      tags: []
-    }
+    // this.state = {
+    //   tags: []
+    // }
   };
   render() {
     const tags = this.props.tags

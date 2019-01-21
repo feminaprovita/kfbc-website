@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import TagMenu from './TagMenu';
 
 function Sidebar() {
   return (
@@ -18,9 +19,10 @@ function Sidebar() {
           <span className="sidebar-item" id="sidebar-tags">
             <Link to="/future/tags">Tags</Link>
           </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <span className="sidebar-item" id="sidebar-search">
+          {/* <TagMenu key={tag.id} tag={tag.tag} /> */}
+          {/* <span className="sidebar-item" id="sidebar-search">
             <Link to="/future/search">Search</Link>
-          </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}
           <span className='sidebar-item' id='archive-update'>
             <Link to='/future/archive-update'>Update Archive</Link>
           </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

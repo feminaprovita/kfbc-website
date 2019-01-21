@@ -6,19 +6,17 @@ class IdeaOne extends Component {
     super(props)
   }
   render() {
-    console.log('IdeaOne props',this.props.idea)
+    // console.log('IdeaOne props',this.props.idea)
     const idea = this.props.idea
     // const ideaUrl = this.props.idea.url
     return (
-      <div>
-        <div className='idea-short' key={`idea-${idea.id}`}>
-        <Link to={`/future/${idea.id}`}>
-        ❦ {idea.idea}
-        </Link>
-        <br />
-        <br />
+        <div className='idea-short' key={idea.id}>
+          {/* <Link to={`/future/${idea.id}`}> */}
+          ❦ {idea.idea}<br />
+          #{idea.tag}
+          {/* </Link> */}
+          <br />
         </div>
-      </div>
     )
   }
 }
