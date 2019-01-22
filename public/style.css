@@ -69,6 +69,7 @@ main {
   align-content: flex-start;
 }
 
+#about-page,
 .post-container,
 .idea-short {
   box-sizing: border-box;

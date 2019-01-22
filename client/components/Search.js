@@ -7,9 +7,10 @@ class Search extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      searchObj: {}
-      // keyword: '',
-      // searchResults: []
+      searchObj: {
+        keyword: '',
+        searchResults: []
+      }
     }
     this.handleSubmit = this.handleSubmit.bind(this)
     // this.handleChange = this.handleChange.bind(this)
@@ -26,11 +27,12 @@ class Search extends Component {
     console.log('handleSubmit state', this.state)
     evt.preventDefault();
     await this.props.fetchSearchResults(this.state);
-    this.setState({
-      searchObj: {}
-    })
+    // this.setState({
+    //   searchObj: {}
+    // })
     /* The previous state received by the reducer has unexpected type of "String". Expected argument to be an object with the following keys: "archive", "future", "tags"
-    Somehow, handleSubmit is destroying the whole way the reducers combine, feeding it a string (keyword?) rather than state.archive.searchObj.keyword, WHICH yields an action of undefined */
+    Unexpected key "searchObj" found in previous state received by the reducer. Expected...
+    Somehow, handleSubmit's componentDidUpdate is destroying the whole way the reducers combine? seems to feed the state whatever i set to 'latest' (the string keyword or the obj searchObj) when it wants state.archive.whatever, WHICH yields an action of undefined */
   }
 
   render() {
@@ -44,21 +46,21 @@ class Search extends Component {
         <button type='submit'>Search</button>
         </form>
       </div>
-      {/* {(this.state.searchResults) ?
-        <div className='search-results'>
+      {/* {<div className='search-results'>
         this.state.searchResults.map(result =>(<PostOne key={result.id} post={result} />
         ))
-        </div>
-        : <span></span>} */}
+        </div>} */}
       </div>
     )
   }
     componentDidUpdate(prevProps, prevState) {
-      const latest = this.state.searchObj.keyword
-      // console.log('componentDidUpdate latest', latest)
-      const prev = prevState.searchObj.keyword
+      const latest = this.state
+      console.log('componentDidUpdate latest', latest)
+      const prev = prevState
       console.log('componentDidUpdate prev', prevState)
+      // when comparing state, they're the same shape, but when comparing state.searchObj.keyword, prevState still gives the whole obj, not the requested key, so will never be equal
       if (latest !== prev) this.props.fetchSearchResults(latest)
+      console.log('componentDidUpdate in action', this.props.fetchSearchResults(latest))
     }
 }
 

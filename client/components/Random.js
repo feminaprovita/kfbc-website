@@ -20,7 +20,7 @@ class Random extends Component {
       let counter = 1;
       const randomArr = [];
       while(counter <= num) {
-        let idx = Math.floor(Math.random() * (795 - 1) + 1)
+        let idx = Math.floor(Math.random() * (793 - 1) + 1)
         // console.log('idx', idx)
         randomArr.push(arr[idx])
         // console.log('randomArr', randomArr)

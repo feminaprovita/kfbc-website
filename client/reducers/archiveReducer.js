@@ -21,16 +21,15 @@ export const fetchAllPosts = posts => {
   };
 };
 
-export const fetchOnePost = (num = 1) => {
-  return async dispatch => {
+// export const fetchOnePost = (num = 1) => {
+//   return async dispatch => {
 
-  }
-}
+//   }
+// }
 
 export const fetchTagList = tags => {
   return async dispatch => {
     const response = await axios.get('/api/archive/tags',tags);
-    // !!!!!!!!!!!!!!!!!!!!!!!!!!!
     const tagList = response.data;
     const action = receiveTagList(tagList);
     dispatch(action);
@@ -51,8 +50,7 @@ export const fetchSearchResults = searchObj => {
   return async dispatch => {
     const keyword = searchObj.keyword;
     // console.log('thunk keyword', keyword)
-    const slug = searchObj.keyword.encodeURIComponent.toLowerCase();
-    const response = await axios.get(`/api/archive/${slug}`);
+    const response = await axios.get('/api/archive/search');
     // console.log('thunk response', response)
     const searchResults = response.data;
     const action = searchArchive(searchResults);

@@ -33,7 +33,7 @@ module.exports = [{
 }, {
 	"date": "2016-11-29",
 	"url": "https://www.facebook.com/feminaprovita/posts/954896678690",
-	"post": "Tell me about an off-the-beaten-path charity that you love (with link)!"
+	"post": "Tell me about an off-the-beaten-path charity that you love!"
 }, {
 	"date": "2016-11-30",
 	"url": "https://www.facebook.com/feminaprovita/posts/955144871310",
@@ -45,7 +45,7 @@ module.exports = [{
 }, {
 	"date": "2016-12-10",
 	"url": "https://www.facebook.com/feminaprovita/posts/958611015130",
-	"post": "If you could have a lifelong shopping spree to one FUN retailer (excluding Amazon, Walmart/Target/etc, grocery stores, unless you give a *really* good argument why they're more fun than practical), which would you choose?"
+	"post": "If you could have a lifelong shopping spree to one FUN retailer, which would you choose?"
 }, {
 	"date": "2016-12-11",
 	"url": "https://www.facebook.com/feminaprovita/posts/958902975040",
@@ -57,7 +57,7 @@ module.exports = [{
 }, {
 	"date": "2016-12-13",
 	"url": "https://www.facebook.com/feminaprovita/posts/959435353150",
-	"post": "You suddenly find yourself on-stage for your own TED Talk (pop-intellectual lecture to interested non-specialists). With no prior planning, what's a topic you can discuss for 40 minutes?"
+	"post": "You suddenly find yourself on-stage for your own TED Talk. With no prior planning, what's a topic you can discuss for 40 minutes?"
 }, {
 	"date": "2016-12-14",
 	"url": "https://www.facebook.com/feminaprovita/posts/959726604480",
@@ -145,7 +145,7 @@ module.exports = [{
 }, {
 	"date": "2016-12-05",
 	"url": "https://www.facebook.com/feminaprovita/posts/956368668810",
-	"post": "Today is a very important celebration: the anniversary of the repeal of prohibition! Please tell me about a favorite alcoholic beverage."
+	"post": "Tell me about a favorite alcoholic beverage."
 }, {
 	"date": "2016-12-06",
 	"url": "https://www.facebook.com/feminaprovita/posts/956605988220",
@@ -157,11 +157,11 @@ module.exports = [{
 }, {
 	"date": "2016-12-08",
 	"url": "https://www.facebook.com/feminaprovita/posts/957530021450",
-	"post": "What's your favorite Marian image/apparition? (If it's a painting, tell its artist if you can)"
+	"post": "What's your favorite Marian image/apparition?"
 }, {
 	"date": "2016-12-09",
 	"url": "https://www.facebook.com/feminaprovita/posts/958327807680",
-	"post": "It's Friday! Link me to a whimsical news article."
+	"post": "Link me to a whimsical news article."
 }, {
 	"date": "2017-01-01",
 	"url": "https://www.facebook.com/feminaprovita/posts/966858062980",
@@ -169,15 +169,15 @@ module.exports = [{
 }, {
 	"date": "2017-01-10",
 	"url": "https://www.facebook.com/feminaprovita/posts/969293711920",
-	"post": "Sell me on a favorite podcast (only one!). Include full name, genre, target audience, and how family-friendly it is."
+	"post": "Sell me on a favorite podcast. Include full name, genre, target audience, and how family-friendly it is."
 }, {
 	"date": "2017-01-11",
 	"url": "https://www.facebook.com/feminaprovita/posts/969526909590",
-	"post": "If applicable, share some way Fr Mike Scanlan impacted your life for the better—a story, a memory (firsthand, secondhand, or further), an insight you gained from him, a spiritual practice that remembering him inspires you to return to, whatever.\nOR tell me about some other priest or spiritual authority (preferably deceased) who's had an impact on your life."
+	"post": "Tell me about a priest or spiritual authority (preferably deceased) who's had an impact on your life."
 }, {
 	"date": "2017-01-12",
 	"url": "https://www.facebook.com/feminaprovita/posts/970031663060",
-	"post": "You have just found a single-use time travel device. Its parameters:\n1. It can only be used immediately.\n2. It can only transport one person, you.\n3. It can only send you back in time, not forward.\n4. You cannot take any modern tech back with you besides your clothes, but you may invent things within reason while you're there.\n5. In addition to sending you back to the time of your choosing, it will send you to any place of your choosing on this planet.\n5b. You will be able to speak the local language and blend in culturally for the duration.\n6. You will remain there for 6 months, then return to when and where you are at present, 5 seconds after you activate it.\n6b. If you die in the past, you likewise return to the present + 5 seconds\n7. Any damage you do to the timeline will be magically repaired, without any drastic harm done to anyone or anything, upon your return to the present.\n8. You will not be able to take any tokens from the past with you when you return to the present.\nWhen and where do you go?"
+	"post": "You have just found a single-use time travel device. Its parameters are listed below. When and where do you go?"
 }, {
 	"date": "2017-01-13",
 	"url": "https://www.facebook.com/feminaprovita/posts/970426307190",
@@ -189,7 +189,7 @@ module.exports = [{
 }, {
 	"date": "2017-01-15",
 	"url": "https://www.facebook.com/feminaprovita/posts/971034004360",
-	"post": "Share a favorite one-line prayer, preferably something that brings you comfort and/or hope. (Give attribution if you know where it comes from.)"
+	"post": "Share a favorite one-line prayer, preferably something that brings you comfort and/or hope."
 }, {
 	"date": "2017-01-16",
 	"url": "https://www.facebook.com/feminaprovita/posts/971252137220",
@@ -197,7 +197,7 @@ module.exports = [{
 }, {
 	"date": "2017-01-17",
 	"url": "https://www.facebook.com/feminaprovita/posts/971557230810",
-	"post": "What's something you often say in passing that's a reference to something else, which you suspect most people don't get?\nGuess each other's references! Bonus points for youtube clips."
+	"post": "What's something you often say in passing that's a reference to something else, which you suspect most people don't get?"
 }, {
 	"date": "2017-01-18",
 	"url": "https://www.facebook.com/feminaprovita/posts/971835133890",
@@ -249,7 +249,7 @@ module.exports = [{
 }, {
 	"date": "2017-01-29",
 	"url": "https://www.facebook.com/feminaprovita/posts/976009937550",
-	"post": "Tell me about your favorite part of the Mass! (And don't just say transubstantiation or reception of Communion because they're most important.) Be precise, a specific word/phrase or action. Why do you love that moment?"
+	"post": "Tell me about your favorite part of the Mass! Be precise, a specific word/phrase or action. Why do you love that moment?"
 }, {
 	"date": "2017-01-03",
 	"url": "https://www.facebook.com/feminaprovita/posts/967390211550",
@@ -305,7 +305,7 @@ module.exports = [{
 }, {
 	"date": "2017-10-13",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100156840314000",
-	"post": "You see that little add-emoji gizmo at the right? Pick one, and willfully misinterpret what said emoji means. Troll me hard, people! (But keep it cleanish, please.)\nIf somebody else has already used the emoji you wanted, just pop your alternate explanation below theirs. Go wild!"
+	"post": "Type an emoji, and willfully misinterpret what said emoji means. Troll me hard, people!"
 }, {
 	"date": "2017-10-14",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100157177927420",
@@ -337,11 +337,11 @@ module.exports = [{
 }, {
 	"date": "2017-10-20",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100158908254830",
-	"post": "Let's build a playlist! Share with me a song that talks about somebody by their first name.\nEDIT: Give me links!"
+	"post": "Let's build a playlist! Share with me a song that talks about somebody by their first name."
 }, {
 	"date": "2017-10-21",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100159178817620",
-	"post": "What's your favorite tool in the toolbox? Why?\n(Imagine an extremely well stocked toolbox, obviously...)"
+	"post": "What's your favorite tool in the toolbox? Why? (Imagine an extremely well stocked toolbox, obviously...)"
 }, {
 	"date": "2017-10-22",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100159425438390",
@@ -357,7 +357,7 @@ module.exports = [{
 }, {
 	"date": "2017-10-25",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100160246927120",
-	"post": "History and literature are full of epic speeches. Tell me about one that has stayed with you!\nLinks to full texts and/or YouTube recordings/performances are encouraged."
+	"post": "History and literature are full of epic speeches. Tell me about one that has stayed with you! (Links to full texts and/or YouTube recordings/performances are encouraged.)"
 }, {
 	"date": "2017-10-26",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100160514575750",
@@ -373,7 +373,7 @@ module.exports = [{
 }, {
 	"date": "2017-10-29",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100161569985700",
-	"post": "Let's make a playlist! Share with me a favorite Marian hymn, motet, or other piece of music that honors God by honoring his mother. (Links, please!)"
+	"post": "Let's make a playlist! Share with me a favorite Marian hymn, motet, or other piece of music that honors God by honoring his mother."
 }, {
 	"date": "2017-10-03",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100153883958560",
@@ -381,7 +381,7 @@ module.exports = [{
 }, {
 	"date": "2017-10-03",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100153942256730",
-	"post": "Catholic nerd alert!\nTell me about famous historical Catholics from your area (e.g., Pierre Toussaint, Frederic Baraga, Adele Brise). Or from another area of the U.S., whatever. Try and introduce me to somebody I've never heard of, who has a cool story!"
+	"post": "Tell me about famous historical Catholics from your area (e.g., Pierre Toussaint, Frederic Baraga, Adele Brise). Or from another area of the U.S., whatever. Try and introduce me to somebody I've never heard of, who has a cool story!"
 }, {
 	"date": "2017-10-30",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100161799560630",
@@ -389,7 +389,7 @@ module.exports = [{
 }, {
 	"date": "2017-10-31",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100162076949740",
-	"post": "I'm making a haunted house! What role would you like to play in it?\nDuplication welcome. Creativity more welcome! (Sky's the limit on budget, tech, etc.)"
+	"post": "I'm making a haunted house! What role would you like to play in it? (Sky's the limit on budget, tech, etc.)"
 }, {
 	"date": "2017-10-04",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100154175050210",
@@ -401,7 +401,7 @@ module.exports = [{
 }, {
 	"date": "2017-10-06",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100154754868250",
-	"post": "If you were allowed to choose how (but not when) you will die, but it couldn't be peacefully in your sleep, how would you want to go?\nEDIT: It's an y'all to keep this cheerful and/or absurd, people! I believe in you!"
+	"post": "If you were allowed to choose how (but not when) you will die, but it couldn't be peacefully in your sleep, how would you want to go?"
 }, {
 	"date": "2017-10-07",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100155042571690",
@@ -433,7 +433,7 @@ module.exports = [{
 }, {
 	"date": "2017-11-13",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100166049144430",
-	"post": "By now most of you know that Mark Foster and Bob Turnbull are mortal enemies. With no reference to any actual facts you may know, tell me why!\nRealism of scenario not required. Declaration of allegiance welcome but not required. Imaginative storytelling encouraged!"
+	"post": "By now most of you know that Mark Foster and Bob Turnbull are mortal enemies. With no reference to any actual facts you may know, tell me why! (Realism of scenario not required. Declaration of allegiance welcome but not required. Imaginative storytelling encouraged!)"
 }, {
 	"date": "2017-11-14",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100166377097210",
@@ -445,7 +445,7 @@ module.exports = [{
 }, {
 	"date": "2017-11-16",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100167012234390",
-	"post": "You've just left your bank and are walking down the street, when you see ______ walking toward you!\nFill in the blank with the living person who would leave you most flustered."
+	"post": "You've just left your bank and are walking down the street, when you see ______ walking toward you! Fill in the blank with the living person who would leave you most flustered."
 }, {
 	"date": "2017-11-17",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100167404124040",
@@ -505,7 +505,7 @@ module.exports = [{
 }, {
 	"date": "2017-11-03",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100163154450420",
-	"post": "Today's playlist is brought to you by the Letter L! Post a link to any song that begins with the letter L."
+	"post": "Post a link to any song that begins with the letter L."
 }, {
 	"date": "2017-11-30",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100171394482330",
@@ -529,7 +529,7 @@ module.exports = [{
 }, {
 	"date": "2017-11-08",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100164589220130",
-	"post": "If it weren't for dogs, who would be man's best friend?\nEDIT: Ok, y'all have had your fun, but everybody knows the common phrase I'm working from. You well know that in this usage, \"man\" means \"humankind,\" no gender restrictions. Now go forth and be creative!"
+	"post": "If it weren't for dogs, who would be man's best friend?"
 }, {
 	"date": "2017-11-09",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100164924253720",
@@ -553,7 +553,7 @@ module.exports = [{
 }, {
 	"date": "2017-12-13",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100175710118760",
-	"post": "Today's playlist is brought to you by the letter U! Link me a song that begins with the letter U.\nNOTE: The *letter* U, not the word \"You\" (save those for the letter Y)! Only exception is if the song's official title uses \"U\" to mean \"You,\" and if so, I want some link justifying that, preemptive defense to the pedants among us."
+	"post": "Link me a song that begins with the letter U."
 }, {
 	"date": "2017-12-14",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100175971370210",
@@ -569,7 +569,7 @@ module.exports = [{
 }, {
 	"date": "2017-12-17",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100176853552310",
-	"post": "Link me your favorite religious holiday song that's NOT directly celebrating the birth of Jesus -- so, probably Advent or Chanukah songs!\nNew request for playlist threads: Save some for everyone else! If you can't limit yourself to just one favorite, okaaay, but please, no more than two. ☺"
+	"post": "Link me your favorite religious holiday song that's NOT directly celebrating the birth of Jesus -- so, probably Advent or Chanukah songs!"
 }, {
 	"date": "2017-12-18",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100177123885560",
@@ -589,11 +589,11 @@ module.exports = [{
 }, {
 	"date": "2017-12-21",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100178009899980",
-	"post": "Today's playlist is brought to you by the Letter O! Please link me ONE song (ok, max. two) that begins with the letter O."
+	"post": "Link me a song that begins with the letter O."
 }, {
 	"date": "2017-12-22",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100178274275170",
-	"post": "What's your favorite bad movie (i.e., film that takes itself completely seriously, but REALLY shouldn't, because it's not good)?\nEDIT: I love this trend of posting trailers for or stills/gifs from the movie! Keep it up!"
+	"post": "What's your favorite bad movie (i.e., film that takes itself completely seriously, but REALLY shouldn't, because it's not good)?"
 }, {
 	"date": "2017-12-23",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100178502308190",
@@ -605,7 +605,7 @@ module.exports = [{
 }, {
 	"date": "2017-12-25",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100178989057740",
-	"post": "Merry Christmas! Tell me about a favorite holiday book, story, or poem, something you enjoy reading year after year.\nEDIT: Reading! (Or listening to someone else reading.) Watching is for another question. ☺"
+	"post": "Merry Christmas! Tell me about a favorite holiday book, story, or poem, something you enjoy reading year after year."
 }, {
 	"date": "2017-12-26",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100179323966580",
@@ -613,7 +613,7 @@ module.exports = [{
 }, {
 	"date": "2017-12-27",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100179622463390",
-	"post": "You know, I've still got a lot of room on my Christmas tree*. What kind of ornament would you give me to add to it?\n*NB: This is my imaginary gigantic Christmas tree. My actual tree is so full it's in danger of falling over, so please don't give me anything..."
+	"post": "You know, I've still got a lot of room on my Christmas tree*. What kind of ornament would you give me to add to it?"
 }, {
 	"date": "2017-12-28",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100179946938140",
@@ -621,7 +621,7 @@ module.exports = [{
 }, {
 	"date": "2017-12-29",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100180231557760",
-	"post": "Post a link to ONE *new* holiday song -- that is, one that was written/popularized no earlier than your teenage years -- that you enjoy.\n(Note: Hard limit of one here -- leave some for everybody else!)"
+	"post": "Post a link to ONE *new* holiday song -- that is, one that was written/popularized no earlier than your teenage years -- that you enjoy."
 }, {
 	"date": "2017-12-03",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100172460960100",
@@ -633,15 +633,15 @@ module.exports = [{
 }, {
 	"date": "2017-12-31",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100180749155490",
-	"post": "Link me to ONE favorite religious Christmas/holiday song (max. two). If it's not in English, please respond to your link with a translation!"
+	"post": "Link me to a favorite religious Christmas/holiday song. If it's not in English, please respond to your link with a translation!"
 }, {
 	"date": "2017-12-31",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100180753237310",
-	"post": "Because it's New Year's Eve, tell me ONE good thing that 2017 brought you, no matter how small.\nAs usual, bonus points for more ridiculous answers (and try not to repeat one another on this one, please)."
+	"post": "Because it's New Year's Eve, tell me ONE good thing that 2017 brought you, no matter how small."
 }, {
 	"date": "2017-12-04",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100172925678800",
-	"post": "It's been a great party, but it's time to kick everyone out (so you can unwind and go to sleep). What do you play as the last song?\nEDIT: As always, link me to your song, please!"
+	"post": "It's been a great party, but it's time to kick everyone out (so you can unwind and go to sleep). What do you play as the last song?"
 }, {
 	"date": "2017-12-05",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100173320931710",
@@ -657,7 +657,7 @@ module.exports = [{
 }, {
 	"date": "2017-12-08",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100174209725560",
-	"post": "Bonus religious question, bonus playlist! In honor of the Immaculate Conception of the Blessed Virgin Mary, the patronal feast day of the United States:\nLink me one favorite song about/to Mother Mary!"
+	"post": "Link me one favorite song about/to Mother Mary!"
 }, {
 	"date": "2017-12-09",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100174506351120",
@@ -689,11 +689,11 @@ module.exports = [{
 }, {
 	"date": "2017-02-15",
 	"url": "https://www.facebook.com/feminaprovita/posts/980635408070",
-	"post": "Invent a conspiracy theory! Conditions:\n1) Must connect two or more events or persons from the past in an unexpected and/or suspicious manner.\n2) No events from the past 20 years are eligible! 1997 or before.\n3) You must not *actually* believe this theory, but you must defend it as if you do."
+	"post": "Invent a conspiracy theory! Conditions: 1) Must connect two or more events or persons from the past in an unexpected and/or suspicious manner. 2) No events from the past 20 years are eligible! 1997 or before. 3) You must not *actually* believe this theory, but you must defend it as if you do."
 }, {
 	"date": "2017-02-16",
 	"url": "https://www.facebook.com/feminaprovita/posts/981033744800",
-	"post": "Pinky, are you pondering what I'm pondering?\n(Bonus points for creative answers in the style of the originals!)"
+	"post": "Pinky, are you pondering what I'm pondering?"
 }, {
 	"date": "2017-02-17",
 	"url": "https://www.facebook.com/feminaprovita/posts/981401008800",
@@ -705,7 +705,7 @@ module.exports = [{
 }, {
 	"date": "2017-02-19",
 	"url": "https://www.facebook.com/feminaprovita/posts/982021889550",
-	"post": "You've been tasked with designing the habit for a new religious order! What does it look like, and why? Explain the symbolism in as much detail as you like. 🙂"
+	"post": "You've been tasked with designing the habit for a new religious order! What does it look like, and why? Explain the symbolism in as much detail as you like."
 }, {
 	"date": "2017-02-02",
 	"url": "https://www.facebook.com/feminaprovita/posts/977070936300",
@@ -765,7 +765,7 @@ module.exports = [{
 }, {
 	"date": "2017-02-07",
 	"url": "https://www.facebook.com/feminaprovita/posts/978392283310",
-	"post": "I'm coming to visit the place where you live, but unfortunately you're not available to show me around. Tell me 3 things I absolutely must either eat or see or do while I'm in town! (Don't clarify where you live—guess each other's.)"
+	"post": "I'm coming to visit the place where you live, but unfortunately you're not available to show me around. Tell me 3 things I absolutely must either eat or see or do while I'm in town!"
 }, {
 	"date": "2017-02-08",
 	"url": "https://www.facebook.com/feminaprovita/posts/978671393970",
@@ -801,7 +801,7 @@ module.exports = [{
 }, {
 	"date": "2017-03-15",
 	"url": "https://www.facebook.com/feminaprovita/posts/988426674310",
-	"post": "On this ides of March, I've got tragedy on the mind. Tell me your favorite possible way for the world to end!"
+	"post": "Tell me your favorite possible way for the world to end!"
 }, {
 	"date": "2017-03-16",
 	"url": "https://www.facebook.com/feminaprovita/posts/988658958810",
@@ -813,11 +813,11 @@ module.exports = [{
 }, {
 	"date": "2017-03-18",
 	"url": "https://www.facebook.com/feminaprovita/posts/989170558560",
-	"post": "You're about to be stranded indefinitely on a deserted island. Food and shelter appear relatively scroungable, but for company you will have only yourself and the bible left behind by the island's previous occupant (a good translation, at least). What ONE book do you bring with you?\nNote: Bringing your ereader is cheating, but one-volume collections (provided they exist or are in the realm of plausibility) are fair game."
+	"post": "You're about to be stranded indefinitely on a deserted island. Food and shelter appear relatively scroungable, but for company you will have only yourself and the bible left behind by the island's previous occupant. What ONE book do you bring with you?"
 }, {
 	"date": "2017-03-19",
 	"url": "https://www.facebook.com/feminaprovita/posts/989452393760",
-	"post": "What one biblical character would you want to go out for drinks with? (To keep it interesting, try to avoid people already claimed.)"
+	"post": "What one biblical character would you want to go out for drinks with?"
 }, {
 	"date": "2017-03-02",
 	"url": "https://www.facebook.com/feminaprovita/posts/984805830510",
@@ -849,7 +849,7 @@ module.exports = [{
 }, {
 	"date": "2017-03-26",
 	"url": "https://www.facebook.com/feminaprovita/posts/991361038820",
-	"post": "On this Laetare Sunday, tell me some particular thing you're looking forward to this Easter (besides indulging in whatever goodies you gaveup for Lent)!"
+	"post": "On this Laetare Sunday, tell me some particular thing you're looking forward to this Easter (besides indulging in whatever goodies you gave up for Lent)!"
 }, {
 	"date": "2017-03-27",
 	"url": "https://www.facebook.com/feminaprovita/posts/991586766460",
@@ -857,7 +857,7 @@ module.exports = [{
 }, {
 	"date": "2017-03-28",
 	"url": "https://www.facebook.com/feminaprovita/posts/991879988840",
-	"post": "You come across a magic notebook; whatever you write on its first page turns into reality. What exactly do you write?\n(And yes, you should definitely be that mischievous genie who willfully misinterprets other people's wishes...)\nYou may amend your writing afterward (in a comment underneath, please!) to avert/stop disaster, but be realistic about what you could actually add/change on a physical page! I'm not sure whateffect scratching something out would have..."
+	"post": "You come across a magic notebook; whatever you write on its first page turns into reality. What exactly do you write? \n(And yes, you should definitely be that mischievous genie who willfully misinterprets other people's wishes...) \nYou may amend your writing afterward (in a comment underneath, please!) to avert/stop disaster, but be realistic about what you could actually add/change on a physical page! I'm not sure what effect scratching something out would have..."
 }, {
 	"date": "2017-03-29",
 	"url": "https://www.facebook.com/feminaprovita/posts/992107383140",
@@ -913,11 +913,11 @@ module.exports = [{
 }, {
 	"date": "2017-04-12",
 	"url": "https://www.facebook.com/feminaprovita/posts/997446663180",
-	"post": "What's your favorite equation?\nBonus points for a story in which said equation was useful to you in real life (i.e., outside the contextof class)."
+	"post": "What's your favorite equation?\nBonus points for a story in which said equation was useful to you in real life (i.e., outside the context of class)."
 }, {
 	"date": "2017-04-13",
 	"url": "https://www.facebook.com/feminaprovita/posts/997787210720",
-	"post": "What would you order for your last meal? (Like on death row, when [they say] you can have quite the extravagant meal because it's to be your very last one...)"
+	"post": "What would you order for your last meal?"
 }, {
 	"date": "2017-04-15",
 	"url": "https://www.facebook.com/feminaprovita/posts/998424658270",
@@ -937,7 +937,7 @@ module.exports = [{
 }, {
 	"date": "2017-04-19",
 	"url": "https://www.facebook.com/feminaprovita/posts/999656414820",
-	"post": "Tell me about a favorite chocolate dessert! (There will be a non-chocolate question another day, you weirdos.) In as much delicious detail as you care to muster. 🍫🎂🍰🍩"
+	"post": "Tell me about a favorite chocolate dessert! In as much delicious detail as you care to muster."
 }, {
 	"date": "2017-04-02",
 	"url": "https://www.facebook.com/feminaprovita/posts/993114494880",
@@ -997,11 +997,11 @@ module.exports = [{
 }, {
 	"date": "2017-04-05",
 	"url": "https://www.facebook.com/feminaprovita/posts/994071666700",
-	"post": "Everyone should work in _____ (industry/type of job) once.\nFill in the blank and explain your choice! Bonus points for not duplicating those above you."
+	"post": "Everyone should work in _____ (industry/type of job) once."
 }, {
 	"date": "2017-04-06",
 	"url": "https://www.facebook.com/feminaprovita/posts/994657966750",
-	"post": "Tell me about one of your most memorable culinary/dining experiences! Preferably memorable for positive reasons, but if not, at least please make it funny."
+	"post": "Tell me about one of your most memorable culinary/dining experiences!"
 }, {
 	"date": "2017-04-07",
 	"url": "https://www.facebook.com/feminaprovita/posts/995120295240",
@@ -1013,7 +1013,7 @@ module.exports = [{
 }, {
 	"date": "2017-04-09",
 	"url": "https://www.facebook.com/feminaprovita/posts/996389137470",
-	"post": "Share some favorite Lent/Holy Week music! (Bonus points for what's not already been named.) Links welcome!"
+	"post": "Share some favorite Lent/Holy Week music!"
 }, {
 	"date": "2017-05-01",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100100911191410",
@@ -1045,7 +1045,7 @@ module.exports = [{
 }, {
 	"date": "2017-05-16",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100105554970240",
-	"post": "Link me a song where—even though perhaps you shouldn't—you like the cover better than the original!\n(Covers only today, not parodies. Their day will come!)"
+	"post": "Link me a song where—even though perhaps you shouldn't—you like the cover better than the original!"
 }, {
 	"date": "2017-05-17",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100105830228620",
@@ -1085,7 +1085,7 @@ module.exports = [{
 }, {
 	"date": "2017-05-25",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100108622497890",
-	"post": "Tell me a nature fact!\n(A true one, please. Bonus points for further reading, but whatevs.)"
+	"post": "Tell me a nature fact! (A true one, please.)"
 }, {
 	"date": "2017-05-26",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100109104706540",
@@ -1105,7 +1105,7 @@ module.exports = [{
 }, {
 	"date": "2017-05-03",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100101608209580",
-	"post": "You see the emoji functionality facebook recently added? Pick an emoji you don't understand (just one!), and give us your best guess as to what it means."
+	"post": "Pick an emoji you don't understand (just one!), and give us your best guess as to what it means."
 }, {
 	"date": "2017-05-30",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100110367900090",
@@ -1117,7 +1117,7 @@ module.exports = [{
 }, {
 	"date": "2017-05-04",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100101852115790",
-	"post": "May the Fourth be with you! Tell me any ONE Star Wars-related anecdote, factoid, whatever. Can be related as tangentially as you like, and any anything at all. (Just, positive, please, and reasonably clean would be nice.)"
+	"post": "May the Fourth be with you! Tell me any ONE Star Wars-related anecdote, factoid, whatever."
 }, {
 	"date": "2017-05-05",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100102142074710",
@@ -1173,7 +1173,7 @@ module.exports = [{
 }, {
 	"date": "2017-06-17",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100117554358370",
-	"post": "What's your favorite kind of bird? (Include a picture, if you can, because I don't know birds.)"
+	"post": "What's your favorite kind of bird?"
 }, {
 	"date": "2017-06-18",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100117912914820",
@@ -1273,7 +1273,7 @@ module.exports = [{
 }, {
 	"date": "2017-07-12",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100126576542840",
-	"post": "You are in charge of making the definitive list: What are the Seven Wonders of the Modern World? (Please number them.)"
+	"post": "You are in charge of making the definitive list: What are the Seven Wonders of the Modern World?"
 }, {
 	"date": "2017-07-13",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100126964809750",
@@ -1345,7 +1345,7 @@ module.exports = [{
 }, {
 	"date": "2017-07-29",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100133210248840",
-	"post": "Tell me about your favorite board game!\n(Loosely defined, so e.g., a card game that uses custom cards would count. If it's got an entry on BoardGameGeek.com, it's good enough for me!)"
+	"post": "Tell me about your favorite board game!"
 }, {
 	"date": "2017-07-03",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100123524868420",
@@ -1357,7 +1357,7 @@ module.exports = [{
 }, {
 	"date": "2017-07-31",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100133764922270",
-	"post": "Not so much a conversation starter as a call for pictures. Show me an adorable, fluffy animal photo or gif! Bonus points if it's doing something ridiculous."
+	"post": "Show me an adorable, fluffy animal photo or gif! Bonus points if it's doing something ridiculous."
 }, {
 	"date": "2017-07-04",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100123834228460",
@@ -1365,7 +1365,7 @@ module.exports = [{
 }, {
 	"date": "2017-07-05",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100124175793960",
-	"post": "If magic were real (and morally neutral), what would be the first (type of) spell you'd try to learn?"
+	"post": "If magic were real, what would be the first (type of) spell you'd try to learn?"
 }, {
 	"date": "2017-07-06",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100124501136970",
@@ -1433,7 +1433,7 @@ module.exports = [{
 }, {
 	"date": "2017-08-20",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100139863810050",
-	"post": "You're getting a special new phone line (or app). It's activated by your voice only, and is an infinite-use phone-a-friend line that can call any ONE biblical figure, saint, or holy dead person (whom you did not know during their earthly life), to ask their advice. Who do you want to keep just a phone call away?\nBonus points if you avoid figures chosen by commenters above you!"
+	"post": "You're getting a special new phone line (or app). It's activated by your voice only, and is an infinite-use phone-a-friend line that can call any ONE biblical figure, saint, or holy dead person (whom you did not know during their earthly life), to ask their advice. Who do you want to keep just a phone call away?"
 }, {
 	"date": "2017-08-21",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100140225849520",
@@ -1465,7 +1465,7 @@ module.exports = [{
 }, {
 	"date": "2017-08-28",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100142387781990",
-	"post": "What are \"kids today\" missing out on?\n(Remember, CHEERFUL, so be more pleasantly nostalgic than curmudgeonly!)"
+	"post": "What are \"kids today\" missing out on?"
 }, {
 	"date": "2017-08-29",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100142691233870",
@@ -1481,7 +1481,7 @@ module.exports = [{
 }, {
 	"date": "2017-08-31",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100143400587320",
-	"post": "In one image or one sentence, troll the most groups of people you can.\nREMEMBER, NO POLITICS! Troll people about unimportant-yet-bothersome things only. 😄"
+	"post": "In one image or one sentence, troll the most groups of people you can."
 }, {
 	"date": "2017-08-04",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100134980591060",
@@ -1501,7 +1501,7 @@ module.exports = [{
 }, {
 	"date": "2017-08-08",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100136222068130",
-	"post": "What's your favorite number?\n(Be as specific as you can off the top of your head, in Arabic numerals. Let the \"To how many decimal points do you know...?\" contests begin!\")"
+	"post": "What's your favorite number?"
 }, {
 	"date": "2017-08-09",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100136548109740",
@@ -1513,11 +1513,11 @@ module.exports = [{
 }, {
 	"date": "2017-09-10",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100146791546810",
-	"post": "Tell me about something wonderful in your life that may not have happened were it not for the tragedy/disaster/catastrophe that preceded it.\n(Details about the bad thing are *very* optional!)"
+	"post": "Tell me about something wonderful in your life that may not have happened were it not for the tragedy/disaster/catastrophe that preceded it."
 }, {
 	"date": "2017-09-11",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100147069968850",
-	"post": "It's my birthday! In lieu of a wall post, let's be silly. Share with me a favorite dinosaur-themed factoid, story, image, product, song, etc. 😎\nI will consider all comments birthday greetings, even if they don't explicitly contain salutations (hence the early posting)."
+	"post": "Share with me a favorite dinosaur-themed factoid, story, image, product, song, etc."
 }, {
 	"date": "2017-09-12",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100147374298970",
@@ -1529,7 +1529,7 @@ module.exports = [{
 }, {
 	"date": "2017-09-14",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100148016357280",
-	"post": "What's your favorite poem?\nEDIT: Provide links, please!"
+	"post": "What's your favorite poem?"
 }, {
 	"date": "2017-09-15",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100148328287170",
@@ -1561,7 +1561,7 @@ module.exports = [{
 }, {
 	"date": "2017-09-21",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100150074522700",
-	"post": "Dance party, right here, right now! No theme. Only rule: you may contribute ONLY ONE SONG! What are you adding to the playlist?\nEDIT: Link me, please!"
+	"post": "Dance party, right here, right now! No theme. Only rule: you may contribute ONLY ONE SONG! What are you adding to the playlist?"
 }, {
 	"date": "2017-09-22",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100150424685970",
@@ -1573,11 +1573,11 @@ module.exports = [{
 }, {
 	"date": "2017-09-24",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100151353155310",
-	"post": "What's your favorite religious podcast or radio show? Why do you like it?\nIf somebody already picked yours, just nest your \"why\" below their comment!"
+	"post": "What's your favorite religious podcast or radio show? Why do you like it?"
 }, {
 	"date": "2017-09-25",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100151612455670",
-	"post": "Tell me about a law, court case, or other legislative decision from any point in history that you find particularly important and/or fascinating. (Bonus points if it's lesser known or undervalued.)\nRemember! Avoid decisions or cases that people with other values/politics may find upsetting. If you want, you may share those with me privately, but please keep this space relatively lighthearted."
+	"post": "Tell me about a law, court case, or other legislative decision from any point in history that you find particularly important and/or fascinating. (Bonus points if it's lesser known or undervalued.)"
 }, {
 	"date": "2017-09-26",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100151878198120",
@@ -1609,7 +1609,7 @@ module.exports = [{
 }, {
 	"date": "2017-09-05",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100145050111660",
-	"post": "You've very temporarily been made Commissioner of All Sports. What ONE rule would you add/remove/change during your brief tenure?\nEDIT: Stick to changing one rule from here on out, not completely eliminating a whole game! Make changes as sweeping you like, but argue them through that loophole."
+	"post": "You've very temporarily been made Commissioner of All Sports. What ONE rule would you add/remove/change during your brief tenure?"
 }, {
 	"date": "2017-09-06",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100145365649320",
@@ -1657,7 +1657,7 @@ module.exports = [{
 }, {
 	"date": "2018-01-16",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100185600233890",
-	"post": "Link me any one song (max two) that begins with the letter P."
+	"post": "Link me a song that begins with the letter P."
 }, {
 	"date": "2018-01-17",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100185881580070",
@@ -1665,7 +1665,7 @@ module.exports = [{
 }, {
 	"date": "2018-01-18",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100186179513010",
-	"post": "Who's your favorite prince? Try not to duplicate one another!\n(Feel free to be as generous with your definition of \"prince\" as Disney tends to be with their definition of \"princess.\")"
+	"post": "Who's your favorite prince? (Feel free to be as generous with your definition of \"prince\" as Disney tends to be with their definition of \"princess.\")"
 }, {
 	"date": "2018-01-19",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100186471542780",
@@ -1725,7 +1725,7 @@ module.exports = [{
 }, {
 	"date": "2018-01-31",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100190357724840",
-	"post": "Link me to a favorite comedy sketch/scene! Constraints:\n1. The longer than 5m it is, the less likely I am to watch it.\n2. Add language/content warnings where appropriate.\n3. Absolute max of two, please!"
+	"post": "Link me to a favorite comedy sketch/scene!"
 }, {
 	"date": "2018-01-04",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100182040961700",
@@ -1737,19 +1737,19 @@ module.exports = [{
 }, {
 	"date": "2018-01-06",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100182708703540",
-	"post": "On this Epiphany (traditional), tell me about one of the gifts you gave someone this Christmas! Bonus points if it was to an adorable small child. How did they enjoy it?"
+	"post": "Tell me about one of the gifts you gave someone this Christmas! Bonus points if it was to an adorable small child. How did they enjoy it?"
 }, {
 	"date": "2018-01-07",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100182922769550",
-	"post": "On this Epiphany (observed), tell me about a gift that God has given to you this Christmastide! Directly or indirectly, tangible or intangible."
+	"post": "Tell me about a gift that God has given to you this Christmastide! Directly or indirectly, tangible or intangible."
 }, {
 	"date": "2018-01-08",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100183191336340",
-	"post": "In honor of 2018 still being pretty new, link me ONE song (max. two) with the word \"new\" in its title OR (just this once) by an artist with \"new\" in their name."
+	"post": "In honor of 2018 still being pretty new, link me a song with the word \"new\" in its title OR (just this once) by an artist with \"new\" in their name."
 }, {
 	"date": "2018-01-09",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100183526354960",
-	"post": "Why did the chicken cross the road? (Don't duplicate one another's answers!)"
+	"post": "Why did the chicken cross the road?"
 }, {
 	"date": "2018-10-01",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100256380255160",
@@ -1773,7 +1773,7 @@ module.exports = [{
 }, {
 	"date": "2018-10-14",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100259954212920",
-	"post": "What saint or holy dead person* would you choose to direct your silent retreat?\n*whom you didn't know in life, as per usual"
+	"post": "What saint or holy dead person would you choose to direct your silent retreat?"
 }, {
 	"date": "2018-10-15",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100260174666130",
@@ -1781,7 +1781,7 @@ module.exports = [{
 }, {
 	"date": "2018-10-16",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100260446551270",
-	"post": "What's your general good-luck or pump-you-up habit, routine, superstition*, etc? What little thing do you do on a big day to keep yourself in a mental place of things going well?\n(*I don't mean superstition in the rigid, negative way, but in the fun way, like silly sports superstitions.)"
+	"post": "What's your general good-luck or pump-you-up habit, routine, superstition, etc? What little thing do you do on a big day to keep yourself in a mental place of things going well?"
 }, {
 	"date": "2018-10-17",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100260693127130",
@@ -1801,11 +1801,11 @@ module.exports = [{
 }, {
 	"date": "2018-10-20",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100261526626790",
-	"post": "What's your favorite made-up word?\n(Feel free to fill me in on its context, esp if said context is obscure and/or delightful.)"
+	"post": "What's your favorite made-up word?"
 }, {
 	"date": "2018-10-21",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100261805562800",
-	"post": "Tell me about a favorite depiction of faith in pop culture! (Links and video clips welcome, preferably after your explanation.)"
+	"post": "Tell me about a favorite depiction of faith in pop culture!"
 }, {
 	"date": "2018-10-22",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100262016130820",
@@ -1833,7 +1833,7 @@ module.exports = [{
 }, {
 	"date": "2018-10-28",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100263708439420",
-	"post": "Tell me about one day, or one moment, that was particularly significant in forming you as the spiritual being you are, when God blessed you in a singular way. Be as vague or specific as you like.\n(Or just remember with gratitude, if it's too personal to share.)"
+	"post": "Tell me about one day, or one moment, that was particularly significant in forming you as the spiritual being you are, when God blessed you in a singular way. Be as vague or specific as you like."
 }, {
 	"date": "2018-10-29",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100263972994250",
@@ -1869,7 +1869,7 @@ module.exports = [{
 }, {
 	"date": "2018-10-08",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100258387273080",
-	"post": "Tell me the (funny) story of something that was supposed to be idiotproof, but you managed to foul it up anyway.\n(If you must, the \"better idiot\" star of your story may be someone else, but it's much better if it's you!)"
+	"post": "Tell me the (funny) story of something that was supposed to be idiotproof, but you managed to foul it up anyway."
 }, {
 	"date": "2018-10-09",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100258698968440",
@@ -1885,7 +1885,7 @@ module.exports = [{
 }, {
 	"date": "2018-11-11",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100267843542640",
-	"post": "What's your favorite misheard hymn or prayer line? (Firsthand, secondhand, and legendary are welcome.)"
+	"post": "What's your favorite misheard hymn or prayer line?"
 }, {
 	"date": "2018-11-12",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100268150697100",
@@ -1901,7 +1901,7 @@ module.exports = [{
 }, {
 	"date": "2018-11-15",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100269159585280",
-	"post": "You're a judge on a reality music show. What two songs are you assigning today's expert musicians to mash up, and what's the thematic connection? (Links welcome.)"
+	"post": "You're a judge on a reality music show. What two songs are you assigning today's expert musicians to mash up, and what's the thematic connection?"
 }, {
 	"date": "2018-11-16",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100269479279610",
@@ -1925,15 +1925,15 @@ module.exports = [{
 }, {
 	"date": "2018-11-20",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100270883096350",
-	"post": "If you could have a two-hour conversation with anyone in the world*, who would you choose?\n*must be currently living, but language barriers will be rendered irrelevant"
+	"post": "If you could have a two-hour conversation with anyone in the world*, who would you choose?\n(*must be currently living, but language barriers will be rendered irrelevant)"
 }, {
 	"date": "2018-11-21",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100271207780680",
-	"post": "These keep-facebook-cheerful conversation starters have been going for two years straight!\nToday's: Which one has been your favorite?\n(I'll swing by to add links to your descriptions, as best I can, after I finish my test, which I will happily accept prayers for.)"
+	"post": "These keep-facebook-cheerful conversation starters have been going for two years straight!\nToday's: Which one has been your favorite?"
 }, {
 	"date": "2018-11-22",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100271476946270",
-	"post": "If you woke up to find you were still 14 years old, and you had just been dreaming of what adult life might be like, how would you react?\nEDIT: Remember, keep it lighthearted, folks! Think of the movies Big and 13 Going on 30!"
+	"post": "If you woke up to find you were still 14 years old, and you had just been dreaming of what adult life might be like, how would you react?"
 }, {
 	"date": "2018-11-23",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100271907318800",
@@ -1941,11 +1941,11 @@ module.exports = [{
 }, {
 	"date": "2018-11-24",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100272218190810",
-	"post": "What took you way too long to figure out?\nPreemptive edit: Remember, lighthearted and/or silly things, folks! Little things that should have been obvious are ideal."
+	"post": "What took you way too long to figure out?"
 }, {
 	"date": "2018-11-25",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100272500729600",
-	"post": "Link me a hymn that's triumphant, regal, or otherwise appropriate for today's feast of Christ the King!\nNo repeats! (Yes I know the joke one several of you are going to race to put here. Let's only have it once, and get on with it.)\n(And yes, trads, I hear you, but I know you can play nice 😄)"
+	"post": "Link me a hymn that's triumphant, regal, or otherwise appropriate for today's feast of Christ the King!"
 }, {
 	"date": "2018-11-26",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100272771906160",
@@ -1961,7 +1961,7 @@ module.exports = [{
 }, {
 	"date": "2018-11-29",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100273751912220",
-	"post": "What's the most ridiculous thing to fill a piñata with?\nNote: Please things that it'd actually be possible to fill a piñata with, rather than, like, \"the ocean\".\nEDIT: Y'all crazy! (I shouldn't be surprised 😂)"
+	"post": "What's the most ridiculous thing to fill a piñata with?\nNote: Please things that it'd actually be possible to fill a piñata with, rather than, like, \"the ocean\"."
 }, {
 	"date": "2018-11-03",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100265508781520",
@@ -1973,7 +1973,7 @@ module.exports = [{
 }, {
 	"date": "2018-11-04",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100265815157540",
-	"post": "Name your favorite thing *that hasn't already been named* about being the faith you are!\n(Feel free to upvote/comment under whoever beat you to your first favorite, of course.)"
+	"post": "Name your favorite thing *that hasn't already been named* about being the faith you are!"
 }, {
 	"date": "2018-11-05",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100266063449960",
@@ -1989,7 +1989,7 @@ module.exports = [{
 }, {
 	"date": "2018-11-08",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100267021844330",
-	"post": "What's your favorite technological innovation of the last 10 years? (Be nice if others mistake the timing of an invention, but try to be precise yourself!)\nEDIT: If somebody else claimed your idea, try and post your next favorite, or else piggyback off their comment!"
+	"post": "What's your favorite technological innovation of the last 10 years?"
 }, {
 	"date": "2018-11-09",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100267300685530",
@@ -2009,7 +2009,7 @@ module.exports = [{
 }, {
 	"date": "2018-12-12",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100277456772650",
-	"post": "If self-driving cars took voice commands literally, which song on the radio would cause the most chaos?\nEDIT: Links, please! Bonus points for highlighting the most relevant lyrics."
+	"post": "If self-driving cars took voice commands literally, which song on the radio would cause the most chaos?\nBonus points for highlighting the most relevant lyrics."
 }, {
 	"date": "2018-12-13",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100277691981290",
@@ -2021,15 +2021,15 @@ module.exports = [{
 }, {
 	"date": "2018-12-15",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100278258351280",
-	"post": "What's your favorite insult?\n(Remember, cheerful, so don't be brutal or mean or political! Instead, whimsical or silly or clever...)"
+	"post": "What's your favorite insult?"
 }, {
 	"date": "2018-12-16",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100278519772390",
-	"post": "How are you preparing your heart for Christ this Christmas?\n(Uhh, sorry, non-Christians; y'all have to find your own equivalents this time.)"
+	"post": "How are you preparing your heart for Christ this Christmas?"
 }, {
 	"date": "2018-12-17",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100278754541910",
-	"post": "You just became a member of the Spice Girls. What is your Spice name? (Craft your own, no repeats)"
+	"post": "You just became a member of the Spice Girls. What is your Spice name?"
 }, {
 	"date": "2018-12-18",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100279092799040",
@@ -2065,7 +2065,7 @@ module.exports = [{
 }, {
 	"date": "2018-12-25",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100280753216550",
-	"post": "Merry Christmas! Tell me about a favorite ornament on your tree (or your parents'). Pictures welcome!"
+	"post": "Tell me about a favorite ornament on your Christmas tree (or your parents')."
 }, {
 	"date": "2018-12-26",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100281030979910",
@@ -2089,7 +2089,7 @@ module.exports = [{
 }, {
 	"date": "2018-12-30",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100282001519940",
-	"post": "Time for a rare repeat. Link me a beloved religious Christmas/holiday hymn! Bonus points if it's one you love but haven't heard live yet this year."
+	"post": "Link me a beloved religious Christmas/holiday hymn! Bonus points if it's one you love but haven't heard live yet this year."
 }, {
 	"date": "2018-12-31",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100282256094770",
@@ -2097,7 +2097,7 @@ module.exports = [{
 }, {
 	"date": "2018-12-04",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100275203737750",
-	"post": "What's your favorite butchered idiom? (With or without an accompanying story)"
+	"post": "What's your favorite butchered idiom?"
 }, {
 	"date": "2018-12-05",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100275510982030",
@@ -2137,11 +2137,11 @@ module.exports = [{
 }, {
 	"date": "2018-02-13",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100194226506770",
-	"post": "In honor of Mardi Gras, link me a song about a party/celebration!"
+	"post": "Link me a song about a party/celebration!"
 }, {
 	"date": "2018-02-14",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100194555342780",
-	"post": "I refuse to ignore either Ash Wednesday or Valentine's Day today. So, tell me a story of someone demonstrating self-sacrificial love toward you or your loved ones. It need not be romantic love, and you need not name the person."
+	"post": "Tell me a story of someone demonstrating self-sacrificial love toward you or your loved ones. It need not be romantic love, and you need not name the person."
 }, {
 	"date": "2018-02-15",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100194822048300",
@@ -2157,7 +2157,7 @@ module.exports = [{
 }, {
 	"date": "2018-02-18",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100195649505070",
-	"post": "We're 5 days into Lent, and I've already repeatedly gotten songs stuck in my head with the forbidden A-word! What's your best coping mechanism for ridding yourself of a terrible earworm?"
+	"post": "What's your best coping mechanism for ridding yourself of a terrible earworm?"
 }, {
 	"date": "2018-02-19",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100195863820580",
@@ -2165,7 +2165,7 @@ module.exports = [{
 }, {
 	"date": "2018-02-02",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100190995177380",
-	"post": "In honor of today being Candlemas (the traditional end of Christmastide, feat. a blessing of candles), link me to a song (max. two) that involves fire in some way!"
+	"post": "Link me to a song that involves fire in some way!"
 }, {
 	"date": "2018-02-20",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100196152726610",
@@ -2177,7 +2177,7 @@ module.exports = [{
 }, {
 	"date": "2018-02-22",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100196709939950",
-	"post": "What posters did you have in your room growing up? (For these purposes, define \"growing up\" however you like.)"
+	"post": "What posters did you have in your room growing up?"
 }, {
 	"date": "2018-02-23",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100196988332050",
@@ -2201,7 +2201,7 @@ module.exports = [{
 }, {
 	"date": "2018-02-28",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100198329654030",
-	"post": "Link me a song* whose title is a question!\n(*Please limit yourself to 2 songs for now, to leave more selection for everybody else. But after 10pm tonight, go wild!)"
+	"post": "Link me a song* whose title is a question!"
 }, {
 	"date": "2018-02-03",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100191273549520",
@@ -2209,7 +2209,7 @@ module.exports = [{
 }, {
 	"date": "2018-02-04",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100191532156270",
-	"post": "Draft 11 saints (or holy dead people) for your Holy Fantasy Football Team. (No restrictions, no clarifications.)"
+	"post": "Draft 11 saints (or holy dead people) for your Holy Fantasy Football Team."
 }, {
 	"date": "2018-02-05",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100191891690760",
@@ -2217,7 +2217,7 @@ module.exports = [{
 }, {
 	"date": "2018-02-06",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100192157987100",
-	"post": "Link me a song that begins with the letter T.\nNOTE: Do not count \"The\" as the first word for this, please!"
+	"post": "Link me a song that begins with the letter T."
 }, {
 	"date": "2018-02-07",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100192442467000",
@@ -2241,11 +2241,11 @@ module.exports = [{
 }, {
 	"date": "2018-03-11",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100201406882240",
-	"post": "Rejoice! Easter draws near. Tell me about a source of joy in your life, large or small."
+	"post": "Tell me about a source of joy in your life, large or small."
 }, {
 	"date": "2018-03-12",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100201668073810",
-	"post": "Link a song* that is named after or prominently features a color!\n*Per usual, if you have more than two that you really want to share, come on back after 10pm and link to your heart's content!"
+	"post": "Link a song* that is named after or prominently features a color!"
 }, {
 	"date": "2018-03-13",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100201930383140",
@@ -2305,7 +2305,7 @@ module.exports = [{
 }, {
 	"date": "2018-03-26",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100205735532590",
-	"post": "Link me a favorite song by a one-hit wonder!\n*As usual, please limit yourself to two for now, and return after 10pm to add to your heart's content."
+	"post": "Link me a favorite song by a one-hit wonder!"
 }, {
 	"date": "2018-03-27",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100206031090290",
@@ -2329,7 +2329,7 @@ module.exports = [{
 }, {
 	"date": "2018-03-04",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100199444185500",
-	"post": "You've just won an all-expenses-paid* trip for you and a few loved ones to the (one) pilgrimage site of your choice! Where do you go and why?\n*This includes paid time off work for all involved, as well as babysitting/caregiving as needed -- basically, all your and your fellow pilgrims' obligations are met for the duration of the trip."
+	"post": "You've just won an all-expenses-paid* trip for you and a few loved ones to the (one) pilgrimage site of your choice! Where do you go and why?"
 }, {
 	"date": "2018-03-05",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100199669294380",
@@ -2341,7 +2341,7 @@ module.exports = [{
 }, {
 	"date": "2018-03-07",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100200259227150",
-	"post": "You know that story game where each person contributes one sentence? Let's play that.\nRules:\n1. Add one sentence that continues the plot/story from what the person before/above you wrote.\n1b. Yes, this means that if someone else posted while you were still typing, you should amend your text to work with theirs.\n2. If you wish to add another sentence, please wait until 10 sentences have come after your last one.\n3. Use complete sentences, please; don't stop in the middle of a phrase and make the next person finish that very thought.\n4. If things truly seem at an ending point, your sentence may be \"The end\" or \"And they all lived happily ever after\" or the like. In this case, the next person begins a new story.\n5. Have fun! Be silly! :)"
+	"post": "You know that story game where each person contributes one sentence? Let's play that..."
 }, {
 	"date": "2018-03-08",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100200524580380",
@@ -2353,7 +2353,7 @@ module.exports = [{
 }, {
 	"date": "2018-04-01",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100207364992140",
-	"post": "Alleluia he is risen! Link me a hymn of triumph (preferably for Easter or Passover, but y'all know by now what a rules lawyer I am 😄). Internet points will be awarded throughout the week for:\n1. Most alleluias (total number)\n2. Densest with alleluias (i.e., per second)\n3. Most creative use of alleluias\n4. Whatever else I feel like (alleluia!)"
+	"post": "Link me a hymn of triumph (preferably for Easter or Passover, but y'all know by now what a rules lawyer I am)."
 }, {
 	"date": "2018-04-10",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100209755521500",
@@ -2369,7 +2369,7 @@ module.exports = [{
 }, {
 	"date": "2018-04-13",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100210515977540",
-	"post": "What's your favorite placeholder/gibberish word? (For bonus fun, try to go further down your list of favorites rather than repeating one another!)"
+	"post": "What's your favorite placeholder/gibberish word?"
 }, {
 	"date": "2018-04-14",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100210815836620",
@@ -2385,7 +2385,7 @@ module.exports = [{
 }, {
 	"date": "2018-04-17",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100211508254010",
-	"post": "Link me to a favorite duet!\nAs always, if you want to share more than two, come back after 10pm and add to your heart's content."
+	"post": "Link me to a favorite duet!"
 }, {
 	"date": "2018-04-18",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100211776187070",
@@ -2397,11 +2397,11 @@ module.exports = [{
 }, {
 	"date": "2018-04-02",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100207665919080",
-	"post": "Invent a new mythological creature! By making a hybrid of two animals that you're not aware of having been mixed together.\nTell me about your new animal! Name it! What does it signify in iconography and heraldry?\nIf you know of or find a creature made of the same two animals as another commenter picks, share it (nicely) below their comment as a fun counterpoint!"
+	"post": "Invent a new mythological creature! By making a hybrid of two animals that you're not aware of having been mixed together. Tell me about your new animal! Name it! What does it signify in iconography and heraldry?"
 }, {
 	"date": "2018-04-20",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100212343380410",
-	"post": "You're opening an internet-themed amusement park. Describe some of the rides and attractions.\nNOTE: This is an amusement park! Not a shit show. Only things people would actually want to go on, please. 😄"
+	"post": "You're opening an internet-themed amusement park. Describe some of the rides and attractions."
 }, {
 	"date": "2018-04-21",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100212742640290",
@@ -2409,7 +2409,7 @@ module.exports = [{
 }, {
 	"date": "2018-04-22",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100212996646260",
-	"post": "Choose any saint*. Tell me a story, an episode from their life -- but NOT the most famous story associated with them!\n*Or holy dead person whom you did not personally know"
+	"post": "Choose any saint*. Tell me a story, an episode from their life -- but NOT the most famous story associated with them! (*Or holy dead person whom you did not personally know)"
 }, {
 	"date": "2018-04-23",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100213241390790",
@@ -2421,7 +2421,7 @@ module.exports = [{
 }, {
 	"date": "2018-04-25",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100213769816820",
-	"post": "Link me a song that includes the number 3. Bonus points for the title or name of band, but I'm flexible.\n*Per usual, if you have more than two, come back after 10pm and add to your heart's content!"
+	"post": "Link me a song that includes the number 3. Bonus points for the title or name of band, but I'm flexible."
 }, {
 	"date": "2018-04-26",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100213994681190",
@@ -2449,11 +2449,11 @@ module.exports = [{
 }, {
 	"date": "2018-04-04",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100208268536430",
-	"post": "Star Trek vs. Star Wars vs. Doctor Who"
+	"post": "I present to y'all, to loophole/smartass as you do: Star Trek vs. Star Wars vs. Doctor Who"
 }, {
 	"date": "2018-04-05",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100208517577350",
-	"post": "If you could receive the knowledge of a terminal (highest available) degree without the work or the cost, what degree/field would you choose?\nImportantly: the knowledge, NOT the certification"
+	"post": "If you could receive the knowledge of a terminal (highest available) degree without the work or the cost, what degree/field would you choose? (Importantly: the knowledge, NOT the certification)"
 }, {
 	"date": "2018-04-06",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100208751279010",
@@ -2465,7 +2465,7 @@ module.exports = [{
 }, {
 	"date": "2018-04-08",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100209296511360",
-	"post": "Tell me about the oddest or most memorable penance you've ever received in confession (the good ones, preferably). No sins, mind you, just penances!"
+	"post": "Tell me about the oddest or most memorable penance you've ever received in confession."
 }, {
 	"date": "2018-04-09",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100209499679210",
@@ -2489,7 +2489,7 @@ module.exports = [{
 }, {
 	"date": "2018-05-13",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100218145283350",
-	"post": "Write a one-line prayer for Mother's Day!\nDon't try to be expansive; instead complement what others have written or are likely to write. The end result will be plenty comprehensive, I'm sure!"
+	"post": "Write a one-line prayer for Mother's Day!"
 }, {
 	"date": "2018-05-14",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100218472233140",
@@ -2497,11 +2497,11 @@ module.exports = [{
 }, {
 	"date": "2018-05-15",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100218659647560",
-	"post": "Link me a favorite showtune!\n(Let's keep it to one till after 10pm, please, unless your 2nd show is obscure. Leave some good ones for everybody!)"
+	"post": "Link me a favorite showtune!"
 }, {
 	"date": "2018-05-16",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100218907371120",
-	"post": "If you could invite all* your loved ones to an all-expenses-paid party, what kind of praty would you throw?\n*Or a select group of your loved ones, however you prefer to roll right this second."
+	"post": "If you could invite all* your loved ones to an all-expenses-paid party, what kind of praty would you throw? (*Or a select group of your loved ones, however you prefer to roll right this second.)"
 }, {
 	"date": "2018-05-17",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100219183058640",
@@ -2533,7 +2533,7 @@ module.exports = [{
 }, {
 	"date": "2018-05-23",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100220594155790",
-	"post": "You are about to receive a custom magic wand, which can create an infinite supply of one very specific thing, on demand (but only in your hands). The catch: You cannot sell this thing, or otherwise turn a profit from the wand's power, or else it disappears permanently. What do you want it to make?\nNote: *very specific* -- like, choose your flavor of ice cream, level of specific\nFURTHER EDITS:\n- No money, that counts as profit\n- You can give it away, but not with the intention that the recipient sell it\n(- However, they can't screw you over by selling the thing you gave them without your consent)"
+	"post": "You are about to receive a custom magic wand, which can create an infinite supply of one very specific thing, on demand (but only in your hands). The catch: You cannot sell this thing, or otherwise turn a profit from the wand's power, or else it disappears permanently. What do you want it to make?\nNote: *very specific* -- like, choose your flavor of ice cream, level of specific"
 }, {
 	"date": "2018-05-24",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100220812213800",
@@ -2541,7 +2541,7 @@ module.exports = [{
 }, {
 	"date": "2018-05-25",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100221068974250",
-	"post": "Link me to ONE favorite wikipedia article!\nRabbithole warning &etc. Do limit yourself to one! So choose carefully."
+	"post": "Link me to ONE favorite wikipedia article!"
 }, {
 	"date": "2018-05-26",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100221368953090",
@@ -2557,7 +2557,7 @@ module.exports = [{
 }, {
 	"date": "2018-05-29",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100221790752800",
-	"post": "I'm throwing a BBQ! What are you bringing? (Try not to duplicate those above you, for a more balanced party.)"
+	"post": "I'm throwing a BBQ! What are you bringing?"
 }, {
 	"date": "2018-05-03",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100215723840940",
@@ -2593,7 +2593,7 @@ module.exports = [{
 }, {
 	"date": "2018-05-09",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100217181918940",
-	"post": "If you were offered $1mil to watch the same movie for 24h straight, what movie would you choose?\nEDIT: One movie, not a franchise/series, not a tv series (that makes it too easy!)."
+	"post": "If you were offered $1mil to watch the same movie for 24h straight, what movie would you choose?"
 }, {
 	"date": "2018-06-01",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100222831666800",
@@ -2629,7 +2629,7 @@ module.exports = [{
 }, {
 	"date": "2018-06-17",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100227448324980",
-	"post": "Write a one-line prayer for Father's Day!\nDon't try to be expansive; instead complement what others have written or are likely to write. The end result will be plenty comprehensive, I'm sure!"
+	"post": "Write a one-line prayer for Father's Day!"
 }, {
 	"date": "2018-06-18",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100227714247070",
@@ -2649,7 +2649,7 @@ module.exports = [{
 }, {
 	"date": "2018-06-21",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100228664407940",
-	"post": "Take any game and replace the important words in its title (as if with a thesaurus). What's it called now?\nEDIT: And identify the original titles of each other's games!"
+	"post": "Take any game and replace the important words in its title (as if with a thesaurus). What's it called now?"
 }, {
 	"date": "2018-06-22",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100228973852810",
@@ -2657,11 +2657,11 @@ module.exports = [{
 }, {
 	"date": "2018-06-23",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100229227744010",
-	"post": "What's your favorite stock photo? (Preferably pre-memeification, but you do you.)"
+	"post": "What's your favorite stock photo?"
 }, {
 	"date": "2018-06-24",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100229449993620",
-	"post": "Tell me your favorite dumb/cheesy church joke.\n(\"Church joke\" has a particular connotation that i wanted to evoke, but, as always, don't think you're limited to my religion here.)"
+	"post": "Tell me your favorite dumb/cheesy church joke."
 }, {
 	"date": "2018-06-25",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100229729633220",
@@ -2673,7 +2673,7 @@ module.exports = [{
 }, {
 	"date": "2018-06-27",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100230250419560",
-	"post": "Link me a song that excerpts another song! Can be a clip, a refrain (musical or lyric)... however you like. But it ought to be very recognizable. Bonus points for nesting the quoted song under your original song, too!"
+	"post": "Link me a song that excerpts another song!"
 }, {
 	"date": "2018-06-28",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100230505174030",
@@ -2685,7 +2685,7 @@ module.exports = [{
 }, {
 	"date": "2018-06-03",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100223353905230",
-	"post": "In honor of Corpus Christi, tell me one way, large or small, in which the Eucharist has impacted your life."
+	"post": "Tell me one way, large or small, in which the Eucharist has impacted your life."
 }, {
 	"date": "2018-06-30",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100231059059040",
@@ -2693,7 +2693,7 @@ module.exports = [{
 }, {
 	"date": "2018-06-04",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100223593440200",
-	"post": "What's your Thing that everybody sends you?\nAre you still super into every bit of it? Do you perhaps wish they'd only pass along the best of the best? Do you instead wish they'd send you more? Or perhaps wish they'd send you something else entirely?"
+	"post": "What's your Thing that everybody sends you? Are you still super into every bit of it? Do you perhaps wish they'd only pass along the best of the best? Do you instead wish they'd send you more? Or perhaps wish they'd send you something else entirely?"
 }, {
 	"date": "2018-06-05",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100223907890040",
@@ -2717,7 +2717,7 @@ module.exports = [{
 }, {
 	"date": "2018-07-01",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100231284402450",
-	"post": "If you could sit down with 5 saints* and ask them unlimited questions for 2 hours, who would you choose? Any highlights of what you'd ask?\n*Or holy dead people whom you didn't know on earth"
+	"post": "If you could sit down with 5 saints and ask them unlimited questions for 2 hours, who would you choose? Any highlights of what you'd ask?"
 }, {
 	"date": "2018-07-10",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100233776867530",
@@ -2741,11 +2741,11 @@ module.exports = [{
 }, {
 	"date": "2018-07-15",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100235110524870",
-	"post": "I've received an endowment to build a new church! Each of you may choose the subject of one stained glass window.* Leave the window designers as many notes as you like.\n*Don't worry about overall unity of composition; that's the architect's problem. (And I suspect Matthew G. Alderman may have his work cut out for him!)"
+	"post": "I've received an endowment to build a new church! Each of you may choose the subject of one stained glass window.* Leave the window designers as many notes as you like."
 }, {
 	"date": "2018-07-16",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100235376831190",
-	"post": "Tell me about a piece of tech that everyone* takes for granted as normal, but you're still wary of.\n*Ok, a lot of people, most normal folks, etc."
+	"post": "Tell me about a piece of tech that everyone takes for granted as normal, but you're still wary of."
 }, {
 	"date": "2018-07-17",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100235682518590",
@@ -2805,7 +2805,7 @@ module.exports = [{
 }, {
 	"date": "2018-07-03",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100231879934000",
-	"post": "What's the \"Is Pepsi ok?\" of other things?\n(Sorry Pepsi prefer-ers; I don't enjoy either, so it's all conceptual to me, but I hear this is how it works.)"
+	"post": "What's the \"Is Pepsi ok?\" of other things?"
 }, {
 	"date": "2018-07-30",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100239521610020",
@@ -2813,7 +2813,7 @@ module.exports = [{
 }, {
 	"date": "2018-07-31",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100239778919370",
-	"post": "Share a favorite list of rules that can be invoked by number! For bonus points, name one rule on the list in a nested comment (your list or somebody else's, we can share). 🙂"
+	"post": "Share a favorite list of rules that can be invoked by number!"
 }, {
 	"date": "2018-07-04",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100232170945810",
@@ -2833,7 +2833,7 @@ module.exports = [{
 }, {
 	"date": "2018-07-08",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100233245532330",
-	"post": "We haven't done this in a while. Link me a favorite piece of religious music, no parameters."
+	"post": "Link me a favorite piece of religious music, no parameters."
 }, {
 	"date": "2018-07-09",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100233484288860",
@@ -2933,11 +2933,11 @@ module.exports = [{
 }, {
 	"date": "2018-08-30",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100247935767980",
-	"post": "You may have, to keep/use, one \"magical\" item from mythology or based on history (think Indiana Jones, Warehouse 13, the Librarians).\nOnly catch is, there's only one of each, so if someone else has claimed it first, it's gone! What do you choose? Why? Do you have a plan for it?"
+	"post": "You may have, to keep/use, one \"magical\" item from mythology or based on history (think Indiana Jones, Warehouse 13, the Librarians). Only catch is, there's only one of each, so if someone else has claimed it first, it's gone! What do you choose? Why? Do you have a plan for it?"
 }, {
 	"date": "2018-08-31",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100248219569240",
-	"post": "I'm opening a retail establishment! It's going to sell bags: purses, sports bags, makeup caddies, travel bags, fanny packs, you name it.\nAdd one item to my inventory, please! Be as detailed as you like.\nEDIT: Add one *bag* to my inventory, please. 😛"
+	"post": "I'm opening a retail establishment! It's going to sell bags: purses, sports bags, makeup caddies, travel bags, fanny packs, you name it. Add one item to my inventory, please! Be as detailed as you like."
 }, {
 	"date": "2018-08-04",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100240996015300",
@@ -2973,7 +2973,7 @@ module.exports = [{
 }, {
 	"date": "2018-09-11",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100250936793900",
-	"post": "Rather than filling my wall with birthday posts (although thanks to those who already have), could I get you to share here some item whose very existence brings you joy?\nNot necessarily something you own, although perhaps. But something you'd not have come up with yourself, and that just knowing it exists makes you think, if only for a moment, \"I love people.\" 😄"
+	"post": "Share here some item whose very existence brings you joy!\nNot necessarily something you own, although perhaps. But something you'd not have come up with yourself, and that just knowing it exists makes you think, if only for a moment, \"I love people.\" 😄"
 }, {
 	"date": "2018-09-12",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100251233868560",
@@ -3013,11 +3013,11 @@ module.exports = [{
 }, {
 	"date": "2018-09-20",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100253365990770",
-	"post": "Select a new ringtone for me! Any song at all. (Link, please!)"
+	"post": "Select a new ringtone for me! Any song at all."
 }, {
 	"date": "2018-09-21",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100253645006620",
-	"post": "What book would you recommend to someone who thinks books are boring?\nEDIT: Presume I haven't read your choice. Why's that the winner?"
+	"post": "What book would you recommend to someone who thinks books are boring? Presume I haven't read your choice. Why's that the winner?"
 }, {
 	"date": "2018-09-22",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100254039650750",
@@ -3073,7 +3073,7 @@ module.exports = [{
 }, {
 	"date": "2018-09-07",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100249909722160",
-	"post": "Smartass conversation starter:\nMy sister's getting married! (For real, though.) As maid of honor, I was given permission to plan to my heart's content, including designing the bridesmaid dresses.\nFacebook, what kind of bridesmaid dresses should I suggest to my sister? (I will also accept groomsman suit suggestions, because why not.)\nEDIT for clarity: The goal here is to troll my sister! I mean, be serious if you want, but that's way less ridiculous. 😁"
+	"post": "Smartass conversation starter:\nMy sister's getting married! As maid of honor, I was given permission to plan to my heart's content, including designing the bridesmaid dresses.\nFacebook, what kind of bridesmaid dresses should I suggest to my sister? (I will also accept groomsman suit suggestions, because why not.)\nEDIT for clarity: The goal here is to troll my sister! I mean, be serious if you want, but that's way less ridiculous. 😁"
 }, {
 	"date": "2018-09-08",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100250127850030",
@@ -3089,7 +3089,7 @@ module.exports = [{
 }, {
 	"date": "2019-01-10",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100284753150650",
-	"post": "Link me a song that starts with the letter A! (And preferably not the word \"A\" or \"An\", please; I'm old-fashioned like that.)"
+	"post": "Link me a song that starts with the letter A!"
 }, {
 	"date": "2019-01-11",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100285064826050",
@@ -3121,7 +3121,7 @@ module.exports = [{
 }, {
 	"date": "2019-01-18",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100286796560640",
-	"post": "If you had to wear a uniform every single day BUT you could design it yourself, with unlimited funds, what would it be? (Normal clothes for sleeping, exercising, etc.) Pictures encouraged."
+	"post": "If you had to wear a uniform every single day BUT you could design it yourself, with unlimited funds, what would it be? "
 }, {
 	"date": "2019-01-02",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100282813647430",
@@ -3141,7 +3141,7 @@ module.exports = [{
 }, {
 	"date": "2019-01-06",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100283820245200",
-	"post": "In honor of the Epiphany, tell me about a time when someone visited you and it was a particular source of joy and/or grace."
+	"post": "Tell me about a time when someone visited you and it was a particular source of joy and/or grace."
 }, {
 	"date": "2019-01-07",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100284040868070",
@@ -3166,5 +3166,4 @@ module.exports = [{
 	"date": "2019-1-21",
 "url": "https://www.facebook.com/feminaprovita/posts/10100287791177420",
 "post": "If every profession gave out little bags full of supplies like dentists do after a visit, what would your profession give out?"
-}
-]
+}]

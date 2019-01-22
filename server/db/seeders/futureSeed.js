@@ -8,9 +8,6 @@ module.exports = [{
   "idea": "Any large number",
   "tag": "playlist"
 }, {
-  "idea": "artist you love in a genre you don't otherwise listen to (eg Eminem - LIMIT ONE)",
-  "tag": "playlist"
-}, {
   "idea": "artist, doesn't sound like their signature sound",
   "tag": "playlist"
 }, {
@@ -608,9 +605,6 @@ module.exports = [{
   "idea": "We're about to have a water fight with a perfectly stocked \"armory\" - water balloons, water guns, garden hoses, you name it.... What one watery weapon would you arm yourself with?",
   "tag": "creative"
 }, {
-  "idea": "What animal, if shrunk/grown to the size of a cat, would be the cutest?",
-  "tag": "creative"
-}, {
   "idea": "What are we living in a \"golden age\" of? (If you disagree with someone else's answer, consider keeping it to yourself just this once -- cheerful, remember?)",
   "tag": "creative"
 }, {
@@ -987,6 +981,9 @@ module.exports = [{
   "tag": "about-you"
 }, {
   "idea": "Your worst autocorrect/typo error?",
+  "tag": "about-you"
+}, {
+  "idea": "What's your dream alternative \"normal\" career? Not like \"Apollo astronaut\" or \"Hollywood star\" but a successful semi-realistic career in another industry.",
   "tag": "about-you"
 }, {
   "idea": "History buffs, tell me about two things that were happening at/around the same time that we think of as far removed from one another (e.g., OLG/Reformation)",

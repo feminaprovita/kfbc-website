@@ -23,20 +23,18 @@ router.get('/tags/', async (req, res, next) => {
   }
 });
 
-router.get('/:postId', async (req,res,next) => {
+router.get('/random', async (req, res, next) => {
   try {
-    const thisPost = await Archive.findById(req.params.postId)
-    if (thisPost) res.json(thisPost);
-    else res.sendStatus(404);
-  } catch(err) {
-    next(err)
+    const archiveList = await Archive.findAll();
+    res.json(archiveList);
+  } catch (err) {
+    next(err);
   }
-})
+});
 
-router.get('/:slug', async (req,res,next) => {
+router.get('/search', async (req,res,next) => {
   try {
-    const keyword = req.params.slug.decodeURIComponent();
-    const keywordSearchResults = await Archive.sequelize.query(`
+    Archive.sequelize.query(`
     SELECT *
     FROM ${Archive.posts.post}
     WHERE _search @@ plainto_tsquery('english', :query);
@@ -47,7 +45,17 @@ router.get('/:slug', async (req,res,next) => {
     if(keywordSearchResults) res.json(keywordSearchResults).status(201);
     else res.sendStatus(404);
   } catch(err) {
-    next(err);
+    next(err)
+  }
+})
+
+router.get('/:postId', async (req,res,next) => {
+  try {
+    const thisPost = await Archive.findById(req.params.postId)
+    if (thisPost) res.json(thisPost);
+    else res.sendStatus(404);
+  } catch(err) {
+    next(err)
   }
 })
 
