@@ -10,7 +10,7 @@ function cleanup_at_exit {
 trap cleanup_at_exit EXIT
 
 # Get the repo name from the `origin` git remote.
-export REPO=$(git remote get-url origin | \
+export REPO=$(git remote get-url kfbc-website | \
     sed 's/^.*[\/:]\([^\/:]*\)\/\([^\/]*\)$/\1\/\2/' | \
     sed 's/^\(.*\)\.git$/\1/'
 )
@@ -19,3 +19,5 @@ export REPO=$(git remote get-url origin | \
 echo -n $(heroku auth:token) | \
     openssl rsautl -encrypt -pubin -inkey tmp.pem | \
     base64 | awk '{print "    secure: "$1}'
+
+# heroku api key: 3aa4e0c3-1bbc-4271-80e9-e76f5ffca53f

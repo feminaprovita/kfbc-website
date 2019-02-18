@@ -24,7 +24,7 @@ let scrape = async (url) => {
     return result;
 };
 
-const whatever = arr => {
+const handleScraping = arr => {
   return arr.map(seed => {
     return scrape(seed.url).then((value) => {
       const postText = value.replace(/^Today's keep-facebook-cheerful conversation starter:\n\n/g, '');
@@ -37,31 +37,17 @@ const whatever = arr => {
     }).catch(() => console.log('ZZZZZZZZZZZZZ' + seed.url));
   })
 }
-
-// whatever(testing);
-
-// const newFunc = async(arr,num=10) => {
-//   let output = [];
-//   for (let i = 0; i < arr.length; i += num) {
-//     let s = arr.slice(i,i+num);
-//     let t = await Promise.all(whatever(s));
-//     output = output.concat(t);
-//   }
-//   console.log(JSON.stringify(output))
-//   return output;
-// }
-
-
-const newFunc2 = async(arr,num=10) => {
+const slowDown = async(arr,num=10) => {
   console.log('[')
   for (let i = 0; i < arr.length; i += num) {
-    let s = arr.slice(i,i+num);
-    let t = await Promise.all(whatever(s));
-    // console.log(JSON.stringify(t));
+    let portionToScrape = arr.slice(i,i+num);
+    let results = await Promise.all(handleScraping(portionToScrape));
+    console.log(JSON.stringify(results));
   }
   console.log(']')
-
 }
-newFunc2(testing);
+slowDown(testing);
+// scrape.js > newFile.js
+
 
 module.exports = scrape;

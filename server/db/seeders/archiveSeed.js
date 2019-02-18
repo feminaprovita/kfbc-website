@@ -2201,7 +2201,7 @@ module.exports = [{
 }, {
 	"date": "2018-02-28",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100198329654030",
-	"post": "Link me a song* whose title is a question!"
+	"post": "Link me a song whose title is a question!"
 }, {
 	"date": "2018-02-03",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100191273549520",
@@ -2245,7 +2245,7 @@ module.exports = [{
 }, {
 	"date": "2018-03-12",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100201668073810",
-	"post": "Link a song* that is named after or prominently features a color!"
+	"post": "Link a song that is named after or prominently features a color!"
 }, {
 	"date": "2018-03-13",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100201930383140",
@@ -2409,7 +2409,7 @@ module.exports = [{
 }, {
 	"date": "2018-04-22",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100212996646260",
-	"post": "Choose any saint*. Tell me a story, an episode from their life -- but NOT the most famous story associated with them! (*Or holy dead person whom you did not personally know)"
+	"post": "Choose any saint. Tell me a story, an episode from their life -- but NOT the most famous story associated with them! (*Or holy dead person whom you did not personally know)"
 }, {
 	"date": "2018-04-23",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100213241390790",
@@ -2741,7 +2741,7 @@ module.exports = [{
 }, {
 	"date": "2018-07-15",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100235110524870",
-	"post": "I've received an endowment to build a new church! Each of you may choose the subject of one stained glass window.* Leave the window designers as many notes as you like."
+	"post": "I've received an endowment to build a new church! Each of you may choose the subject of one stained glass window. Leave the window designers as many notes as you like."
 }, {
 	"date": "2018-07-16",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100235376831190",
@@ -3163,7 +3163,119 @@ module.exports = [{
 	"url": "https://www.facebook.com/feminaprovita/posts/10100287474072900",
 	"post": "Tell me about a religious figure OF THE PAST who stood up for the downtrodden and/or oppressed. The more obscure, the better!"
 }, {
-	"date": "2019-1-21",
+	"date": "2019-01-21",
 "url": "https://www.facebook.com/feminaprovita/posts/10100287791177420",
 "post": "If every profession gave out little bags full of supplies like dentists do after a visit, what would your profession give out?"
+}, {
+	"date": "2019-01-21",
+"url": "https://www.facebook.com/feminaprovita/posts/10100288077488650",
+"post": "You've just been granted permission to invent a brand new type of weather. There are no rules. So, what's the forecast for today?"
+}, {
+	"date": "2019-01-23",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100288429617980",
+	"post": "Don't write them out here, but count: how many phone numbers do you still have memorized? (Yes, defunct lines do count.)"
+}, {
+	"date": "2019-01-24",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100288851317890",
+	"post": "Link me a song whose title contains any very large number!"
+}, {
+	"date": "2019-09-25",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100289084824940",
+	"post": "What's the nerdiest thing you can brag about?"
+}, {
+	"date": "2019-01-27",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100289695970200",
+	"post": "Share your second-favorite Marian image!"
+}, {
+	"date": "2019-01-26",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100289374219990",
+	"post": "Who's your favorite songwriter?"
+}, {
+	"date": "2019-01-28",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100290002730450",
+	"post": "If you could pick a day to relive over and over, Groundhog Day style, what would it be and why?"
+}, {
+	"date": "2019-01-29",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100290287938890",
+	"post": "If you could spend an hour in the company of any celebrity currently living, who would you choose? Why?"
+}, {
+	"date": "2019-01-30",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100290565063530",
+	"post": "I'm in a mathy mood. Tell me about your favorite theorem!"
+}, {
+	"date": "2019-01-31",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100290860241990",
+	"post": "Link me a song with a one-word title!"
+}, {
+	"date": "2019-02-01",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100291111992480",
+	"post": "The entire world enters into a game of hide and go seek; winner gets $100mil. Where do you hide to ensure you're found last?"
+}, {
+	"date": "2019-02-02",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100291344366800",
+	"post": "Describe your ideal french fry"
+}, {
+	"date": "2019-02-03",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100291638836680",
+	"post": "Link me a song (not necessarily a hymn) that uses a text from Scripture as part of its lyrics!"
+}, {
+	"date": "2019-02-04",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100291825118370",
+	"post": "Link me to a favorite commercial! Any commercial at all."
+}, {
+	"date": "2019-02-05",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100292125496410",
+	"post": "Your handwriting is going to become an official font. What do you name it?",
+}, {
+	"date": "2019-02-06",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100292381039300",
+	"post": "Who is the scariest villain in all of fiction?"
+}, {
+	"date": "2019-02-07",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100292614790860",
+	"post": "What's one food item that is guaranteed to be in stock at your house?"
+}, {
+	"date": "2019-02-08",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100292853397690",
+	"post": "Following the logic of Peter Parker getting bitten by a radioactive spider and becoming Spider-Man, what's the best radioactive animal to get bitten by?"
+}, {
+	"date": "2019-02-09",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100293072453700",
+	"post": "Tell me about your favorite sports personality!"
+}, {
+	"date": "2019-02-10",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100293390556220",
+	"post": "Tell me about a favorite saint (or holy dead person you didn't know in this life)!"
+}, {
+	"date": "2019-02-11",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100293527721340",
+	"post": "Build a fictional world where twins are the norm, and singlets are the exception. What is different?"
+}, {
+	"date": "2019-02-12",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100293774900990",
+	"post": "What's a song people would be surprised to find out you know every word to? (That you're willing to admit to, of course!) Link me!"
+}, {
+	"date": "2019-02-13",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100294009979890",
+	"post": "There are two types of people in the world:"
+}, {
+	"date": "2019-02-14",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100294315198230",
+	"post": "What book would you ask someone to read to understand you?"
+}, {
+	"date": "2019-02-15",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100294536434870",
+	"post": "Tell me about your first memory of going to the theater!"
+}, {
+	"date": "2019-02-16",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100294748904080",
+	"post": "If cartoon physics suddenly replaced real physics, what are some things you would want to try?"
+}, {
+	"date": "2019-02-17",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100294963049930",
+	"post": "What brought you to faith? Or what has kept you here (now or at any of the times you've committed to come/stay)?"
+}, {
+	"date": "2019-02-18",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100295171392410",
+	"post": "Share a favorite bible verse, Shakespeare quote, or other familiar phrase to (mis)use out of context."
 }]

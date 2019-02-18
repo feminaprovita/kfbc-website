@@ -5,9 +5,6 @@ module.exports = [{
   "idea": "about thankfulness",
   "tag": "playlist"
 }, {
-  "idea": "Any large number",
-  "tag": "playlist"
-}, {
   "idea": "artist, doesn't sound like their signature sound",
   "tag": "playlist"
 }, {
@@ -101,9 +98,6 @@ module.exports = [{
   "idea": "qch that reminds you of your family",
   "tag": "playlist"
 }, {
-  "idea": "single-word song title",
-  "tag": "playlist"
-}, {
   "idea": "song about another song",
   "tag": "playlist"
 }, {
@@ -122,9 +116,6 @@ module.exports = [{
   "idea": "What should I sing for karaoke? (No need to link a karaoke version, though)",
   "tag": "playlist"
 }, {
-  "idea": "What song would people be surprised to find out you know every word to?",
-  "tag": "playlist"
-}, {
   "idea": "Would play as they introduce you in a movie",
   "tag": "playlist"
 }, {
@@ -133,9 +124,6 @@ module.exports = [{
 }, {
   "idea": "You need to play your therapist a single (musical theatre?) song to explain yourself as a person. What's it gonna be?",
   "tag": "playlist"
-}, {
-  "idea": "Describe your ideal french fry",
-  "tag": "food"
 }, {
   "idea": "fall/winter food/dessert",
   "tag": "food"
@@ -150,9 +138,6 @@ module.exports = [{
   "tag": "food"
 }, {
   "idea": "Tell me about something you cooked (at least) once that you're really proud of!",
-  "tag": "food"
-}, {
-  "idea": "Tell me one food item that is guaranteed to be in stock at your house.",
   "tag": "food"
 }, {
   "idea": "What are your weird rituals with certain types of food?",
@@ -194,6 +179,9 @@ module.exports = [{
   "idea": "You may choose one meal (presumably a complicated one), and poof! Now you have the magic ability to prepare that dish quickly and effortlessly. What dish do you choose?",
   "tag": "food"
 }, {
+  "idea": "What food has made you wonder, \"How did our ancestors discover that this was edible?\"",
+  "tag": "food"
+}, {
   "idea": "(The rebel alliance would defeat the united federation of planets…)",
   "tag": "pop-culture"
 }, {
@@ -221,9 +209,6 @@ module.exports = [{
   "idea": "Rewrite an older movie with contemporary technology (eg Bing Crosby just sets up the surprise reunion for the general via a secret fb group) -- NB don't ruin, we already did that one; just rewrite",
   "tag": "pop-culture"
 }, {
-  "idea": "Share a favorite bible verse, Shakespeare quote, or other familiar phrase to (mis)use out of context.",
-  "tag": "pop-culture"
-}, {
   "idea": "Take a movie and replace the words in its title (as if with a thesaurus). What's it called now?",
   "tag": "pop-culture"
 }, {
@@ -237,9 +222,6 @@ module.exports = [{
   "tag": "pop-culture"
 }, {
   "idea": "This world is no more! What fictional universe would you prefer to live in instead?",
-  "tag": "pop-culture"
-}, {
-  "idea": "What book would you ask someone to read to understand you?",
   "tag": "pop-culture"
 }, {
   "idea": "What books did you read as a child that made you fall in love with reading? Also: what fictional moment has impacted you most?",
@@ -296,9 +278,6 @@ module.exports = [{
   "idea": "Which cheesy Batman villain would you want to spend a day hanging out with? What would y'all do?",
   "tag": "pop-culture"
 }, {
-  "idea": "Who is the scariest villain in all of fiction?",
-  "tag": "pop-culture"
-}, {
   "idea": "Who would you most like to have narrate the audiobook of your memoirs?",
   "tag": "pop-culture"
 }, {
@@ -321,6 +300,9 @@ module.exports = [{
   "tag": "pop-culture"
 }, {
   "idea": "You’re in a world where everything is the same, but it’s illegal for minors to appear in movies and TV so adults have played all the roles of children in everything. What do you watch first?",
+  "tag": "pop-culture"
+}, {
+  "idea": "#RuinASongWithPants",
   "tag": "pop-culture"
 }, {
   "idea": "acronym",
@@ -407,13 +389,7 @@ module.exports = [{
   "idea": "smell",
   "tag": "simple-fave"
 }, {
-  "idea": "songwriter",
-  "tag": "simple-fave"
-}, {
   "idea": "spice (blend)",
-  "tag": "simple-fave"
-}, {
-  "idea": "sports personality",
   "tag": "simple-fave"
 }, {
   "idea": "spy",
@@ -455,13 +431,7 @@ module.exports = [{
   "idea": "...is a very particular kind of nostalgic: Find and link me to your favorite sbemail!",
   "tag": "complex-fave"
 }, {
-  "idea": "\"There are two types of people in the world\"",
-  "tag": "complex-fave"
-}, {
   "idea": "best license plate",
-  "tag": "complex-fave"
-}, {
-  "idea": "commercial (herding cats)",
   "tag": "complex-fave"
 }, {
   "idea": "Interestingly named/pronounced place",
@@ -512,9 +482,6 @@ module.exports = [{
   "idea": "Based on your own personality and what you know about yourself, what superpowers do you think you would actually have? (as opposed to what you would /want/)",
   "tag": "creative"
 }, {
-  "idea": "Build a fictional world where twins are the norm, and singlets are the exception. What is different?",
-  "tag": "creative"
-}, {
   "idea": "Come up with a \"superpower\" that has, to your knowledge, never been given to a superhero. (Comics nerds, fill in the blanks!)",
   "tag": "creative"
 }, {
@@ -525,9 +492,6 @@ module.exports = [{
   "tag": "creative"
 }, {
   "idea": "False-etymology a (something)",
-  "tag": "creative"
-}, {
-  "idea": "Following the logic of Peter Parker getting bitten by a radioactive spider and becoming Spiderman, what's the best radioactive animal to get bitten by?",
   "tag": "creative"
 }, {
   "idea": "If “The Onion” had existed since the dawn of time, what would some of their past headlines be?",
@@ -594,9 +558,6 @@ module.exports = [{
   "tag": "creative"
 }, {
   "idea": "The Disney universe decides to have a royal rumble. Every Disney character is included. Who would be the champion?",
-  "tag": "creative"
-}, {
-  "idea": "The entire world enters into a game of hide and go seek; winner gets $100mil. Where do you hide to ensure you're found last?",
   "tag": "creative"
 }, {
   "idea": "The local govt is unfortunately going to pave a road through your property (eminent domain &etc). Your consolation prize: you get to name the road! No restrictions. What are you naming it?",
@@ -671,7 +632,7 @@ module.exports = [{
   "idea": "You've found a suitcase full of $750k in cash in $100 dollar bills, in the brush next to a highway. You can tell that it's been there for at least a year. How would you integrate this money into your life without raising red flags?",
   "tag": "creative"
 }, {
-  "idea": "You've just been granted permission to invent a brand new type of weather. There are no rules. So, what's the forecast for today?",
+  "idea": "You are given 300 million to make a movie but it HAS to bomb at the box office or else you die. What do you make?",
   "tag": "creative"
 }, {
   "idea": "Chain you loved to visit years ago that no longer exists (Discovery Zone)",
@@ -684,12 +645,6 @@ module.exports = [{
   "tag": "memories"
 }, {
   "idea": "first memory of going to the cinema",
-  "tag": "memories"
-}, {
-  "idea": "first memory of going to the theatre",
-  "tag": "memories"
-}, {
-  "idea": "If you could pick a day to relive over and over, Groundhog Day style, what would it be and why?",
   "tag": "memories"
 }, {
   "idea": "Kids say the darndest things!",
@@ -839,9 +794,6 @@ module.exports = [{
   "idea": "Do you own any flags? Of what countries/states/whatevers? What's the story behind them?",
   "tag": "about-you"
 }, {
-  "idea": "Don't write them out here, but count: how many phone numbers do you still have memorized? (Yes, defunct lines do count.)",
-  "tag": "about-you"
-}, {
   "idea": "How do you imagine you'd like to spend your retirement, when you get there?",
   "tag": "about-you"
 }, {
@@ -861,9 +813,6 @@ module.exports = [{
   "tag": "about-you"
 }, {
   "idea": "Let's play 2 truths and a lie! A few rules: A. Keep it cheerful; keep it clean. B. Don't \"guess\" where you know; there are plenty of people playing whom you don't know in real life. C. Let's not slide on technicalities, e.g., say you've visited 38 states when really you've only visited 37 (that's not in the spirit of the thing!). D. Please don't use someone else's truth as your lie. E. Update us tomorrow, or as soon as someone guesses correctly, and tell us the relevant stories!! 1) Performed Carolina in My Mind on stage w/James Taylor. 2) Never seen a Marx Brothers movie. 3) Dk the legal name of one of my exes.",
-  "tag": "about-you"
-}, {
-  "idea": "nerdiest thing you can brag about",
   "tag": "about-you"
 }, {
   "idea": "Qch you sometimes say wrong bc q'un in your life says it wrong",
@@ -1031,6 +980,9 @@ module.exports = [{
   "idea": "What's the most valuable thing you've learned on the internet?",
   "tag": "knowledge"
 }, {
+  "idea": "According to you, who is the most badass historical character?",
+  "tag": "knowledge"
+}, {
   "idea": "#1 app on your phone",
   "tag": "potpourri"
 }, {
@@ -1163,6 +1115,9 @@ module.exports = [{
   "idea": "You get to ask a \"What If\" machine one question about history…",
   "tag": "potpourri"
 }, {
+  "idea": "#bringbackafad",
+  "tag": "potpourri"
+}, {
   "idea": "Between your parents and your grandparents, who do you think you are most like? In what ways?",
   "tag": "serious"
 }, {
@@ -1226,16 +1181,10 @@ module.exports = [{
   "idea": "\"cause of our joy\"",
   "tag": "religious"
 }, {
-  "idea": "2nd favorite Marian image",
-  "tag": "religious"
-}, {
   "idea": "beautiful church you haven't yet been to",
   "tag": "religious"
 }, {
   "idea": "bible verse/short passage",
-  "tag": "religious"
-}, {
-  "idea": "Come up with your own *lousy* motto for a diocesan appeal campaign. Four-word limit.",
   "tag": "religious"
 }, {
   "idea": "doctrine",
@@ -1275,9 +1224,6 @@ module.exports = [{
   "tag": "religious"
 }, {
   "idea": "saint",
-  "tag": "religious"
-}, {
-  "idea": "song (not necessarily a hymn) with text from Scripture (Matisyahu's Jerusalem)",
   "tag": "religious"
 }, {
   "idea": "song by a non-religious musician about religious themes",
