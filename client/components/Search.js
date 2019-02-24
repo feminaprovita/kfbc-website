@@ -39,10 +39,12 @@ class Search extends Component {
         <button type='submit'>Search</button>
         </form>
       </div>
-      {/* {<div className='search-results'>
-        this.state.searchResults.map(result =>(<PostOne key={result.id} post={result} />
-        ))
-        </div>} */}
+      {(this.state.searchResults.length >= 1) && (
+        <div className='search-results'>
+          this.state.searchResults.map(result =>(
+            <PostOne key={result.id} post={result} />
+          ))
+        </div>)}
       </div>
     )
   }
@@ -51,18 +53,16 @@ class Search extends Component {
       console.log('componentDidUpdate latest', latest)
       const prev = prevState
       console.log('componentDidUpdate prev', prevState)
-      // when comparing state, they're the same shape, but when comparing state.searchObj.keyword, prevState still gives the whole obj, not the requested key, so will never be equal
-      // ^I wrote the above during stackathon, but it means nothing to me, returning a month later
-      if (latest !== prev) this.props.fetchSearchResults(latest)
-      console.log('componentDidUpdate in action', this.props.fetchSearchResults(latest))
+      if (latest !== prev) this.props.fetchSearchResults(latest.keyword)
+      console.log('componentDidUpdate in action', this.props.fetchSearchResults(latest.keyword))
     }
 }
 
 const mapStateToProps = state => {
   console.log('mapState state', state)
   return {
-    keyword: state.archive.searchObj.keyword,
-    searchResults: state.archive.searchObj.searchResults
+    keyword: state.archive.keyword,
+    searchResults: state.archive.searchResults
   }
 }
 
