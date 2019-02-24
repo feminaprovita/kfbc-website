@@ -21,12 +21,6 @@ export const fetchAllPosts = posts => {
   };
 };
 
-// export const fetchOnePost = (num = 1) => {
-//   return async dispatch => {
-
-//   }
-// }
-
 export const fetchTagList = tags => {
   return async dispatch => {
     const response = await axios.get('/api/archive/tags',tags);

@@ -19,5 +19,3 @@ export REPO=$(git remote get-url kfbc-website | \
 echo -n $(heroku auth:token) | \
     openssl rsautl -encrypt -pubin -inkey tmp.pem | \
     base64 | awk '{print "    secure: "$1}'
-
-# heroku api key: 3aa4e0c3-1bbc-4271-80e9-e76f5ffca53f

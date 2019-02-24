@@ -59,6 +59,7 @@ class Search extends Component {
       const prev = prevState
       console.log('componentDidUpdate prev', prevState)
       // when comparing state, they're the same shape, but when comparing state.searchObj.keyword, prevState still gives the whole obj, not the requested key, so will never be equal
+      // ^I wrote the above during stackathon, but it means nothing to me, returning a month later
       if (latest !== prev) this.props.fetchSearchResults(latest)
       console.log('componentDidUpdate in action', this.props.fetchSearchResults(latest))
     }
@@ -74,9 +75,10 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    fetchSearchResults: keyword => {
+    fetchSearchResults: searchObj => {
+      // const keyword = searchObj.keyword
       // console.log('mapDispatch keyword', keyword)
-      // console.log('mapDispatch keyword', keyword)
+      console.log('mapDispatch keyword', keyword)
       return dispatch(fetchSearchResults(keyword))
     }
   }

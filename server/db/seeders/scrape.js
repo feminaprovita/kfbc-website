@@ -15,11 +15,8 @@ let scrape = async (url) => {
         // let date = document.querySelector('.timestampContent').innerText;
         let post = document.querySelector('._5pbx.userContent._3ds9._3576');
         if(!post) post = document.querySelector('._5pbx.userContent._3576');
-
         return post.innerText;
-
       });
-
     browser.close();
     return result;
 };
@@ -37,7 +34,7 @@ const handleScraping = arr => {
     }).catch(() => console.log('ZZZZZZZZZZZZZ' + seed.url));
   })
 }
-const slowDown = async(arr,num=10) => {
+const batch = async(arr,num=10) => {
   console.log('[')
   for (let i = 0; i < arr.length; i += num) {
     let portionToScrape = arr.slice(i,i+num);
@@ -46,7 +43,7 @@ const slowDown = async(arr,num=10) => {
   }
   console.log(']')
 }
-slowDown(testing);
+batch(testing);
 // scrape.js > newFile.js
 
 

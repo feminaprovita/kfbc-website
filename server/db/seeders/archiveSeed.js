@@ -3278,4 +3278,24 @@ module.exports = [{
 	"date": "2019-02-18",
 	"url": "https://www.facebook.com/feminaprovita/posts/10100295171392410",
 	"post": "Share a favorite bible verse, Shakespeare quote, or other familiar phrase to (mis)use out of context."
+}, {
+	"date": "2019-02-19",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100295373731920",
+	"post": "Link me a song that begins with J!"
+}, {
+	"date": "2019-02-20",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100295552393880",
+	"post": "What's better to diy than to buy?"
+}, {
+	"date": "2019-02-21",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100295812941740",
+	"post": "If you had an android in your house, a robot butler, what celebrity's personality would you want it to embody? (Not voice, not consciousness/memories, not appearance, just personality.)"
+}, {
+	"date": "2019-02-22",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100296144512270",
+	"post": "Tell me a true story about you breaking a rule…"
+}, {
+	"date": "2019-02-23",
+	"url": "https://www.facebook.com/feminaprovita/posts/10100296424700770",
+	"post": "Tell me about your favorite plush toy/stuffed animal!"
 }]

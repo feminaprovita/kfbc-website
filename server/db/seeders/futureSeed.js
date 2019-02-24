@@ -29,9 +29,6 @@ module.exports = [{
   "idea": "Letter I",
   "tag": "playlist"
 }, {
-  "idea": "Letter J",
-  "tag": "playlist"
-}, {
   "idea": "Letter K",
   "tag": "playlist"
 }, {
@@ -195,9 +192,6 @@ module.exports = [{
   "tag": "pop-culture"
 }, {
   "idea": "If you could spend an hour in the company of any celebrity, who would you choose?",
-  "tag": "pop-culture"
-}, {
-  "idea": "If you had an android in your house, a robot butler, what celebrity's personality would you want it to embody? (Not voice, not consciousness/memories, not appearance, just personality)",
   "tag": "pop-culture"
 }, {
   "idea": "In one sentence, describe the plot of a book/show/movie that you think doesn't exist, but you'd totally see/read it if it did. If you see a plot that's similar to a story that you know, link to it below that comment!",
@@ -687,9 +681,6 @@ module.exports = [{
   "tag": "memories"
 }, {
   "idea": "Tell me a story of something you thought was common knowledge but wasn't (include how you discovered that it wasn't so!).",
-  "tag": "memories"
-}, {
-  "idea": "Tell me a true story about you breaking a rule…",
   "tag": "memories"
 }, {
   "idea": "Tell me about a trip that really impacted your life",
