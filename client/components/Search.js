@@ -7,19 +7,15 @@ class Search extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      searchObj: {
-        keyword: '',
-        searchResults: []
-      }
+      keyword: '',
+      searchResults: []
     }
     this.handleSubmit = this.handleSubmit.bind(this)
     // this.handleChange = this.handleChange.bind(this)
   }
   handleChange = evt => {
-    const newSearchObj = {keyword: evt.target.value, searchResults: []};
-    // console.log('newSearchObj', newSearchObj)
     this.setState({
-      searchObj: newSearchObj,
+      keyword: evt.target.value,
     })
     console.log('handleChange state', this.state)
   }
@@ -28,11 +24,8 @@ class Search extends Component {
     evt.preventDefault();
     await this.props.fetchSearchResults(this.state);
     // this.setState({
-    //   searchObj: {}
+    //   keyword: ''
     // })
-    /* The previous state received by the reducer has unexpected type of "String". Expected argument to be an object with the following keys: "archive", "future", "tags"
-    Unexpected key "searchObj" found in previous state received by the reducer. Expected...
-    Somehow, handleSubmit's componentDidUpdate is destroying the whole way the reducers combine? seems to feed the state whatever i set to 'latest' (the string keyword or the obj searchObj) when it wants state.archive.whatever, WHICH yields an action of undefined */
   }
 
   render() {
@@ -75,10 +68,11 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    fetchSearchResults: searchObj => {
+    fetchSearchResults: keyword => {
       // const keyword = searchObj.keyword
       // console.log('mapDispatch keyword', keyword)
       console.log('mapDispatch keyword', keyword)
+      //the problem is here!! the thunk takes in an object, but the dispatch is taking in only a keyword
       return dispatch(fetchSearchResults(keyword))
     }
   }
