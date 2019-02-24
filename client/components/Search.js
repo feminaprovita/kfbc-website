@@ -42,7 +42,7 @@ class Search extends Component {
       <div className='search-component'>
         <h3>Search archive by keyword:</h3>
         <form onSubmit={this.handleSubmit}>
-        <input type='text' id='keyword-search' name='keyword' value={this.state.keyword} onChange={this.handleChange} required ></input>
+        <input type='text' id='keyword-search' name='keyword' value={this.state.searchObj.keyword} onChange={this.handleChange} required ></input>
         <button type='submit'>Search</button>
         </form>
       </div>
@@ -76,7 +76,7 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => {
   return {
     fetchSearchResults: searchObj => {
-      // const keyword = searchObj.keyword
+      const keyword = searchObj.keyword
       // console.log('mapDispatch keyword', keyword)
       console.log('mapDispatch keyword', keyword)
       return dispatch(fetchSearchResults(keyword))
