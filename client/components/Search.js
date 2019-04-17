@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import PostOne from './PostOne';
-import fetchSearchResults from '../reducers';
+import {fetchSearchResults} from '../reducers';
 
 class Search extends Component {
   constructor(props) {
@@ -53,8 +53,8 @@ class Search extends Component {
       console.log('componentDidUpdate latest', latest)
       const prev = prevState
       console.log('componentDidUpdate prev', prevState)
-      if (latest !== prev) this.props.fetchSearchResults(latest.keyword)
-      console.log('componentDidUpdate in action', this.props.fetchSearchResults(latest.keyword))
+      if (latest !== prev) this.props.fetchSearchResults(latest)
+      console.log('componentDidUpdate in action', this.props.fetchSearchResults(latest))
     }
 }
 
