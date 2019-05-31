@@ -1,9 +1,9 @@
 const puppeteer = require('puppeteer');
 const testing = require('./lastSeed');
 
-const test = 'https://www.facebook.com/feminaprovita/posts/10100282256094770';
-const today = 'https://www.facebook.com/feminaprovita/posts/10100286514401090';
-const playlist = 'https://www.facebook.com/feminaprovita/posts/10100163154450420';
+// const test = 'https://www.facebook.com/feminaprovita/posts/10100282256094770';
+// const today = 'https://www.facebook.com/feminaprovita/posts/10100286514401090';
+// const playlist = 'https://www.facebook.com/feminaprovita/posts/10100163154450420';
 
 let scrape = async (url) => {
     const browser = await puppeteer.launch({headless: true});
@@ -13,8 +13,10 @@ let scrape = async (url) => {
 
       const result = await page.evaluate(() => {
         // let date = document.querySelector('.timestampContent').innerText;
+        // let url =
         let post = document.querySelector('._5pbx.userContent._3ds9._3576');
         if(!post) post = document.querySelector('._5pbx.userContent._3576');
+        // if(date === '2019-05-01') return;
         return post.innerText;
       });
     browser.close();
@@ -24,7 +26,7 @@ let scrape = async (url) => {
 const handleScraping = arr => {
   return arr.map(seed => {
     return scrape(seed.url).then((value) => {
-      const postText = value.replace(/^Today's keep-facebook-cheerful conversation starter:\n\n/g, '');
+      const postText = value.replace(/^[^\n\r]*(\n\n|\r\r){1}/g, '');
       if(postText.length !== value.length) seed.post = postText;
       else seed.editPost = value;
 
@@ -44,7 +46,13 @@ const batch = async(arr,num=10) => {
   console.log(']')
 }
 batch(testing);
-// scrape.js > newFile.js
+// scrape.js > newData.js
 
 
 module.exports = scrape;
+
+
+
+
+
+
