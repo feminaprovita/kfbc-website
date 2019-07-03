@@ -11,6 +11,7 @@ import About from './About';
 import IdeaPage from './IdeaPage';
 import Search from './Search';
 import Random from './Random';
+import Construction from './UnderConstruction'
 // import other components from this folder
 // import thunks by name from '../reducers'
 
@@ -22,21 +23,17 @@ const Root = () => {
           <Switch>
             <Route path='/future' component={Sidebar} />
             <Route path='/archive' component={Navbar} />
-            <Route path='/about' component={Navbar} />
             <Route exact path='/' component={Navbar} />
           </Switch>
           <main>
             <Switch>
-              <Route exact path="/" render={() => (
-                  <div>
-                    <h1>Keeping Facebook Cheerful</h1>
-                    <p>A silly idea that snowballed until now I think I'm not allowed to stop! Enjoy browsing the <Link to={'/archive'}>archive</Link>. :)</p>
-                  </div> )} />
-              <Route exact path='/about' component={About} />
+              <Route exact path="/" component={About} />
+
               <Route exact path='/archive' render={ArchiveList} />
               <Route exact path='/archive/tags' component={TagList} />
               <Route exact path='/archive/search' component={Search} />
               <Route exact path='/archive/random' component={Random} />
+              <Route exact path="/archive/construction" component={Construction} />
 
               <Route exact path='/future' component={FutureList} />
               <Route exact path='/future/tags' component={TagList} />
