@@ -16,3 +16,4 @@ npm-debug.log
 .next
 
 client/components/hold.js
+hold/

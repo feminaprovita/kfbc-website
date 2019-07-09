@@ -6,31 +6,30 @@
     "node": "11.0.0",
     "npm": "6.10.0"
   },
-  "main": "main.js",
-  "scripts": {
-    "build-watch": "webpack -w",
-    "deploy": "script/deploy",
-    "heroku-token": "script/encrypt-heroku-auth-token",
-    "seed": "node server/db/seeders/index",
-    "start": "echo 'Running server for production - developers, use npm run start-dev for development' && node main",
-    "start-dev": "npm run build-watch & npm run start-server",
-    "start-server": "nodemon --watch server main.js -e html,js,css"
-  },
+  "main": "server/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/feminaprovita/kfbc-website.git"
   },
+  "homepage": "https://github.com/feminaprovita/kfbc-website#readme",
   "keywords": [
     "react",
-    "redux",
-    "skeleton"
+    "redux"
   ],
   "author": "feminaprovita",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/feminaprovita/kfbc-website/issues"
   },
-  "homepage": "https://github.com/feminaprovita/kfbc-website#readme",
+  "scripts": {
+    "build-watch": "webpack -w",
+    "deploy": "script/deploy",
+    "heroku-token": "script/encrypt-heroku-auth-token",
+    "seed": "node server/db/seeders/index",
+    "start": "node server",
+    "start-dev": "npm run build-watch & npm run start-server",
+    "start-server": "nodemon --watch server server/index.js -e html,js,css"
+  },
   "dependencies": {
     "axios": ">=0.18.1",
     "body-parser": "^1.19.0",
