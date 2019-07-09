@@ -1,6 +1,6 @@
 {
   "name": "kfbc-website",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A place to keep track of all these crazy questions",
   "engines": {
     "node": "11.0.0",
