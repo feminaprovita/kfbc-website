@@ -2,14 +2,12 @@ const chalk = require('chalk')
 const path = require('path')
 const express = require('express')
 const morgan = require('morgan')
-const SequelizeStore = require('connect-session-sequelize')(session.Store)
-const db = require('./db')
-const sessionStore = new SequelizeStore({db})
+const {db} = require('./db')
 const PORT = process.env.PORT || 5322
 const app = express()
 module.exports = app
 
-if (process.env.NODE_ENV !== 'production') require('../secrets')
+// if (process.env.NODE_ENV !== 'production') require('../secrets')
 
 const createApp = () => {
   app.use(morgan('dev'))
@@ -51,7 +49,6 @@ const startListening = () => {
 const syncDb = () => db.sync()
 
 async function bootApp() {
-  await sessionStore.sync()
   await syncDb()
   await createApp()
   await startListening()
