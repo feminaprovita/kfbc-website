@@ -8,7 +8,7 @@
     "deploy": "script/deploy",
     "heroku-token": "script/encrypt-heroku-auth-token",
     "seed": "node server/db/seeders/index",
-    "start": "echo 'Running server for production - developers, use npm run start-dev for development' && node main",
+    "start": "npm run start-dev",
     "start-dev": "npm run build-watch & npm run start-server",
     "start-server": "nodemon --watch server main.js -e html,js,css"
   },

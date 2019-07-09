@@ -6,24 +6,22 @@ const Construction = () => {
       <h1>Features Under Construction</h1>
       <p>In no particular order:</p>
       <ul>
-        <li>Keyword Search</li>
-        <li>Search by Date</li>
-        <li>View Questions by Tag</li>
-        <li>View 5 Random Questions</li>
-        <li>Suggestion Box</li>
+        <li>Keyword search</li>
+        <li>Search by date</li>
+        <li>View questions by tag</li>
+        <li>View 5 random questions</li>
+        <li>Suggestion box</li>
         <li>Display today's question on homepage</li>
-      </ul>
-      <br />
-      <br />
-      <h2>Behind-the-Scenes Features Under Development</h2>
-      <ul>
-        <li>Implementing Facebook's API</li>
-        <li>Writing a script to update database daily</li>
       </ul>
       <h2>Stretch Goals</h2>
       <ul>
-        <li>Search/Filter by Number of Comments</li>
-        <li>Twitter Bot (tweeting text of used questions)</li>
+        <li>Implementing Facebook's API</li>
+        <li>Writing a script to update database daily</li>
+        <li>Admin tools for tagging questions newly input to database by script</li>
+        <li>Admin tools for approving submitted questions into database (directly or with edits)</li>
+        <li>Password-protected list of future questions, sorted by tag and keyword searchable</li>
+        <li>Twitter bot (tweeting text of used questions)</li>
+        <li>Search/Filter by number of comments</li>
       </ul>
     </div>
   )
