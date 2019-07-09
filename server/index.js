@@ -47,6 +47,9 @@ const startListening = () => {
 }
 
 const syncDb = () => db.sync()
+  .then(() => {
+    console.log(chalk.blue('db synced'))
+  })
 
 async function bootApp() {
   await syncDb()
