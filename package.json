@@ -2,13 +2,17 @@
   "name": "kfbc-website",
   "version": "1.0.0",
   "description": "A place to keep track of all these crazy questions",
+  "engines": {
+    "node": "11.0.0",
+    "npm": "6.10.0"
+  },
   "main": "main.js",
   "scripts": {
     "build-watch": "webpack -w",
     "deploy": "script/deploy",
     "heroku-token": "script/encrypt-heroku-auth-token",
     "seed": "node server/db/seeders/index",
-    "start": "npm run start-dev",
+    "start": "echo 'Running server for production - developers, use npm run start-dev for development' && node main",
     "start-dev": "npm run build-watch & npm run start-server",
     "start-server": "nodemon --watch server main.js -e html,js,css"
   },
