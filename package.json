@@ -22,10 +22,11 @@
     "url": "https://github.com/feminaprovita/kfbc-website/issues"
   },
   "scripts": {
+    "build-client": "webpack --display-error-details",
     "build-watch": "webpack -w",
     "deploy": "script/deploy",
     "heroku-token": "script/encrypt-heroku-auth-token",
-    "heroku-postbuild": "webpack -p",
+    "postinstall": "npm run build-client",
     "seed": "node server/db/seeders/index",
     "start": "node server",
     "start-dev": "npm run build-watch & npm run start-server",
