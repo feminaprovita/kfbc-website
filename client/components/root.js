@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import Navbar from './Navbar';
-// import Footer from './Footer';
+import Footer from './Footer';
 import Sidebar from './Sidebar';
 import ArchiveList from './ArchiveList';
 import FutureList from './FutureList';
@@ -25,11 +25,14 @@ const Root = () => {
             <Route path='/archive' component={Navbar} />
             <Route exact path='/' component={Navbar} />
           </Switch>
+          <Switch>
+            <Route path='/' component={Footer} />
+          </Switch>
           <main>
             <Switch>
               <Route exact path="/" component={About} />
 
-              <Route exact path='/archive' render={ArchiveList} />
+              <Route exact path='/archive' component={ArchiveList} />
               <Route exact path='/archive/tags' component={TagList} />
               <Route exact path='/archive/search' component={Search} />
               <Route exact path='/archive/random' component={Random} />
