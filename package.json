@@ -33,7 +33,7 @@
     "start-server": "nodemon --watch server server/index.js -e html,js,css"
   },
   "dependencies": {
-    "axios": ">=0.18.1",
+    "axios": "^0.19.0",
     "body-parser": "^1.19.0",
     "chalk": "^2.4.2",
     "express": "^4.17.1",
@@ -43,11 +43,11 @@
     "react-dom": "^16.8.6",
     "react-redux": "^5.1.1",
     "react-router-dom": "^4.3.1",
-    "redux": "^4.0.1",
+    "redux": "^4.0.4",
     "redux-devtools-extension": "^2.13.8",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
-    "sequelize": ">=5.3.0"
+    "sequelize": "^5.10.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -65,7 +65,7 @@
     "puppeteer-core": "^1.18.1",
     "style-loader": "^0.21.0",
     "volleyball": "^1.5.1",
-    "webpack": "^4.35.2",
+    "webpack": "^4.35.3",
     "webpack-cli": "^3.1.1"
   }
 }
