@@ -7,13 +7,12 @@ const About = () => {
       <h3>A silly idea that snowballed until now I think I'm not allowed to stop!</h3>
       <div id="about-container">
         <div id="photo">
-          <a href="http://clairegilligan.com">
+          <a href="http://clairegilligan.com" target="_blank">
             <img
               src="https://i.imgur.com/aLnQlIB.jpg"
               alt="Claire Gilligan smiling profile photo"
               id="profile-photo"
-              target="blank"
-            />
+              />
           </a>
         </div>
         <div id="about-page">

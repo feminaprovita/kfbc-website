@@ -53,7 +53,7 @@ nav a:hover {
 }
 
 main {
-  padding: 8vw 2vw 0vw;
+  padding: 8vw 2vw;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -62,6 +62,33 @@ main {
 
 main h1 {
   margin: 1vh;
+}
+
+#footer {
+  z-index: 2;
+  position: fixed;
+  bottom: 0;
+  max-height: 35px;
+  background-color:#e2ffc3;
+  border-top: 1px ridge darkslategray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.6em;
+  width: 100%;
+}
+
+#social-container,
+#icon-credit {
+  display: block;
+  text-align: center;
+  padding: 0.5vh;
+}
+
+.social-links {
+  max-height: 18px;
+  max-width: 18px;
+  vertical-align: top;
 }
 
 #idea-component {
@@ -81,6 +108,21 @@ main h1 {
 #about-container {
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 450px) {
+  nav {
+    /* flex-wrap: wrap; */
+  }
+  #about-container {
+    flex-direction: column;
+  }
+  #social-container {
+    flex: 1 0 auto;
+  }
+  #icon-credit {
+    flex: 0 1 auto;
+  }
 }
 
 #profile-photo {

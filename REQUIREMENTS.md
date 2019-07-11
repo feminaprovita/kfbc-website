@@ -1,6 +1,6 @@
 ## Requirements
 
-The requirements below are broken into separate **tiers**, which model the way we **recommend you approach the project**. That is, we recommend you complete (or complete the majority of) the requirements in Tier 1 before moving on to Tier 2, and so on. Of course, if you get stuck on a particular feature, we recommend moving on and trying another feature - don't sacrifice the good for the perfect!
+When I first began this project in 12/18, I separated my requirements into separate **tiers**. I haven't really revisited this since then, and need to.
 
 ### Tier 1: Archive and Future Lists (30/30/107)
 
