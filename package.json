@@ -33,7 +33,7 @@
     "start-server": "nodemon --watch server server/index.js -e html,js,css"
   },
   "dependencies": {
-    "axios": ">=0.18.1",
+    "axios": ">=0.21.1",
     "body-parser": "^1.19.0",
     "chalk": "^2.4.2",
     "express": "^4.17.1",
